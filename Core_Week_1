@@ -1,0 +1,1291 @@
+Vulnerabilities List
+	• End of Life
+		○ Technology that has no Maintenance has met the end of its life. Present and new bugs found will remain
+	• Input Handling
+		○ An application does not follow programming benchmarks and doesn’t handle inputs correctly, are vulnerable to malicious inputs 
+	• Error Handling
+		○ If Errors are flashed with the User input, and they’re not following benchmarks, they could trigger the input from a malicious user if it is not handled properly.
+	• Backdoors
+		○ Usually left behind by threat actors, these are used to get back into the breached system with ease.
+	• Remote Code Execution
+		○ The ability to Execute code on a machine or application remotely from another machine.
+	• Directory Traversal
+		○ The ability to use a computer terminal to navigate up and down the directory of files and folders using commands
+	• Cross-Site Scripting (XSS)
+		○ When a threat actor inserts malicious scripts into a web page through an input or web request.
+	• Cross-Site Request Forgery
+		○ Usually a malicious link that will allow a threat actor to execute unwanted or malicious actions
+	• Race Conditions
+		○ Forcing a machine to run two actions simultaneously, that shouldn’t. This delays the defense routine and allows a small window of opportunity for the attack to occur. Threat actor is racing the defense routine’s delay.
+	• Integer Overflow
+		○ Forcing too much memory into an integer variable that can only hold an integer of a certain number of characters. This overflows the memory and the threat actor can manipulate aspects of the program.
+	• Buffer Overflow
+		○ Forcing too much memory into an input overcoming the memory buffer of an application, allowing the threat actor to manipulate the pointer that was overflowed to execute malicious scripts.
+	• Dynamic Linked Library (DLL) Injection
+		○ When a threat actor hijacks one of these DLL programs and forces the machine to load a malicious script
+	• Memory Leak
+		○ A bug in a program that does not reassign a memory pointer to NULL when a process is done can allow a threat actor to spam that process and crash the entire system by eating up all the memory within access.
+	• Pointer Dereferences
+		○ When a threat actor takes a valid pointer and changes the reference from a valid source to a malicious source
+	• Null Pointer Dereferences
+		○ When a threat actor takes a pointer pointing to NULL and changes the reference from NULL to their malicious source
+	• Configuration Vulnerabilities
+		○ Default Configurations can be vulnerabilities
+	• Improperly Configured Accounts
+		○ Changing default configurations to weaker settings are, of course, worst vulnerabilities than default configs
+	• Vulnerable Business Process
+		○ Lack of administrative controls in regards to passwords on a router.
+	• Zero Day Vulnerability
+		○ The Catch-All unknown. Uncaught vulnerabilities that come with a technology on Day 0 of release to the public. They’re dangerous because this is an unknown vulnerability. When discovered and categorized, it could be any of the above vulnerabilities. When tech goes into production and none of the testers catch a bug, that unknown bug becomes a zero-day vulnerability.
+			§ This is why Penetrations Testers are hired to break a program, even after it has gone to production.
+
+Recommended lookup (Just google it!):
+	• War Driving
+	• War Flying
+
+
+
+NOTES CORE 1 
+Setting up Virtualization on my ASUS  
+Asus- 
+1. Turn ON the System 
+2. Press 'Del' or 'F2' in the keyboard after power on, then press 'F7' to enter into Advanced Mode(ROG series motherboard can directly enter into Advanced Mode, no need to press 'F7') 
+3. Click [Advanced] - [CPU Configuration] 
+4. Please set [SVM Mode] as [Enabled] 
+ 
+MAKING SURE MY NETWORK IS SET UP FOR VM’S TO BE ON THE SAME NETWORK 
+Network Settings Instructions 
+ 
+Learning Objectives: 
+• Enable virtual machines on the same network. 
+ 
+ 
+Note that, in the video demonstrations, the second VM (hackableii) is not required at this point of the course. 
+ 
+ 
+ 
+Instructions 
+5. Click 'File' -> 'Preferences' -> 'Network'. 
+6. Click the green plus on the right-hand side of the screen, to create a new network. 
+7. Rename this network to 'Coding Dojo'. 
+8. Click 'Ok'. 
+On each virtual machine, perform the following steps to set them each on the same network and allow them to talk to each other. 
+ 
+9. Right-click the virtual machine you would like to adjust and click on 'network'. 
+10. Change the network adapter 1 from 'NAT' to 'Coding Dojo'. 
+11. Click 'OK'. 
+Final Setup Step 
+Learning Objectives: 
+• Create a mirror of the virtual machine. 
+ 
+ 
+Final Step 
+Once you have your system installed and updated, shut it down and proceed to create a mirror of the VM. The best way to do this is to create a clone of the machine by simply right-clicking the VM and clicking 'Clone'. 
+
+
+ 
+Change the MAC address police to "Include all network adapter MAC addresses" 
+
+
+ 
+Click 'next' and make a 'Full Clone' of the machine.  Once the progress bar stops, you should see both the original machine and the cloned machine.   
+
+
+ 
+You will do ALL of the following activities from the cloned machine and the original will simply serve as a 'clean backup' in case something goes wrong and you need to reinstall. 
+ 
+ 
+ 
+CONTROLS BENCHMARKS FRAMEWORKS Monday Feb 27th 
+Controls 
+
+
+Learning Objectives: 
+• Develop security policies and capabilities. 
+• Perform appropriate monitoring to ensure effective protection against threats. 
+ 
+ 
+Controls 
+We consider controls from two dimensions: type and effect. 
+Physical: These controls are implemented through the physical environment. Examples include gates, locks, fences, and more. 
+Technical: These are the logical controls executed by the computer system. Examples include authentication and access control among others. 
+Administration: This combines management and operation. 
+Management: These controls focus on decisions and the management of risk. They concentrate on procedures, policies, legal and regulations, the software development life cycle (SDLC), the computer security life cycle, information assurance, and vulnerability management/scanning  
+Operational: Executed by people, they are designed to increase individual and group system security.  
+           
+
+ 
+ 
+ 
+Although it uses a more complex scheme, it is worth being aware of the way the National Institute of Standards and Technology (NIST) classifies security controls (nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf). 
+Preventative: These controls are employed before an event and are designed to prevent an incident. 
+Detective: These controls are used during an event and can find out whether malicious activity is occurring or has occurred.  
+ 
+Corrective: These controls are used after an event. They limit the extent of damage and help the company recover from damage quickly. 
+
+
+
+ 
+Industry-Standard Frameworks and Architectures 
+
+
+Learning Objectives: 
+• Perform risk assessments of security systems. 
+• Configure devices securely. 
+ 
+ 
+While an organization might opt to create its own framework, it makes sense for organizations—especially larger ones—to use standards that have already been thoroughly planned out, or at least base their framework on those standards; 
+
+for example, the ISO/IEC 27000 family of information security standards, ISO/IEC 27002:2013, NIST, ISACA, COBIT, and ITIL.  
+
+
+Keep in mind that simply put, all of these are merely a framework made up of specific security controls. Some of these are regulatory, and you as an employee must abide by any of them that are applicable to your organization or profession. Some are non-regulatory, but usually, the organization strongly urges its employees to accept them.  
+
+Dulavitz, M. D. (2019, March 28). Strengthen Security of Your Data Center with the NIST Cybersecurity Framework. DELL Technologies. Retrieved June 27, 2022, from  https://www.dell.com/en-us/blog/strengthen-security-of-your-data-center-with-the-nist-cybersecurity-framework/ 
+Most of what is detailed so far are used in the United States, but there are other specific standards and guidelines used by other countries. For example, the European Union guidelines are international. Reference frameworks can also be industry-specific or could define how precise tasks and problems within an organization are to be approached. A detailed list of procedures is vital so that you obtain reliable results in a controlled environment. Then there is software development: When building software, you might embrace the concept of use case analysis, which is a requirement analysis technique practiced in software engineering. The use case analysis can benefit from well-written procedures within an IT security framework. Let's not forget about software-defined networking (SDN), which is an approach to computer networking that allows admins to programmatically control and manage network behavior via open interfaces such as Open flow and Cisco's Open Network Environment. SDN can benefit greatly from a well-thought-out framework. 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+• 1. Authentication is an example of which of the following types of controls? 
+• 
+ 
+• Technical 
+• 2. A firewall is best categorized as which of the following categories of security controls? 
+• 
+ 
+• Preventative 
+• 3. True or False: A non-regulatory framework requires that a company must design and implement security controls consistent with local regulations. 
+• 
+ 
+• False 
+ 
+Benchmarks & Secure Configuration 
+ 
+Learning Objectives: 
+• Implement security tasks for mitigation. 
+• Assess the laws and industry regulations for a particular environment. 
+• Develop best practices for assets. 
+ 
+ 
+Benchmarks & Secure Configuration 
+Secure configuration guides and benchmarks exist because devices are not securely configured upon purchase and unboxing. Before they are deployed they must be set up with security in mind, because if not, this is how attackers and penetration testers alike are able to easily infiltrate some networks due to default passwords and configurations. 
+Platform/Vendor-Specific Guides 
+Web Servers offer a connection between users and webpages. As such, they are prone to attacks. Setting up any external-facing application properly is key to preventing unnecessary risk.  
+Operating Systems are the interface for the applications that we use to perform tasks and the actual physical computer hardware. Comprehensive, pro-scripted configuration guides for all major ones are available from their respective manufacturers. 
+Application Servers handle specific tasks we associate with IT systems. Whether it is an email server, a database server, a messaging platform, or any other server, this is where the work happens. Proper configuration depends on the service. 
+Network Infrastructure Devices make the network function smoothly. Properly configuring these devices can be challenging but is very important because failures at this level can adversely affect the security of traffic being processed by them. 
+General Purpose Guide 
+The best general-purpose guide is the CIS Controls, a common set of 20 security controls. This project began as a consensus project out of the US Department of Defense and has over nearly 20 years more into the de facto standard for selecting an effective set of security controls. 
+
+
+Source: Election Security Spotlight – CIS Critical Security Controls. (n.d.). CIS Center for Internet Security. Retrieved June 27, 2022, from  https://www.cisecurity.org/insights/spotlight/cybersecurity-spotlight-cis-controls 
+
+
+Group Discussion 
+Discuss how security misconfiguration can allow hackers to attack systems. Think of misconfigured environments and how to make them more secure. 
+Vendor Diversity 
+
+
+Learning Objectives: 
+• Compare and contrast Vendor and Control Diversity. 
+ 
+ 
+Defense-in-Depth/Layered Security: Vendor Diversity 
+Vendor Diversity: the practice of using security controls from various different vendors to strengthen the security of a given organization. This makes the security controls being used more diverse and thus, less predictable to an attacker.  
+Control Diversity: is using different types of security controls (technical, administrative, and physical) in order to offer security controls that affect the entire organization. 
+
+
+ 
+ 
+ 
+Administrative Controls: Security controls that are implemented via administrative or management methods. 
+Technical Controls: Controls implemented via technology. 
+User Controls: a strong user training program that instructs users to recognize safe and unsafe computing behaviors. The best form of this has proven to be user-specific training, training that is related to the tasks that individuals use computers to accomplish. That means you need separate training for executives and management.  
+
+
+Group Discussion 
+What makes layered security and vendor diversity harden your environment? If you were the CIO of cooperation, would you recommend it? Please provide one another with examples. 
+ 
+• 1. A database server can be categorized as which of the following: 
+• 
+ 
+• Application Server 
+• 2. True or False: When configuring application servers the appropriate configuration depends on the service. 
+• 
+ 
+• True 
+• 3. Which of the following best describes the importance of Control Diversity? 
+• 
+ 
+• Using technical, administrative, and physical controls ensure that the more parts of the organization are covered by security controls. 
+Retake 
+ 
+ 
+ 
+Passive reconnaissance is an attempt to gain information about targeted computers and networks without actively engaging with the systems. In active reconnaissance, in contrast, the attacker engages with the target system, typically conducting a port scan to find any open ports.
+> 
+
+ 
+ 
+ 
+ 
+ 
+ 
+Recommended lookup (Just google it!): 
+• War Driving 
+• War Flying 
+
+
+
+Wardriving – definition
+Wardriving in cyber security is the act of looking for publicly accessible Wi-Fi networks, usually from a moving vehicle, using a laptop or smartphone. The software used for wardriving is freely available on the internet.
+The term derives from the 1983 movie WarGames. In the movie, the character played by Matthew Broderick engages in an activity called war dialing, which involves using a computer to dial multiple phone numbers to identify a working modem. Wardriving is seen as an evolution of this process.
+
+From <https://www.kaspersky.com/resource-center/definitions/what-is-wardriving> 
+
+> War flyin gflying a drone to look for open API or open neworks 
+
+
+Threat Actors 
+
+
+Learning Objectives: 
+• Evaluate the capabilities of threat actor types. 
+• Assess the attack surface of a network.  
+• Deploy security controls to block attack vectors.  
+ 
+ 
+Threat Actors 
+White Hat hackers are non-malicious; for example, an IT person who attempts to "hack" into a computer system before it goes live to test the system.
+Black Hat hackers are malicious individuals who attempt to break into computers and computer networks without authorization. 
+Gray Hat hackers are individuals who do not have any affiliation with a company, but risk breaking the law by attempting to hack a system and then notify the administrator of the system that they were successful in doing so. 
+Blue Hat are individuals who are asked to attempt to hack into a system by an organization, but the organization does not employ them. The organization relies on the fact that the person simply enjoys hacking into systems. Usually, this type of scenario occurs when testing systems.
+ Elite are first find out about vulnerabilities, including zero-day. Many of these types of individuals don't usually care about "credit due" and are more interested in anonymity.  
+
+
+ 
+ 
+ 
+Introduction to OSINT 
+OSINT stands for open-source intelligence.  
+
+
+
+ 
+In other words, publicly available information about businesses and individuals goes into much more detail than you would imagine. It is often used for attacking purposes during the reconnaissance phase which will be discussed in the next chapter.  The image you see here is a snippet from the actual website used.  https://osintframework.com/  
+
+
+Group Discussion 
+All of the above threat actors can cause detrimental harm to an environment. Which, in your opinion, would be the most difficult to combat? 
+ 
+
+Vulnerabilities
+
+Learning Objectives:
+	• Discern different vulnerabilities and their causes.
+
+Race Conditions
+Just know make sure that things are updated. Out of date, lack of input validation, error handling, Permission based configs , access, how open is that firewall to the public, etc. Race condition attack happens when a computing system that's designed to handle tasks in a specific sequence is forced to perform two or more operations simultaneously. This technique takes advantage of a time gap between the moment a service is initiated and the moment a security control takes effect.
+
+
+Causes of Vulnerabilities
+
+An EOL (end-of-life) product is at the End of its Life as far as usefulness is concerned according to that product vendor. This is an indication that support is limited or will soon be discontinued, including, but not limited to security patches. Embedded systems known as IoT or smart devices are susceptible to their own set of vulnerabilities when compared to other systems. Firmware is not as easy to update and maintain as software. As a result, if patches are available it's hard for a user to know.  When a product is so old that there are no longer updates or patches provided by the vendor, this means that there is a lack of vendor support. For example, Windows XP and below. 
+
+Input and Error Handling
+Input validation is one of the most important things. This is the way in for things. Input needs to be validated good!
+Input is the main way to exploit software and services as this is the only opportunity that an attacker has to affect the behavior of the program. This is why input and error handling is so important. If the programmer does not handle the error in code, the attacker will.
+. 
+Configuration Vulnerabilities
+When the settings for a given program or service are insecure this is known as an insecure configuration. For example, allowing anonymous connections to an FTP server. A Default Configuration means that the default ("out of the box") settings and passwords are applied to a device. These settings are public information that can be found easily by anyone. 
+
+Users and Account Vulnerabilities
+Falls under permission. One of the most important things. Week cypher implementations, 
+Users are the weakest link in almost any organization. Often users are trying to get tasks completed, and that is their primary and sometimes only focus, even if that means figuring out ways to bypass security controls in place or to have their password as Password123. Improperly configured accounts is the same thing as a configuration vulnerability except these settings control user accounts and permissions instead of services. 
+Vulnerable business processes means that the processes of a business are insecure by nature such as not enforcing passwords on a wireless access point. If there is an encryption algorithm being used that is known to be weak this is known as a weak cipher vulnerability. Another way that even a strong cipher implementation can become weak is through improper encryption key storage practices. 
+
+Buffer and Memory Vulnerabilities
+Input validation category:
+A Memory leak means there is a failure to release unreachable memory, which can no longer be allocated again by any process during execution of the allocating process. 
+An Integer overflow occurs when you attempt to store an integer inside a variable/value that is larger than the maximum value the variable can hold. This can result in unpredictable behavior of the program. A Buffer overflow occurs when the volume of data exceeds the storage capacity of the memory buffer. As a result, the program attempting to write the data to the buffer overwrites adjacent memory locations. 
+
+Pointer dereferences accesses or manipulates data contained in the memory location pointed to by a pointer. DLL files are used to support other applications and are referenced by them to perform tasks. If you inject code into one of these files or replace the file with one that has the same name and location, you then get to have the program execute the code that you choose. This is known as a DLL injection.
+
+Zero-Day Vulnerabilities
+A Zero-Day Vulnerability is when there are no patches or defenses for it. These are rare and are found by the top 1% of offensive security professionals. Nobody else knows about these. Make sure your data is encrypted. 
+
+Vulnerability Overview
+
+
+
+From <https://login.codingdojo.com/m/550/13133/92268> 
+
+Vulnerabilities 
+ 
+ 
+• End of Life 
+		○ Technology that has no Maintenance has met the end of its life. Present and new bugs found will remain 
+ 
+ 
+• Input Handling 
+		○ An application does not follow programming benchmarks and doesn’t handle inputs correctly, are vulnerable to malicious inputs  
+ 
+ 
+• Error Handling 
+		○ If Errors are flashed with the User input, and they’re not following benchmarks, they could trigger the input from a malicious user if it is not handled properly. 
+ 
+ 
+• Backdoors 
+		○ Usually left behind by threat actors, these are used to get back into the breached system with ease. 
+ 
+ 
+• Remote Code Execution 
+		○ The ability to Execute code on a machine or application remotely from another machine. 
+ 
+ 
+• Directory Traversal 
+		○ The ability to use a computer terminal to navigate up and down the directory of files and folders using commands 
+ 
+ 
+• Cross-Site Scripting (XSS) 
+		○ When a threat actor inserts malicious scripts into a web page through an input or web request. 
+ 
+ 
+• Cross-Site Request Forgery 
+		○ Usually a malicious link that will allow a threat actor to execute unwanted or malicious actions 
+ 
+ 
+• Race Conditions 
+		○ Forcing a machine to run two actions simultaneously, that shouldn’t. This delays the defense routine and allows a small window of opportunity for the attack to occur. Threat actor is racing the defense routine’s delay. 
+ 
+ 
+• Integer Overflow 
+		○ Forcing too much memory into an integer variable that can only hold an integer of a certain number of characters. This overflows the memory and the threat actor can manipulate aspects of the program. 
+ 
+ 
+• Buffer Overflow 
+		○ Forcing too much memory into an input overcoming the memory buffer of an application, allowing the threat actor to manipulate the pointer that was overflowed to execute malicious scripts. 
+ 
+ 
+• Dynamic Linked Library (DLL) Injection 
+		○ When a threat actor hijacks one of these DLL programs and forces the machine to load a malicious script 
+ 
+ 
+• Memory Leak 
+		○ A bug in a program that does not reassign a memory pointer to NULL when a process is done can allow a threat actor to spam that process and crash the entire system by eating up all the memory within access. 
+ 
+ 
+• Pointer Dereferences 
+		○ When a threat actor takes a valid pointer and changes the reference from a valid source to a malicious source 
+ 
+ 
+• Null Pointer Dereferences 
+		○ When a threat actor takes a pointer pointing to NULL and changes the reference from NULL to their malicious source 
+ 
+ 
+• Configuration Vulnerabilities 
+		○ Default Configurations can be vulnerabilities 
+ 
+ 
+• Improperly Configured Accounts 
+		○ Changing default configurations to weaker settings are, of course, worst vulnerabilities than default configs 
+ 
+ 
+• Vulnerable Business Process 
+		○ Lack of administrative controls in regards to passwords on a router. 
+ 
+ 
+• Zero Day Vulnerability 
+		○ The Catch-All unknown. Uncaught vulnerabilities that come with a technology on Day 0 of release to the public. They’re dangerous because this is an unknown vulnerability. When discovered and categorized, it could be any of the above vulnerabilities. When tech goes into production and none of the testers catch a bug, that unknown bug becomes a zero-day vulnerability. 
+			§ This is why Penetrations Testers are hired to break a program, even after it has gone to production. 
+
+12. 1. Which of the following threat actors has the most capabilities?
+
+APT
+13. 2. Which of the following threat actors is motivated by social change or cyberterrorism?
+Hacktivist
+14. 3. When an application has been available for many years and is no longer supported by the vendor, it is known as:
+EOL
+15. 4. When unreachable memory fails to be released by an application, it is said to have which of the following vulnerabilities?
+
+Memory Leak
+16. 5. Which of the following best describes a vulnerability with no patches or defenses?
+
+Zero-Day
+Retake
+
+From <https://login.codingdojo.com/m/550/13133/96495> 
+
+
+
+Secure Software
+
+Learning Objectives:
+	• Explain the software development life cycle (SDLC).
+	• Apply the software development life cycle (SDLC) process.
+
+SDLC or software development life cycle is an organized process of planning, developing, testing, deploying, and maintaining systems and applications, and the various methodologies used to do so. Below are the steps of a popular model known as the waterfall model. 
+	1. Planning and analysis: Goals are determined, needs are assessed, and high-level planning is accomplished.
+	2. Software/systems design: The design of the system or application is defined and diagrammed in detail.
+	3. Implementation: The code for the project is written.
+	4. Testing: The system or application is checked thoroughly in a testing environment.
+	5. Integration: If multiple systems are involved, the application should be tested in conjunction with those systems.
+	6. Deployment: The system or application is put into production and is now available to end-users.
+	7. Maintenance: Software is monitored and updated throughout the rest of its life cycle. If there are many versions and configurations. version control is implemented to keep everything organized.
+Another method is the Agile Model: which breaks work into small increments and is designed to be more adaptive to change. 
+CIA in Software Development
+	• Maintaining Confidentiality: Only allowing users access to data to which they have permission
+	• Preserving Integrity: Ensuring data is not tampered with or altered
+	• Protecting Availability: Ensuring systems and data are accessible to authorized users when necessary
+Some other very important security principles that should be incorporated into the SDLC include
+
+
+
+
+Instructor Loyd video:
+Difference between Vulnerability scanning and Pen Testing
+Reconnaissance is what its all based on. You can t exploit without first finding or pen testing for vulnerabilities. But first you must RECON. 
+Vulnerability scanning is just running some different types of vulnerability scan to identify & prioritize
+Vulnerabilities for basically risk management process and change management to see if there is anything you need to change but your not going to be taking any actions as where "pen" penetration testing . With Pen test you don’t exploit every vulnerability. At the very least pen testing is an expert at taking a look at the vulnerabilities on the network and most importantly how to mitigate those things.
+Pen testing is very heavily dependent on the reconnaissance part. Understanding the enumeration and the information gathering. You can not exploit anything without doing some type of recognizance.
+
+
+Secure Software
+Testing Methods
+Even after an application is released vendors of applications will use online platforms to offer payment for vulnerabilities found that no one else has yet. This is known as Bug Bounty.
+Black-box
+For Black-box testing specific knowledge of the system code, and programming knowledge in general, are not required. The tester does not know about the system's internal structure and is often given limited information about what the application or system is supposed to do. In black-box testing, one of the most common goals is to crash the program. If a user is able to crash the program by entering improper input, the programmer has probably neglected to thoroughly check the error-handling code and/or input validation.
+White-box testing
+Also known as transparent testing, this is a way of testing the internal workings of the application or system. Testers must have programming knowledge and be given detailed information about the design of the system. They are given login details, production documentation, and source code. System testers might use a combination of fuzzing (covered shortly), data flow testing, and other techniques such as stress testing, penetration testing, and sandboxes. Stress testing is usually done on real-time operating systems, mission-critical systems, and software, and checks if they have the robustness and availability required by the organization.
+Static Code Analysis
+Static code analysis is a type of debugging that is carried out by examining the code without executing the program. This can be done by scrutinizing code visually or using specific automated tools.
+
+Group Discussion
+Discuss various Attack surface reduction techniques. Be sure to give examples and discuss different services provided by tech companies.
+
+From <https://login.codingdojo.com/m/550/13135/92276> 
+
+Software Vulnerabilities & Attacks
+
+Learning Objectives:
+	• Identify different types of attacks.
+	• Provide preventative measures for software attacks.
+
+Software Vulnerabilities and Attacks
+Backdoors are used to bypass normal authentication and other security mechanisms in place. These can be avoided by updating the operating system, applications, and firmware on devices, and carefully checking the code of the program.  A Buffer overflow is a process that stores data outside the memory that the developer intended as previously discussed. This is best mitigated with good programming practices including error handling. A null pointer dereference occurs when the program dereferences a pointer that it expects to be valid, but is null, which can cause the application to exit, or the system to crash. 
+Address Space Layout Randomization (ASLR) is used to help prevent the exploitation of memory-corruption vulnerabilities. It randomly arranges the different address spaces used by a program. 
+
+
+Arbitrary code execution means an attacker obtains control of a target computer through some sort of vulnerability, gaining the power to execute commands on that remote computer at will. These types of exploits inject "shell code" to allow the attacker to run arbitrary commands on the remote computer. This type of attack is also known as remote code execution (RCE) and can potentially allow the attacker to take full control of the remote computer and turn it into a zombie. 
+XSS holes are vulnerabilities that can be exploited with a type of code injection. Code injection is the exploitation of a computer programming bug or flaw by inserting and processing invalid information—it is used to change how the program executes data. 
+
+Cross-site scripting (XSS) and cross-site request forgery (XSRF)
+In the case of an XSS attack, an attacker inserts malicious scripts into a web page in the hopes of gaining elevated privileges and access to session cookies and other information stored by a user's web browser. This code (often Java-Script) is usually injected from a separate "attack site." XSRF means that an attacker is able to post data to a website from a place other than the website intended. An example would be if an attacker was able to make posts to Facebook from a malicious website. 
+Directory traversal or the ../ (dot dot slash) attack, is a method of accessing unauthorized parent (or worse, root) directories. It is often used on web servers that have PHP(plain-text file) files and are Linux or UNIX-based, but it can also be perpetrated on Microsoft operating systems (in which case it would be ..\ or the "dot dot backslash" attack). It is designed to get access to files such as ones that contain passwords. 
+roup Discussion
+How might a website owner protect against a cross-site request forgery?
+Answer for group discussion below:
+What Are HTTP Requests and Cookies?
+HTTP GET Request
+This is a request used to request data from a web server (for example typing in a URL (requesting a website) which results in it loading).
+HTTP POST Request
+This is a request used to send data to a web server (for example, a web form submission).
+Some GET and POST requests are triggered automatically, without user interaction (like fetching search suggestions or loading image content with the img src attribute).
+Session Cookies
+Session cookies are a way that HTTP handles state (since it doesn't handle state natively). Websites use session cookies (containing a unique ID) to identify users and to retain their session.
+After being set, the user's browser sends the cookie to the server with every request it makes in order to identify the user to the site.
+An attacker can leverage the cookie to impersonate the user by forcing a user's browser to execute a request. If the user is already logged into the site, the cookie will be sent automatically with the request.
+How does Cross Site Request Forgery work?
+In order for an attacker to carry out a CSRF attack, several things need to be true:
+• There is an action in the application which an attacker wants to take – like changing a password, transferring funds, and so on.
+• There are not unpredictable request parameters – the attacker can guess (or knows) all of the parameters which the application expects to see from this type of request.
+• The action can be carried out by HTTP request(s) and it relies only on cookies in order to verify that the request is coming from the user.
+CSRF can impact web applications which use cookies, browser authentication, or client side certificates to authenticate users. Essentially it can occur in any case where the application automatically appends a users' credentials or identity to a request.
+A CSRF attack can either leverage a GET request or a POST request (though a POST request is more complicated and is thus uncommon).
+Either one needs to start with an attacker tricking a victim into loading or submitting the information to a web application. This can take place in a number of ways – for example via a phishing link.
+Alternatively, similar to XSS (Cross-site scripting), CSRF can be a stored vulnerability. Stored CSRF occurs when an attacker stores the attack in a field which accepts HTML such as an IMG or IFRAME tag. This would mean that anyone who views the page could be impacted.  The exploit can be disguised as an ordinary link or hidden in an image tag.
+For example, as an ordinary link on a webpage: <a href=“malicious link”>Unsubscribe here</a>
+Or, as an image tag : <img src=“malicious link” width=“0” height=“0” border=“0”>
+Example of CSRF
+Imagine that your bank (bank.com) processes transfers using GET requests which include several parameters (the identity of the recipient of the transfer and how much you want to transfer).
+For example, if Jim wants to send his friend Bob $10, the request might look like this:
+http://bank.com/transfer?recipient=Bob&amount=10
+The request also includes a session cookie identifying the account owner so the bank knows where to get the money from.
+Now, an attacker may convince Jim to click a link that looks like this (but has been shorted by a URL shortener or hyperlinked cleverly):
+http://bank.com/transfer?recipient=Hacker&amount=100000
+Because Jim is already logged in, his browser sends his cookie with the request – so his bank believes that he is requesting the transfer and it is carried out.
+How to Stop CSRF Attacks
+Choose Your Frameworks Carefully
+Use frameworks which have built in protections against CSRF, like .NET. Correct configuration is key. If the framework you're using doesn't have protection, you can add protection with Anti-CSRF Tokens.
+Use Anti-CSRF Tokens
+Tokens (also known as synchronizer token patterns) are a server-side protection where the server provides a user's browser with a unique, randomly generated token and checks each request to see if the browser sends it back before carrying out a request.
+This token is sent via a hidden field and should be a non-predictable, random number which expires after a short time and cannot be reused.
+Depending on the sensitivity of the page, different tokens can be used for each request, or simply for different forms. The tokens should be compared in a safe way (such as by comparing hashes) and should not be sent in an HTTP get request so they are not a part of the URL and cannot leak via the Referrer header.
+Use the SameSite Flag in Cookies
+The SameSite flag marks a cookie so it can only be sent for requests which originate from the same domain.
+Essentially if www.bank.com wants to make a request to www.bank.com/updatepassword, it's allowed to. But if www.maliciousdomain.com wants to make a request to www.bank.com/updatepassword, it can't send the session cookie and therefore cannot carry out the attack.
+Most browsers now support this flag, but not all. It should be part of a comprehensive defense strategy.
+Practice Defense in Depth
+You can implement a number of other controls which, when used in conjunction with other measures, can provide protection against CSRF.
+For example, here are some other protections you can put in place:
+• verify the origin with standard headers (determine where the request originates and where it's targeted to ensure they match)
+• use a custom request header (so that without the header the site will not accept the request)
+• double submit cookies (essentially a second, randomly generated and unknown – to the attacker – parameter which an attacker has to submit with a request in order for it to be successful).
+Involve the User in the Transaction
+For sensitive actions such as money transfers or password changes, require the user to take action (such as CAPTCHA, one-time tokens, or re-authentication).
+Examples of Measures that Don't Work:
+• Multi-Step Transactions: It doesn't matter how many steps there are as long as the attacker can predict/determine each one.
+• HTTPS: Always a good idea, but doesn't do anything to protect against CSRF.
+• URL Rewriting: This would prevent attackers from guessing the victim's session ID during a CSRF attack, but would then allow an attacker to see it in the URL. Swapping one flaw for another isn't a good idea.
+• Using a Secret Cookie: Even a secret cookie is submitted as part of the request, meaning that the attacker can still leverage it.
+• Only Accepting POST Requests/avoiding GET Requests: Forged POST requests can still be used to execute a CSRF attack.
+Other Names for CSRF
+CSRF is also known as XSRF, Sea Surf, Session Riding, Cross-Site Reference Forgery, Hostile Linking, One-Click Attack.
+
+From <https://www.freecodecamp.org/news/what-is-cross-site-request-forgery/> 
+
+
+
+From <https://login.codingdojo.com/m/550/13135/95303> 
+
+Vulnerability Scanning
+
+Learning Objectives:
+	• Identify various vulnerabilities.
+	• Compare and contrast false positives and false negatives.
+
+Vulnerability Scanning
+An inspection of the potential points of exploit on a computer or network to identify security holes is known as a vulnerability scan. A successful scan detects and classifies system weaknesses in computers, networks, and communications equipment, to predict the effectiveness of countermeasures.
+Intrusive & Non-Intrusive
+An intrusive vulnerability scan means directly engaging the target system to identify weaknesses that could be used to launch an attack. Conversely, a non-intrusive scan gains vulnerability information about targeted computers and networks without actively engaging with the system.
+Credentialed vs Non-credentialed 
+Vulnerability scanners can be configured to run a scan with or without credentials. If a scan is run credentialed, any system behind a login can be scanned for internal vulnerabilities. When a scan is not credentialed it means that the only vulnerabilities that you will have insight into will be on the perimeter of any system or network you are scanning. 
+False Positives
+Not everything that comes back on the vulnerability scan results is actually a vulnerability. This is where the role of a security analyst comes into play. As a security analyst, you will be responsible for determining what is a real vulnerability vs what is a false positive.
+
+
+
+From <https://login.codingdojo.com/m/550/13135/92277> 
+
+
+17. 1. When a test involves the tester not knowing about the system's internal structure it is known as what kind of test?
+Black-Box
+18. 2. Which of the following describes when a pointer is dereferenced that is meant to be valid but is null which causes the application to exit or crash?
+
+Null Pointer Dereference
+19. 3. When code is injected into a site from another attacker site this is known as what?
+
+XSRF
+20. 4. Which of the following vulnerability scans give the most amount of information?
+Credentialed
+
+From <https://login.codingdojo.com/m/550/13135/96505> 
+
+
+
+   Start of first Lecture week 1    2/28      
+Passive Reconnaissance is an attempt to gain information about targeted computers and networks without actively engaging with the systems. It is a gathering the information without alerting the victim.
+Exploitation, Persistence, and Privilege Escalation
+After going through recon, scanning, enumeration, and planning, exploitation is the next and for most, the exciting part of penetration testing. This essentially means that you have gained access to a system, usually in the form of a shell. You will often refer to this as "popping a shell". This access allows you to remotely execute code, view and download files as well as delete them, and much more. It should be said that gaining this access and what you can do with that access depends on the level of privileges that the machine you just hacked has. 
+Pivoting means using one compromised machine to then gain access to another machine on the same network.                       
+    
+
+Key Point
+It is important to have good knowledge of Windows, Linux, and Unix commands when you gain access to a machine you will NOT have a GUI and will have to complete all desired tasks using a command line. 
+Persistence: the practice of maintaining access to an exploited machine for a later time. This is often through the use of a backdoor. 
+Privilege Escalation (Privesc) is a complicated, time-consuming, and necessary task in almost all penetration tests. This involves many techniques to bypass or change security controls of the operating system to do things that your exploited machine is otherwise not permitted to do. 
+Penetration Testing vs Vulnerability Scanning
+Pentesting and Vulnerability Scanning is another one of those instances in cybersecurity in which people incorrectly use the terms interchangeably. Vulnerability scanning is a potential step in the penetration testing process and therefore they cannot be the same. Another way of thinking about this is that vulnerability scanning is finding the vulnerabilities on the network and simply deciding to try to fix them without having anyone exploit them, whereas penetration testing would be using those results to try and gain unauthorized access to something. 
+
+From <https://login.codingdojo.com/m/550/13135/92278> 
+
+Cryptography Basics
+
+Learning Objectives:
+	• Visualize how cryptography can be utilized for different organizations.
+	• Understand the underlying technologies that make cryptography possible.
+
+High-Level Cryptography
+When data is encrypted, it is modified in such a way that it cannot be understood by anyone who does not have the correct key. If you have the correct key, you can decrypt the data, and it will once again become intelligible. 
+	• Cryptography: the practice and study of hiding information, or more accurately, hiding the meaning of the information.
+	• Encryption: the process of changing information using an algorithm (or cipher) into another form that is unreadable by others—unless they possess the key to that data. 
+	• Cipher: an algorithm that can perform encryption or decryption. A basic example would be to take the plaintext word "code" and encrypt it as a ciphertext using a specific algorithm. 
+	• Key: the essential piece of information that determines the output of a cipher. It is indispensable. Without it, there would be no result in cipher computation. The length of the key determines its strength, and keys can be either public or private.
+Symmetric key algorithm: is a class of cipher that uses a single key, identical keys, or closely related keys for both encryption and decryption. The term symmetric key is also referred to as the following: a secret key, private key, single key, and shared key. Examples include DES, 3DES, RC, and AES.
+The following are two types of symmetric key algorithms:
+	• A stream cipher is a type of algorithm that encrypts each binary digit in the data stream, one bit at a time.
+
+Source: Wikipedia
+	• A block cipher is a type of algorithm that encrypts a group of bits collectively as individual units known as blocks. For example, the Advanced Encryption Standard (AES) algorithm can use 128-bit or 256-bit block ciphers. Block ciphers can work in different modes including Electronic Codebook (ECB), Cipher Block Chaining (CBC), Cipher Feedback (CFB), Output Feedback (OFB), Galois/Counter Mode (GCM), and Counter (CTR). The modes define how a message is divided into blocks and encrypted. 
+
+Source: Wikipedia
+Asymmetric key algorithms use a pair of different keys to encrypt and decrypt data. The keys might be mathematically related, but they are not identical or even close to it in the way symmetric keys are. One key is used to encrypt data; the other, dissimilar key is used to decrypt the data. Examples include PKI which is considered to be the most complicated. 
+
+
+From <https://login.codingdojo.com/m/550/13135/92279> 
+
+
+First lecture notes:
+
+
+**20 minute Rule
+Take a break 
+Hit up Discord and type question and screen shot? Leave it and see what response is.
+No ? Is to Dumb
+If your not able to get answer on Discord Let the TA know which channel it the Black upper tool bar. 
+They will be able to DM you
+Leave answer on Discord
+If you don’t get the answer
+1 on 1 with Edgar, from the Schedule
+Study groups Office Hour Zoom Room is open to you all in the class
+ID the is someone in the room , it will ve your Classmates
+Use it whenever you would like!
+
+HOW DO YOU DM ON ZOOM ?
+HOW DO YO RAISE YOUR HAND? Click on the reactions tab bottom screen
+Do two assignments for the week
+
+What is Cybersecurity?
+	Protecting the computer systems or networks from threat actors
+	Protecting our computer systems and networks, our hardware and software, that might be intgernet-connected, form threat acttors in the physical world and through the internet
+	Things we protect:
+		Networks
+		Computer Sysytems
+		Hardware
+		Software
+		Dtaa
+		Things we protect
+		Threat Actors
+		Things threat actors do:
+		Unauthorized access
+		Un
+		GET THE SLOIDE>>>
+		Cybersecurity is the defense of our systems and   in an organization against threat actors 
+		
+		CIA Triad
+CONFIDENTIALITY
+Keeping information or data private unless the owner or keeper of it gives explicit consent for it to be shared with someone else
+	-Keep it secret, keep it 
+
+
+Integrity
+Guarding against improper modification or destruction of data and information
+	-Unauthorized people     not be able to modify   destroy data
+	
+	Non-Repudiation
+	The assurance that the sender of information is provided with proof of delivery and the recipient is provided with proof of the sender's identity
+	-If you send something, you are given proof it was delivered successfully
+	-If something was sent to you, you are given proof of who sent it to you
+	EX. The bubble on a text message, if they read it you get the second bubble
+	
+Availability
+The guarantee that a service is available to users when they need that service
+	-If there is no access to a service, there can be no business
+	EX. Walk buy a business should be open, but it's not you won't give them service
+	Threat actor can disrupt 
+	If you think you putting your email an password into a service and you get hacked, you won't use that service plus its suck you got your shit hacked
+	
+	Vulnerabilities
+	
+	Controls
+	Swiss Cheese (Defense in Depth) Blicks of swiss cheese stacked, yes thers holes but theres layers that block holes.
+	Controls are the processes, actions, configurations, and policies that protect assets
+	TYPES:			EFFECTS:
+	1. PHYSICAL			1.Preventative
+	2.Technical			2.Detective
+	3.Operational /MAMGERIAL/ADMINISTRATIVE 			3. Corrective  --Better firewall, more cameras
+				a. Back to preventative with a firewall for example or more cameras
+				
+	
+	
+	Control Examples
+	
+	Physical things that protect in the physical realm
+	Physical controls are goin gto be think like"
+	Gateway and locks
+	Cable locks (for locking servers)
+	Alarms and cameras
+		CCTV
+		Circuit
+		Motion Detection
+		Noise Detection
+		Facial Recog
+		Proximity
+	Duress Alarms(banks button under the desk)  Triggerd when someron is undr duress
+
+Techincal 
+
+Benchmarks and Frameworks
+Benchmarks
+	Benchmarks best practices for security controls and bassline defenses
+Hardening IS IMOORTANT
+	The process of changing default settings into more secure settings
+	Removing Unnecessary Applications
+	Remove unused apps Cell Phone EX. Candy crush remove it
+	And remove admin privileges
+			If we don’t need them, remove them
+			Use traditional systems, Win, Mac etc. 
+			There trusted OS with standards
+			There are international standards for TOS, using those will qualify an OS to be a TOS.
+		Updates, Patches, and Patch management
+			Having up-to-date updates, patching known bugs and vulnerabilities, and having management process for updates and patches
+			A patch is an update to fix a bug or an vulnerability with code
+			EX. WIN moves you to 11 because XP no longer is updating
+			
+VULNERABILITIES
+	END OF LIFE
+		Technology that has no Maintenance has met the end of its life. Present and new bugs
+		Found will remain
+		
+		
+				LEGACY IS WHAT WE CALL SOFTWARE OR PROGRAMMING THAT NO LONGER HAS UPDATES OR MAINTENANCE AND HAS MET ITS END OF LIFE
+
+	Configuration Vulnerabilities
+		-Default Configurations can be vulnerabilities
+		EX. Change your wi-fi name Default configuration are vulnerabilities because you may have the same router from the service provider. EX. Spectrum Wi-fi You can google the default settings 
+		Simply Google Open Source configuration to break into that router
+	Improperly Configured Accounts
+		-Changing default configurations to weaker settings are, of course worst vulnerabilities than default configs
+	Vulnerable Business Process
+		If you remove all your authentications for your phone for Ex. 
+		-Lack of administrative controls in regards to passwords on a router.
+	
+			*blue team = defense (soc), red team = offense (pentesting)
+			
+		Frameworks
+		What is a Framework?
+		Frameworks are a list of Controls that protect the organization. So , a Framework is what we call all the Controls that help an organizaiotn , these controls have a set security standards that thelp lower the risk of each attack. 
+		
+			Set of security controls in place
+			Ex. PCI framework to legally use credit card transactions on a website 
+			Set of standards that help lower risk
+			
+			Regulatory Vs. Non-Regulatory
+			Regulatory- Rules that MUST 	be followed due to local regulations THE LAW
+			Ex. PCI framework for credit card transactions	-- Bare minimum that check all the boxes
+			Above and beyond the law
+		Non-Regulatory Rules that are strongly encouraged; Company Standard
+		Ex. Raising your standard US to EU Up and above and beyond to raise your standards for 
+		In out Burger to get the A for sanitation California standards here down here but we raised our standards to our company policy
+		
+	HACKERS
+	
+	What are Threat Actors?
+	
+	White Hat Hackers Good Guys that have permission (Part of the Blue team SOC)
+		Hired by Company / Penetration Testers "ethical hacker"
+	Blue Hat Hacker
+		Outsiders asked to hack for a company / bounty hunters
+	Grey Hat Hackers
+		Doing illegal stuff on the side; Trying to do good by being bad
+		Your security is so bad Im going to hack you and send you an email, its illegal
+	Red Hat Hackers
+		Vigilante Hackers (Batman as a hacker)
+		Hack illegally unethical to bring down a bad guy
+	Green Hat Hackers
+		The newbies
+	Elites
+		Savants in Hacking Crack operating systems Kernels
+		They find Zero Day vulnerabilities "any type of hacker"
+	Black Hat Hackers
+		Hack to destroy or steal
+		THEY ARE BAD PEOPLE
+		People who send you spam
+	
+	Threat Actor Types
+		
+	Script Kiddies
+		Copy/Pasters w little experience
+	Hacktivist
+		Hacker + Activist Social change or ideal
+	Organized Crime
+		People who scammed prey on people online
+	Nation States
+		Government Employed Hackers
+	Advanced Persistent Threat (APT)
+		A Persistent Hack or  a Persistent Entity
+			A highly funded group that works on their own but may be employed by a Government
+	Insiders & Competitors
+		Corporate Spies
+
+Penetration Testing
+
+Learning Objectives:
+	• Differentiate between Active and Passive Reconnaissance.
+	• Compare and contrast vulnerability scanning and penetration testing.
+
+Active vs. Passive Reconnaissance
+
+The majority of penetration testing consists of gathering information which is why reconnaissance cannot be underestimated.  Active Reconnaissance requires an attacker to interact with the target to gain the necessary information to use in the attack. This may be through automated scanning or manual testing using various tools like ping, traceroute, netcat, etc. This recon is faster and more accurate, but it also makes much more noise.
+Active reconnaissance tools include:
+	• Nmap: (network mapper) will scan for open ports, find out what is running on those ports, and attempt to get information on which version of the software is running as well as OS fingerprinting. 
+	• Metasploit: aids in penetration testing and IDS signature development. 
+
+Key Point 
+Many, if not all active reconnaissance techniques are considered Illegal unless you already have prior authorization to do so. 
+           
+
+                                                    
+
+Passive Reconnaissance is an attempt to gain information about targeted computers and networks without actively engaging with the systems. It is a gathering the information without alerting the victim.
+Exploitation, Persistence, and Privilege Escalation
+After going through recon, scanning, enumeration, and planning, exploitation is the next and for most, the exciting part of penetration testing. This essentially means that you have gained access to a system, usually in the form of a shell. You will often refer to this as "popping a shell". This access allows you to remotely execute code, view and download files as well as delete them, and much more. It should be said that gaining this access and what you can do with that access depends on the level of privileges that the machine you just hacked has. 
+Pivoting means using one compromised machine to then gain access to another machine on the same network.                       
+    
+
+Key Point
+It is important to have good knowledge of Windows, Linux, and Unix commands when you gain access to a machine you will NOT have a GUI and will have to complete all desired tasks using a command line. 
+Persistence: the practice of maintaining access to an exploited machine for a later time. This is often through the use of a backdoor. 
+Privilege Escalation (Privesc) is a complicated, time-consuming, and necessary task in almost all penetration tests. This involves many techniques to bypass or change security controls of the operating system to do things that your exploited machine is otherwise not permitted to do. 
+Penetration Testing vs Vulnerability Scanning
+Pentesting and Vulnerability Scanning is another one of those instances in cybersecurity in which people incorrectly use the terms interchangeably. Vulnerability scanning is a potential step in the penetration testing process and therefore they cannot be the same. Another way of thinking about this is that vulnerability scanning is finding the vulnerabilities on the network and simply deciding to try to fix them without having anyone exploit them, whereas penetration testing would be using those results to try and gain unauthorized access to something. 
+
+Notes for week 1 Second class 3/2
+
+I AAA
+Based on the idea that each individual user has unique
+I AAA is the Next level down from CIA triad
+
+Authentication is proving an identity by confirming it (the identity) with a system (set of rules)
+Factors of Authentication 
+Ex. Activity or object he possesses 
+This is how a system identifies 
+Something thing you know Ex Oassiwrdm fingerprints
+Something you are Fingerprints
+Something you have
+Something you do Hand shake
+Some where you are GEO location if your not in range
+We are looking for someone Authetic
+"-ation" is a suffix
+Passwords, fingerprints, etc.\CIA triad
+You are who you say you are
+Proving your identiy via two factor authentication
+
+Authorization
+Authorization is the permission an identity is allowed to exercise
+Authorization ==== Permissions
+We ar elooking for what can the identity "Authorize"
+
+Accounting
+Accounting is the tracking of data, usage, and resources of an organization's network.
+We want to know what user what people are doing on our network. 
+From good people to the bad people.
+If we want to take a hacker to court we need proof like the logs and proper accounting of the hack.
+
+Accounting ==== logs
+
+SDLC Software Development Life Cycle  Study for Comp TIA
+1.Planning       Start planning on fixing the next issue
+2.Ananlysis    Analyze the plan Break down things into mini problems
+3.Design         Create a design on how all the pieces are going to work together and build the code
+4.Implementation     Implement the code
+5.Testing & Integration     Test and fix and then implement then integrate in the live server. Production is the live server that everyone use like Typing F u instead of Facebook that would go live to the world. Mainly use testing servers before pushing to the production server
+6.Manatenance       Patching up bugs and vulnerabilities sent out update then work on the next thing like another bug
+
+CYVBERSECURITY PROFESSIONAL ALWAYS HAVE TO BE WRITE Hackers can be wrong all the time but it only takes one 
+Amazing JOB security
+
+
+Tech works in Cycle
+Knowing SDLC helps with creating touch points
+Encourage to develop wit security in mind. Will work with developers
+
+Planning should be included security 
+
+SDLC security principals:
+Examples of SDLC Models:
+  Waterfall 
+		One phase leads to the next
+		No going back - once we finish a phase we fall into the next phase
+		Most organizations have replace this model Very costly slow cycles each phase can take weeks and months
+Agile
+		A super condensed Life Cycle 
+		Done in short sprints like every two weeks
+		Allows for quick pivoting
+		
+Security Principles and Vulnerabilities
+
+
+SDLC Security Principle: Least Privilege   Super important!
+		-Least  Privilege The principle that a security should be designed so that each entity is granted the minimum system resources and authorizations that the entity needs to perform its function.
+		 We don't all programs to have admin privilege. Admin means they can just change everything
+		Identify the entity then give authorization to just those who need to do the job.
+		
+SDLC Security Principle: Never trust inputs
+Input Handling (Vulnerability)
+		-An application does not follow programming benchmarks and doesn’t handle inputs correctly, are vulnerable to malicious inputs
+		Ex. HTML of bad actor script    <script> bad script </script>  Called an injection attack injecting text into a script if a developer doesn’t sanitize it then it’s a big problem
+
+Error Handling (Vulnerability)
+		-If errors are flashed with the User input, and they're not following benchmarks, they could trigger the input from a malicious user if it is not handled properly.
+		
+		 -SQL injection  Using SQL commands to ask a database for data without having the authorization or authentication to do so ( Injection Attack) Get into a database via scrip tin Linux then make a bad command so that all the user data shows you then you can copy and paste all the user info.
+		
+
+	The longer the password is the harder it is to crack
+	Xkcd.com
+	Short password use multiple case and different characters or a long password with all lower case
+	
+	PEN TESTING
+	Testing that verifies that extent to which a system, device or process resists active attempts to compromise its security
+	Attack is when someone finds an attacks a vulnerability
+	
+	STEPS of PEN TESTING
+	
+	Flow of Penetration Testing	
+	
+		Reconnaissance
+		OSINT  --OPEN SOURCE INTELLIGENCE
+	EX. LinkedIn, Social Media, so type of organization that has public documents like documents owners
+	We can gain a lot of knowledge about a target
+	Passive  Parking outside an office building and getting there network names, research in the factor settings, 
+	
+	
+	
+	Public information gathering
+	And passive research gathering like looking over a shoulder
+
+		Vulnerability 
+		Assessment scanning
+		Exploiting/ gaining access
+		Risk Sdetermination/maintaining access
+		
+	PERSISTENCE
+	The continuation of a course of action
+	Being able to create a backdoor and keeping it open
+	Then cover your tracks change records to cover our tracks then see which system
+	
+	Testing methos for Pen Testing
+	 Black-Box assuming you’re a black hat actor we know nothing 
+	White-Box going to have info about the program the source code login detail no blinders 
+	Stress testing is a good example EX phishing Social engineering EX. Tell me your login or admin creds so you don’t get hacked ok here's my admin creds
+	Back door can be as simple as opening a port. There's like 10,000 ports
+	Grey-Box Gave you some stuff but not all of it
+	
+	TO pen test if I was employed it would depend what I use. Kali Linux
+	
+	Backdoors 
+	Allows us to go around authentication
+	Zero Day vulnerability
+	A bug that happens on day one Could be anything that we have no idea is there. The scariest vulnerability of all. 
+	EVERYTHING IS GOOD AND ON YEAR 4 THERE IS A VULNERABILITY. Its still a zero day because is was there on day one. Because we get better at hacking etc legacy software gets more vulnerability
+	 Pen testing that’s why were hired to break software
+	All company's have bugs fortune 500 companies
+	
+	Penetration test Vs Vulnerability
+	When we scan for Vulnerabilites we are doing
+	Reconnaissance work
+	Vulneravbilty scanning is 
+	Vulnerability Scanning 
+	
+	Scanning 
+		Non-intrusive
+			Simple scan
+		Intrusive
+			Scan and execute
+		Non-credentialed(credentials are user profile for example) Membership card at Costco
+			Outsider Your 
+		Credentialed
+			Insider E
+		Why ever scan without credentials?
+		Amazon Ex. You might find an employee entrance outside the building 
+		Find some strange backdoor to exploit
+		Still thinking as Pen testers
+		
+		False Positives
+		When a vulnerability scan says we have a vulnerability but we do not.
+		True positives we absolutely want to find vulnerabilities and true negatives great that’s correct we don’t want to look anymore
+		So, False Negatives exist too.
+		Follow IAA CIA  Life Cycle to not have False Negatives
+		
+		
+	• Perform a network scan with Nmap.
+
+In this lab, you will be scanning your network to find IP addresses that are connected.
+	1. Launch your Kali Linux instance in your VM.
+	2. Find your default gateway and subnet mask so that you know what range of IP addresses to scan.
+	3. Note: You must have root (administrative) privileges in order to to perform certain scans in nmap. We can accomplish this by typing sudo in front of the nmap command in the terminal. When prompted for a password, use the password for your currently logged in Kali user (when entering in a password, you will not see anything when typing but any input is being logged. Simply type in the password and press enter).
+	4. Use ifconfig command to find what range to scan.
+From your ifconfig output, you should see "inet" followed by an IP address, next to that you will see netmask then 255.255.255.0 most likely but if it is any different let us know first. If your netmask was what is listed here you take the first 3 octets of your set IP address and the 4th is the range 1-254. For example:
+
+5. To perform an nmap scan, use a command similar to the one below.
+Note: replace the first 3 octets with your IP address from step 4.
+
+6. Analyze your results
+Assignment Submission
+Upload a single document including the following:
+	1. Screenshots of your scan results.
+	2. Summary of the results in your own words.
+	3. For each IP address on the scan, approximate what services are running on each device based on the ports open.
+• Upload a single document including the following: screenshots of your scan results; summary of the results in your own words; and, for each IP address on the scan, approximate what services are running on each device based on the ports open.
+
+From <https://login.codingdojo.com/m/550/13135/92280> 
+
+My Assignment turned in on 3/4/2023 Week 1
+
+Edgar, 
+This was a very eye-opening assignment. When first looking at the results it looked like a foreign language. Doing a little research (Google) which led me to Nmap.org amongst other sites helped to break down the results to something more understandable. Out of the 254 IP addresses scanned it looks like I have 3 open ports: 
+1. 53 DNS TCP 
+2. 135 MSRP TCP 
+3. 445 SMB/CIFS  
+ 
+
+
+ 
+ 
+ 
+4. 53/tcp open  domain -Port 53 (Domain)—Domain Name System (DNS) server. This port is basically always open on my system and translates the approximately 30 websites I currently have open from the actual name of the website to the IP address. 
+ 
+5. 135/tcp open  msrpc =Port 135 is used for RPC (Remote Procedure Call) client-server communication. I think MSRPC is providing a common interface between applications. From what I can tell this is a security problem and not much of anybody knows exactly why this port needs to be open.  
+ 
+6. 445/tcp open  microsoft-ds – SMB is a Microsoft Windows communication protocol that allows me to share files, printers, and serial ports across my network. Can be used on top of its TCP/IP protocol or other network protocols. This port is sharing all my windows files that are currently open such as this one. I currently have a couple machines open that can share and modify files on my LAN.  
+ 
+ 
+BGEE-4DE4-95HG-W9TJ-EYUC-UX9S 
+ipconfigifconfig 
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-03-03 21:35 EST 
+Nmap scan report for 10.0.2.1 
+Host is up (0.0016s latency). 
+Not shown: 999 closed tcp ports (reset) 
+PORT   STATE SERVICE 
+53/tcp open  domain 
+MAC Address: 52:54:00:12:35:00 (QEMU virtual NIC) This is my Oracle VirtualBox  5.2 + Vagrant 
+ 
+Nmap scan report for 10.0.2.2 
+Host is up (0.0027s latency). 
+Not shown: 998 filtered tcp ports (no-response) 
+PORT    STATE SERVICE 
+135/tcp open  msrpc –Microsoft Remote Procedure Call, also known as a function call or a subroutine call is a protocol that uses th ec 
+445/tcp open  microsoft-ds 
+MAC Address: 52:54:00:12:35:00 (QEMU virtual NIC) This is my Oracle VirtualBox  5.2 + Vagrant 
+  
+Nmap scan report for 10.0.2.3 
+Host is up (0.00031s latency). 
+All 1000 scanned ports on 10.0.2.3 are in ignored states. 
+Not shown: 1000 filtered tcp ports (proto-unreach) 
+MAC Address: 08:00:27:AD:92:24 (Oracle VirtualBox virtual NIC) 
+  
+Nmap scan report for 10.0.2.4 
+Host is up (0.0000060s latency). 
+All 1000 scanned ports on 10.0.2.4 are in ignored states. 
+Not shown: 1000 closed tcp ports (reset) 
+  
+Nmap done: 254 IP addresses (4 hosts up) scanned in 14.59 seconds 
+ 
+Went back a ran the same scan with a VPN to what changed. 
+The only difference is port 53/tcp is now a filtered domain. 
+┌──(kali㉿kali)-[~] 
+└─$ sudo nmap 10.0.2.1-254 
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-03-04 16:34 EST 
+Nmap scan report for 10.0.2.1 
+Host is up (0.00061s latency). 
+Not shown: 999 closed tcp ports (reset) 
+PORT   STATE    SERVICE 
+53/tcp filtered domain 
+MAC Address: 52:54:00:12:35:00 (QEMU virtual NIC) 
+  
+Nmap scan report for 10.0.2.2 
+Host is up (0.0014s latency). 
+Not shown: 998 filtered tcp ports (no-response) 
+PORT    STATE SERVICE 
+135/tcp open  msrpc 
+445/tcp open  microsoft-ds 
+MAC Address: 52:54:00:12:35:00 (QEMU virtual NIC) 
+  
+Nmap scan report for 10.0.2.3 
+Host is up (0.00030s latency). 
+All 1000 scanned ports on 10.0.2.3 are in ignored states. 
+Not shown: 1000 filtered tcp ports (proto-unreach) 
+MAC Address: 08:00:27:22:0C:84 (Oracle VirtualBox virtual NIC) 
+  
+Nmap scan report for 10.0.2.4 
+Host is up (0.0000040s latency). 
+All 1000 scanned ports on 10.0.2.4 are in ignored states. 
+Not shown: 1000 closed tcp ports (reset) 
+  
+Nmap done: 254 IP addresses (4 hosts up) scanned in 25.03 seconds 
+ 
+ 
+ 
+ 
+*  
+Below is not associated with the homework I’m turning in. It's a copy and paste example of MSRPC so that I could try and understand just what it is. I save these assignments for further use. 
+ 
+135/tcp open  msrpc  
+MSRPC is an interprocess communication (IPC) mechanism that allows client/server software communcation. That process can be on the same computer, on the local network (LAN), or across the Internet. Its purpose is to provide a common interface between applications. 
+Within Windows environments, many server applications are exposed via RPC. 
+The Microsoft RPC mechanism uses other IPC mechanisms, such as named pipes, NetBIOS or Winsock, to establish communications between the client and the server. Along with IPC$ transport, TCP, UDP, and HTTP are used to provide access to services 
+
+
+ 
+Source: Network Security Assesment 3rd Edition. 
+The RPC locator service works much like the RPC portmapper service found in Unix environments.1 
+ 
+Microsoft Remote Procedure Call, also known as a function call or a subroutine call, is a protocol that uses the client-server model in order to allow one program to request service from a program on another computer without having to understand the details of that computer's network. MSRPC was originally derived from open source software but has been developed further and copyrighted by Microsoft. 
+Depending on the host configuration, the RPC endpoint mapper can be accessed through TCP and UDP port 135, via SMB with a null or authenticated session (TCP 139 and 445), and as a web service listening on TCP port 593. 
+135/tcp open msrpc Microsoft Windows RPC 
+How does MSRPC work? 
+The MSRPC process begins on the client side, with the client application calling a local stub procedure insead of code implementing the procedure. The client stub code retrieves the required parameters from the client address space and delivers them to the client runtime library, which then translates the parameters into a standard Network Data Representation format to transmit to the server. 
+The client stub then calls functions in the RPC client runtime library to send the request and parameters to the server. If the server is located remotely, the runtime library specifies an appropriate transport protocol and engine and passes the RPC to the network stack for transport to the server. From here: https://www.extrahop.com/resources/protocols/msrpc/ 
+Image From book "Network Security Assesment 3rd Edition" 
+Identifying Exposed RPC Services 
+Section extracted from book "Network Security Assesment 3rd Edition" 
+You can query the RPC locator service and individual RPC endpoints to catalog interesting services running over TCP, UDP, HTTP, and SMB (via named pipes). Each IFID value gathered through this process denotes an RPC service (e.g., 5a7b91f8-ff00-11d0-a9b2-00c04fb6e6fc is the Messenger interface). 
+Todd Sabin’s rpcdump and ifids Windows utilities query both the RPC locator and specific RPC endpoints to list IFID values. The rpcdump syntax is as follows: 
+D:\rpctools> rpcdump [-p port] 192.168.189.1 
+IfId: 5a7b91f8-ff00-11d0-a9b2-00c04fb6e6fc version 1.0 
+Annotation: Messenger Service 
+UUID: 00000000-0000-0000-0000-000000000000 
+Binding: ncadg_ip_udp:192.168.189.1[1028] 
+You can access the RPC locator service by using four protocol sequences: 
+• ncacn_ip_tcp and ncadg_ip_udp (TCP and UDP port 135) 
+• ncacn_np (the \pipe\epmapper named pipe via SMB) 
+• ncacn_http (RPC over HTTP via TCP port 80, 593, and others) 
+use auxiliary/scanner/dcerpc/endpoint_mapper 
+use auxiliary/scanner/dcerpc/hidden 
+use auxiliary/scanner/dcerpc/management 
+use auxiliary/scanner/dcerpc/tcp_dcerpc_auditor 
+rpcdump.py <IP> -p 135 
+Note that from the mentioned options all except of tcp_dcerpc_auditor can only be executed against msrpc in port 135. 
+Notable RPC interfaces 
+IFID value 	Named pipe 	Description 
+12345778-1234-abcd-ef00-0123456789ab 	\pipe\lsarpc 	LSA interface, used to enumerate users 
+3919286a-b10c-11d0-9ba8-00c04fd92ef5 	\pipe\lsarpc 	LSA Directory Services (DS) interface, used to enumerate domains and trust relationships 
+12345778-1234-abcd-ef00-0123456789ac 	\pipe\samr 	LSA SAMR interface, used to access public SAM database elements (e.g., usernames) and brute-force user passwords regardless of account lockout policy Oreilly library 
+1ff70682-0a51-30e8-076d-740be8cee98b 	\pipe\atsvc 	Task scheduler, used to remotely execute commands 
+338cd001-2244-31f1-aaaa-900038001003 	\pipe\winreg 	Remote registry service, used to access the system registry 
+367abb81-9844-35f1-ad32-98f038001003 	\pipe\svcctl 	Service control manager and server services, used to remotely start and stop services and execute commands 
+4b324fc8-1670-01d3-1278-5a47bf6ee188 	\pipe\srvsvc 	Service control manager and server services, used to remotely start and stop services and execute commands 
+4d9f4ab8-7d1c-11cf-861e-0020af6e7c57 	\pipe\epmapper 	DCOM interface, supporting WMI 
+Identifying IP addresses 
+Using https://github.com/mubix/IOXIDResolver, comes from Airbus research is possible to abuse the ServerAlive2 method inside the IOXIDResolver interface. 
+This method has been used to get interface information as IPv6 address from the HTB box APT. See here for 0xdf APT writeup, it includes an alternative method using rpcmap.py from Impacket with stringbinding (see above). 
+References: 
+• https://airbus-cyber-security.com/the-oxid-resolver-part-1-remote-enumeration-of-network-interfaces-without-any-authentication/ 
+• https://airbus-cyber-security.com/the-oxid-resolver-part-2-accessing-a-remote-object-inside-dcom/ 
+ 
+445/tcp open  microsoft-ds 
+The Microsoft-DS file-sharing port with number 445 is one of the biggest targets for hackers. This port is type SMB (Server Message Block), meaning it operates as an application-layer network protocol and is mainly used for providing shared access to files, printers, and whatnot. This is one of the reasons this port is a favorite place for hackers—it allows the transfer of malicious content to remote machines: 
+
+From <https://word-edit.officeapps.live.com/we/wordeditorframe.aspx?ui=en%2DUS&rs=vi%2DVN&wopisrc=https%3A%2F%2Fc3ttst-my.sharepoint.com%2Fpersonal%2Fkmk_111_c3ttst_onmicrosoft_com%2F_vti_bin%2Fwopi.ashx%2Ffiles%2Fa4e9b4bd1de14bad940057028e0b3c4f&wdprevioussession=6638bb94%2D5232%2D482a%2D9961%2Dce73434c8ae3&wdenableroaming=1&mscc=1&wdodb=1&hid=D8CA9BA0-0052-2000-266A-3F3632287562&wdorigin=Other&jsapi=1&jsapiver=v1&newsession=1&corrid=7edfc213-c2fc-4568-a3cc-7776691c9cbb&usid=7edfc213-c2fc-4568-a3cc-7776691c9cbb&sftc=1&cac=1&mtf=1&sfp=1&instantedit=1&wopicomplete=1&wdredirectionreason=Unified_SingleFlush&rct=Normal&ctp=LeastProtected> 
+
+.
+
+Cryptography Basics is from Friday 3/3 on the Stack Schedule "last thing" after the Friday assignment
+Cryptography Basics
+
+Learning Objectives:
+	• Visualize how cryptography can be utilized for different organizations.
+	• Understand the underlying technologies that make cryptography possible
+	• 
+	• SHA256 (Secure Hash Algorithm).
+
+High-Level Cryptography MEMEORIZE THESE!!
+When data is encrypted, it is modified in such a way that it cannot be understood by anyone who does not have the correct key. If you have the correct key, you can decrypt the data, and it will once again become intelligible. 
+	• Cryptography: the practice and study of hiding information, or more accurately, hiding the meaning of the information.
+	• TERMS111
+	• Algorithm- A series of steps that can be repeated to obtain and expected result for example Mac n cheese has a recipe
+	• Encryption: the process of changing information using an algorithm (or cipher) into another form that is unreadable by others—unless they possess the key to that data. 
+	• Cipher: an algorithm that can perform encryption or decryption. A basic example would be to take the plaintext word "code" and encrypt it as a ciphertext using a specific algorithm. 
+	• Key: the essential piece of information that determines the output of a cipher. It is indispensable. Without it, there would be no result in cipher computation. The length of the key determines its strength, and keys can be either public or private.
+	• Caesar cipher and encoding keys
+	• ABCD Rotatoing or offseting the alphabet by three ABCD A forward three steps is actually D
+	• The key is knowing how many steps ahead  three steps ahead
+	DWWDFN Rotates by three  D back to C Back to B Back to A W = T W = T D = A F =C  N + K
+	Brut force attack Trying every possible combination possible without a key. 
+	
+Symmetric key algorithm: is a class of cipher that uses a single key, identical keys, or closely related keys for both encryption and decryption. The term symmetric key is also referred to as the following: a secret key, private key, single key, and shared key. Examples include DES, 3DES, RC, and AES. Can Encode and Decode with the same Key
+The key is whats symetrical Keep goes both ways. Key will unlick and lock the door. 
+
+
+The following are two types of symmetric key algorithms:
+
+	• A stream cipher is a type of algorithm that encrypts each binary digit in the data stream, one bit at a time.
+
+Source: Wikipedia
+	• A block cipher is a type of algorithm that encrypts a group of bits collectively as individual units known as blocks. For example, the Advanced Encryption Standard (AES) algorithm can use 128-bit or 256-bit block ciphers. Block ciphers can work in different modes including Electronic Codebook (ECB), Cipher Block Chaining (CBC), Cipher Feedback (CFB), Output Feedback (OFB), Galois/Counter Mode (GCM), and Counter (CTR). The modes define how a message is divided into blocks and encrypted. 
+	• Block Cipher- Breaks message into blocks and encrypts each block.
+	• Stream Cipher -Encrypts each bit as it comes, like a stream.
+	• SHA256 and Encoding Keys (Keys that Encode)
+	• SHA256 isa n encoding key SHA is the cipher and 256 is the number of bits or how long the key is is effectively having 256 1's and 0's 
+	• 115, 792, 089, 237, 316, 195, 423, 570, 985, 008, 687, 907, 853,269,984,665,640,564,039,457,584,007,913,129,639,936,combinations… Not in mu lifetime..
+	• What is a BIT? 1 on 2 off
+	• Exponential Growth? That's exponents 1^2
+	• 256 is the largest key combinations we have 
+	• Keys are a number of BITs
+	• SHA(Secure Hash Algorithm)256 
+	
+	
+
+Source: Wikipedia
+Asymmetric key algorithms use a pair of different keys to encrypt and decrypt data. The keys might be mathematically related, but they are not identical or even close to it in the way symmetric keys are. One key is used to encrypt data; the other, dissimilar key is used to decrypt the data.  
+Everybody has access to the public key buttinside your network you have a private key to decode it. 
+
+PKI - Public Key Infrastructure
+
+HASH - A mathematical procedure that converts a set amount of data into smaller block of data. Often in numeric format. How we store passwords inside databases. Passwords should be saved using hashes. Hashes can be hacked. Can be crypted but never decrypted. The way to protect our confidentially. 
+
+M5hashgenerator.com
+
+Birthday Attack - Trying to hit a specific hash with a different word. High likely hood that a group of people that two random people have the same birthday. The more possibilities Finding another works  that will give me the same hash or set of numbers 
+The larger the key the lower the chance of a birthday attack
+Salting adds extra characters to the input BEFORE hashing
+Random number set of characters to change the hash competley
+             SALT
+EX. Hi [abcde] hash = $8afcq
+    Jeff [abcde] hash = asdfji
+
+Salt
+A salt is a piece of random data added to a password before it is hashed and stored.
+Adding a salt to stored passwords is a security process used alongside the hashing of passwords before they are stored. A salt is automatically and randomly generated for this purpose, and since a user is not involved in this process the salt can be complex, compounding the complexity of the hashing process. The increased difficulty in such a scenario further protects passwords from being useful should a system be breached. Salting passwords can help a system defend against a pre-computed hash attack, which is also known as a rainbow table or predictive method of unhashing a password store.
+Example:
+“Hash attacks on servers where encrypted passwords are stored are mitigated by salting the hashed passwords. The additional number streams affixed to the hash values create increased complexity and difficulty, making these attacks mathematically infeasible — or at least shifting the ROI.”
+
+From <https://www.hypr.com/security-encyclopedia/salt> 
+
+
+
+Examples include PKI which is considered to be the most complicated. 
+
+
+From <https://login.codingdojo.com/m/550/13135/92279> 
+
+KEY Stretching - Weaving a smaller key multiple times to obfuscate the meaning
+
+
+
+
+
+
+
+1. 1. The algorithm used to perform encryption and decryption is known as what?
+
+Cipher
+2. 2. Which of the following describes when a system generates random public keys different for each session?
+
+Perfect Forward Secrecy
+3. 3. Using both a public and a private key for encryption and decryption is known as what?
+
+Asymmetric Encryption
+
+From <https://login.codingdojo.com/m/550/13135/96506> 
+
+
+
+
+
+
+
+
+
