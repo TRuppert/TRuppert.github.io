@@ -1,0 +1,404 @@
+
+
+Learning Objectives:
+	• Explain various authentication technologies and methods.
+	• Discuss LDAP and AD.
+	• Summarize Kerberos.
+
+Active Directory (AD) is a directory services implementation that provides all sorts of functionality like authentication, group and user management as well as policy administration. Microsoft's active directory service is by far the most commonly used. LDAP (Lightweight Directory Access Protocol) is an open and cross-platform protocol used for directory services authentication. LDAP provides the communication language that applications use to communicate with other directory services servers. In other words, it is a way of speaking to Active Directory.
+Hint
+The relationship between AD and LDAP is much like the relationship between Apache and HTTP:
+	• HTTP is a web protocol.
+	• Apache is a web server that uses the HTTP protocol.
+	• LDAP is a directory services protocol.
+	• Active Directory is a directory server that uses the LDAP protocol.
+There are two options for LDAP authentication in LDAP v3 – simple and SASL (Simple Authentication and Security Layer).
+There are three different ways to use LDAP for authentication. See which ones you think are a bad idea while reading them. 
+	• Anonymous authentication: Grants client anonymous status to LDAP.
+	• Unauthenticated authentication: For logging purposes only, should not grant access to a client.
+	• Name/Password authentication: Grants access to the server based on the credentials supplied – simple user/pass authentication is not secure and is not suitable for authentication without confidentiality protection.
+LDAP is utilized by using queries that are less than human-readable. You can think of these being somewhat relatable to SQL queries. Yes, LDAP injections are a thing!
+Kerberos
+Kerberos: This comes from Greek mythology and is a gigantic three had a dog that guards the gates of the underworld to prevent the dead from leaving. You should use the three heads of this dog in order to help you learn the inner workings of Kerberos because there are three main components that you have to know.
+The three main components of Kerberos are:
+Client: a user, a service of any software.
+Server: where the Kerberos protected resource/service is hosted
+Key Distribution Center (KDC): The trusted third-party authentication service
+Think of it like this before moving on, it is a client-server architecture where instead of the server authenticating. It is a third party doing the authentication. To demystify the KDC further it is two servers, one that doe initial authentication, and another that issues tickets. 
+
+
+
+
+
+
+How Kerberos Works!
+To learn more, watch this video (3m 19s). 
+TGT Ticket Granting Ticket
+Terminal Access Controller Access Control System (TACACS): is a security protocol that provides centralized validation for users who are attempting to gain access to a router or NAS. TACACS+, a more recent version of the original TACACS protocol, provides separate authentication, authorization, and accounting (AAA) services. TACACS+ provides security by encrypting all traffic between the NAS and the process. Encryption relies on a secret key that is known to both the client and the TACACS+ process.
+Password Authentication Protocol (PAP): is a method of authentication where a username and password are sent to a server and confirmed. This is outdated and should not be used because this communication is not encrypted. 
+Challenge-Handshake Authentication Protocol (CHAP): is an identity verification protocol that does not rely on sending a shared secret between the access-requesting party and the identity-verifying party (the authenticator). CHAP is based on a shared secret, but in order to authenticate, the authenticator sends a “challenge” message to the access-requesting party, which response with a value calculated using a “one-way hash” function that takes as inputs the challenge and the shared secret.
+CHAP uses a three-way handshake:
+	1. Link established (user sends username ONLY) and the server sends a challenge message
+	2. The client responds with a password hash calculated from the challenge and the password
+	3. The server compares the received hash with the stored hash
+
+SAML (Security Assertions Markup Language): is an open standard that allows security credentials to be shared by multiple computers across a network. SAML is an XML-based data format used for Single Sign On (SSO) on web browsers.
+SAML defines three roles:
+	1. Principal: This is normally a user. The user logs on once.
+	2. Identity provider: An identity provider creates, maintains, and manages identity information for principals. 
+	3. Service provider: A Service Provider (SP) is an entity that provides Web Services like Application Services, Storage Services, etc.  An SP provides services to principals.
+
+RADIUS: Remote Authentication Dial-In User Service (RADIUS) is a mechanism that allows authentication of remote and other network connections. Originally intended for use on dial-up connections. Radius enables a single server to become responsible for all remote-access authentication, authorization, and auditing (or accounting) services.
+NT NAL Manager (NTLM): this is a legacy authentication from Microsoft that has since been replaced by Kerberos. No MFA support is present and it uses the above-mentioned DES for encryption. 
+
+
+Open Authorization (OAuth): is a framework used for internet token-based authorization and uses an API for authentication between applications. This is considered a federation SSO service. SSL/TLS is used to prevent eavesdropping. OpenID & OpenID Connect: use OAuth 2.0 for consumer SSO. OpenID provides additional security, signing, and encryption of the identity data and session management. 
+
+From <https://login.codingdojo.com/m/550/13141/92296> 
+
+1. 1. Microsoft Active Directory uses which of the following protocol for authentication and communication?
+LDAP
+2. 2. Fill in the blanks: In Kerberos, after a client sends credentials to the Authentication Server A _ _ _ is sent back to the client to be presented to the Ticket Granting Server.
+
+TGT
+3. 3. Which of the following best describes the difference between an IDS and an IPS?
+
+An IDS detects unwanted traffic while an IPS prevents it.
+
+From <https://login.codingdojo.com/m/550/13141/96511> 
+
+
+
+Lecture part 2 form week 3 first lecture NEEDTO GO BACK AND WHATCH FIRST HOUR…
+
+OPEN vs. Proprietary
+Criteria 				Open				Proprietary
+Development			"Glacial" and Meandering		Usually rapid and focuses
+Support/maintenance			Spotty, if at all		Available during life of products
+Source code			Available		Controlled
+Cost 			Free		Usually expensive
+
+Security			Better since code is available		Up to vendor
+Interoperable			Yes		Possibly; vendor can change
+
+Examples				X.500, LDAP, LibreOffice, UNIX, 		TACACA+, Windows, Mac OS Active Directory
+				TCP?IP, RADIUS, Android,
+				 Kerberos, SAML, OAuth2
+						
+
+Authentication Services
+ X.500
+	Ambitious hierarchical directory standard/protocol
+	Difficult and impractical to implement OLD….
+	
+	LDAP - Lightweight Directory Access Protocol "OPENSOURCE"
+			Lightweight directory access protocol (LDAP) is a protocol that helps users find data about organizations, persons, and more. LDAP has two main goals: to store data in the LDAP directory and authenticate users to access the directory. It also provides the communication language that applications require to send and receive information from directory services. A directory service provides access to where information on organizations, individuals, and other data is located within a network.
+			The most common LDAP use case is providing a central location for accessing and managing directory services. LDAP enables organizations to store, manage, and secure information about the organization, its users, and assets–like usernames and passwords. This helps simplify storage access by providing a hierarchical structure of information, and it can be critical for corporations as they grow and acquire more user data and assets. 
+			LDAP also functions as an identity and access management (IAM) solution that targets user authentication, including support for Kerberos and single sign-on (SSO), Simple Authentication Security Layer (SASL), and Secure Sockets Layer (SSL).
+			
+			From <https://www.redhat.com/en/topics/security/what-is-ldap-authentication> 
+			
+			Practical, Versatile and Effective
+			Not so Lightweight anymore 
+			Still used today even though is was developed in the 70's
+			Is the standard
+			
+			LDAP Port 389 TCP, UDP Authentication 
+				Anonymous
+					No User No Pass   Basically for guest accounts
+					Safe if you limit what that account can do.
+					Yes User No Pass Basically a laptop with no password or thumb print
+					
+	ACTIVE DIRECTORY
+	
+	Proprietary Implementation of an open standard (LDAP)
+	There can be multiple implementations
+	Applications that follow protocol can interoperate
+	Basically for an inter office  to communicate on the same network. 
+	
+	What is Active Directory?
+	Objects (users, computers, groups)
+	Provides a single location to manage these objects via queries( question you ask a computer) 
+	Inter connects and its proprietary its going to maintain it and you have to pay for it pay windows
+					
+	Active Directory			Implementations
+	LDAP			AD, OpenLDAP, IBM Tivoli Directory Server
+	HTTP			Chrome, Firefox, Edge
+	TCP/IP			Internet, Local internet, LAN, WAN
+
+
+Actice Directory Authentication
+
+
+User app enters creential
+	Usernamd, passowrd, fingerprint
+Active Directory authenticated (using directory)
+		Sends a token pair
+Th eapp presents the token pair to the service
+	
+Kerberos (Guardian of the underworld) Developed by MIT 
+TICKET TGT
+	
+	Network Authentication Mechanism
+	Windows, apple os unix linux
+	Mutual Authinticaiton
+	TGT
+	Ticket
+	Protocol
+			Uiser Request
+			AS Iuuues "Ticket Granting Ticket" or TGT
+			TGS issues a service ticket
+			Users sends the ST to ser ver
+			Server grats access
+			Ususally good for 10 hours
+			
+Single Sign-On
+ 
+	SSO gives the user the ability to use one password to log on or access multiple systems
+	Actully makes more sucure because you have it only sitred in one place not in multiple servers. You remember your password not on  sticky note.
+	
+	Transitive Trusts
+		Creates an indirect trust relationship 
+		Edgar 
+		If multiple networks are in th esmae LDAP system then they use the one password 
+	
+	SAML (Security Assertion Markup Language) 
+	A system that manages all the systems that joined together and trust each other. Federated so there all trusted together
+	
+	XML Based standard(Readable by humans and machines)
+	Way of effectively tickets between one place to another
+	The way we get one system to talk to another system to say your cool
+	????? What is this
+	Federated- Different orgs that have similar interests can join together. EX. Farmers that join toghter to make the milk assocaion of America
+	
+	
+	oAuth
+	Open standard for authorizing users to have secure access to protected resources
+	Authentication service that’s free and OPEN SOURCE Google used to use oAuth
+	Google account can be used to log into Zoom because Google opens Zoom. 
+	You can jump around accounts. 
+	
+	SAML vs oAuth
+	 oAuth Lifecycle
+		Client(App) requests access form Resource Owner
+		Resource Owner grants request, issues toke
+		The client request token form authorization API
+		Authorization authenticated client, issues token to the client
+	SDAMLK Lifecyle
+		Client clicks login button
+		Website constructs SAML authentication request
+			Sign encrypts and sends it to identity provider
+			Website redirects  browser
+			Identity provider verifies SAML
+			Identity provider generates SAML toke which user as a identity and sends Ito the website
+			
+			
+			Reading for next time:
+			Policies and Procedures in Core secure Network Design 
+			
+			
+		Core Stack
+		Week 3 Day 1
+		
+		
+		Recap and Objectives
+			• Week 3 Assignments:
+				○ Packet Sniffing
+				○ Basic ACL
+			• Last Class:
+				○ OSI Model
+				○ Public Key Infrastructure (PKI)
+				○ PKI Certificate Authority
+				○ PKI Lifecycle
+		
+		Any questions from last time?
+			• This Class:
+				○ Identity Access Management (IAM)
+					§ I|AAA
+				○ Factors of Authentication
+				○ Open Source vs Proprietary
+				○ Authentication Services
+				○ Active Directory
+				○ Kerberos
+				○ SAML vs oAuth
+		
+		Identity and Access Management (IAM)
+			• I | AAA Recap
+				○ Identification - Who are you?
+					§ Usernames
+				○ Authentication - Are you who you say you are? Prove it!
+					§ What you know
+					§ Who you are
+					§ What you have
+					§ Where you are
+				○ Authorization - What are you allowed to do?
+					§ Permissions (“C” for our CIA triad)
+				○ Accounting - Record of what you’ve done
+					§ Papertrail of actions you’ve taken (“I” for our CIA triad)
+		
+		
+		
+		Factors of Authentication Part 1
+			• The Four Most common Factors
+				○ What you know
+				○ Who you are
+				○ What you have
+				○ Where you are
+			• Knowledge (What you know)
+				○ Security Questions
+				○ Passwords
+				○ Least secure form of authentication
+		
+		
+		Factors of Authentication Part 2
+			• Biometrics (Who you are)
+				○ Fingerprints
+				○ Retina Scanner
+				○ Voice Recognition
+			• Error Types
+				○ False Acceptance
+					§ Incorrectly identifies unauthorized user as an authorized user
+				○ False Rejection Rate
+					§  Incorrectly rejects an authorized user
+				○ Crossover Error Rate
+					§ Graph that defines a certain "sweet spot" of how you configure the sensitivity of biometric systems.
+
+		
+		Factors of Authentication Part 3
+			• Possession (What you have)
+				○ Tokens
+				○ HMAC One Time Password (HOTP)
+					§ Hash-based Message Authentication Code
+					§ Generates passwords/codes using HMAC that are valid until used. 
+				○ Time-based One Time Password (TOTP)
+					§ Valid until the clock hits a certain time, or until used (whichever happens first), then they’re invalid.
+				○ Smartcards
+			• Physical Location (Where you are)
+				○ Geolocation
+			• Dual Factor and Multifactor Authentication
+				○ Dual
+				○ Multi
+		
+		Factors of Authentication Part 3
+			• Possession (What you have)
+				○ Tokens
+				○ HMAC One Time Password (HOTP)
+					§ Hash-based Message Authentication Code
+					§ Generates passwords/codes using HMAC that are valid until used. 
+				○ Time-based One Time Password (TOTP)
+					§ Valid until the clock hits a certain time, or until used (whichever happens first), then they’re invalid.
+				○ Smartcards
+			• Physical Location (Where you are)
+				○ Geolocation
+			• Dual Factor and Multifactor Authentication
+				○ Dual
+				○ Multi
+		Discussion Questions
+		1. Many people have Google manage their passwords. Google not only remembers passwords but can generate cryptographically strong (although unrememberable) passwords.
+		What are the advantages and disadvantages of using Google to manage passwords?
+		2. Public Key Infrastructure (PKI) security is based on the computational difficulty of factoring very large numbers. If Quantum computing comes to exist, it might make such factoring very practical (accessible by normal means).
+		What would be the consequences of such an event and what could we do to remedy it?
+		* You can quickly google what quantum computing is, if you’re not
+		familiar with it
+		
+		Open vs. Proprietary
+		
+
+		
+		
+		Authentication Services
+			• X.500
+				○ Ambitious hierarchical directory standard/protocol
+				○ Difficult and impractical to implement
+			• LDAP - Lightweight Directory Access Protocol
+				○ Practical, Versatile and Effective
+				○ Not so lightweight anymore
+				○ Is the standard
+			• LDAP Authentication
+				○ Anonymous
+					§ No User No Pass
+				○ Unauthenticated
+					§ Yes User No Pass
+				○ Authenticated
+					§ Yes User Yes Pass
+		
+		Active Directory
+			• Proprietary Implementation of an open standard (LDAP)
+			• There can be multiple implementations
+			• Applications that follow protocol can interoperate
+			What is Active Directory
+			• Objects (users, computers, groups)
+			• Provides a single location to manage these objects via queries
+			Protocol / Implementation broken down
+
+		Active Directory Authentication
+			• User application enters credentials
+				○ Username, password/fingerprint
+			• Active Directory authenticates (using the directory)
+				○ Sends a token pair
+			• The application presents the token pair to the service.
+
+		
+		Kerberos
+			• Network Authentication Mechanism
+			• Developed by MIT
+			• Windows, Apple OS, Unix, Linux
+			• Mutual Authentication 
+			• Protocol
+				○ User Request
+				○ AS issues “ticket granting ticket” or TGT
+				○ TGS issues a service ticket
+				○ User sends the ST to server
+				○ Server grants access
+				○ Usually good for 10 hours.
+		
+		Single Sign-On
+			• SSO gives the user the ability to log on or access multiple systems
+			• Increases security
+		Transitive Trusts
+			• Creates an indirect trust relationship
+			• Edgar -> CJ -> Matthew -> Kate
+			• Through transitive trust I trust Kate
+		SAML (Security Assertion Markup Language)
+			• XML Based Standard
+			• Federated
+		oAuth
+			• Open standard for authorizing users to have secure access to protected resources.
+			• Google account can be used to login to zoom.
+		
+		SAML vs oAuth
+			• oAuth Lifecycle
+				○ Client (application) requests access from the Resource Owner
+				○ Resource Owner grants request, issues token
+				○ The client requests access token from authorization API
+				○ Authorization authenticates client, issues access token to the client.
+			• SAML Lifecycle
+				○ Client clicks login button
+				○ Website constructs SAML authentication request
+					§  Signs, encrypts and sends it to identity Provider
+				○ Website redirects browser
+				○ Identity provider verifies SAML
+				○ Identity provider generates SAML token which user uses as an identity and sends it to the website. 
+		
+		
+		Week 3 Day 1 Finished!
+		Reading for Next time:
+		
+		Through ‘Policies & Procedures’
+		in Core 2 Secure Network Design
+		Hope I didn’t scare you!
+    
+    
+    
+    
+    
+    
+    
+    		
+		Packet Sniffing (Core)
+		
+		Learning Objectives:
+			• Analyze network packets using Wireshark.
+			• Identify network scans from a network capture.
+
+    
