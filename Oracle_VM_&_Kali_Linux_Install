@@ -1,0 +1,354 @@
+Getting Started
+
+Learning Objectives:
+	• Describe the value of taking notes during boot camp.
+
+
+Effective Note-Taking in Bootcamp
+Throughout the boot camp, you will be exposed to many new topics and concepts. The pace of the presentations is quick and the labs are very detailed. At times, it could feel overwhelming to try and retain all the essential information presented in class and covered in the labs. Your ability to take detailed notes will aid in your success during the boot camp, as well as give you reference material and examples as you progress in the boot camp and continue into the professional world.
+In-class
+Effective note-taking serves to increase understanding of reading material while improving retention. Detailed notes during the live presentations allow you to put the concepts into your own words. Having a system that works for you is important to ensure this task feels manageable during a fast-paced presentation.
+Keep in mind, all presentations will be recorded and slides will be available. You have the opportunity to refer back to these recordings for any material missed and to revisit any difficult concepts. The material presented during class is intended to supplement the reading material and further increase understanding of overall Cybersecurity concepts.
+During Assignments
+Assignments during the boot camp are detailed and very involved. They are aimed at giving you applicable real-world experience while remaining safe within your own Virtual Environment. Keeping track of commands being run and steps taken provides an excellent way to track assignment completion and offers a resource to refer back to. A synopsis of the tasks those commands are accomplishing will go a long way toward your understanding. Many tasks such as directory traversal or basic nmap scans will be utilized in many assignments. It’s advantageous to take detailed notes as these will help throughout the boot camp.
+Screenshots
+Frequently we find that taking screenshots and adding descriptions increases students' overall understanding. Take screenshots often and provide them with some context. Not only will you be submitting screenshots in assignments, but screenshots will also increase the effectiveness of note-taking. You will be able to refer back to see actions performed and their outputs. This will be another excellent resource during future assignments.
+
+From <https://login.codingdojo.com/m/550/14681/106863> 
+
+
+
+VM Setup
+
+Learning Objectives:
+	• Complete VM setup.
+
+
+Key Point:  Please follow the below instructions for VM setup, as they will be utilized in all future labs.
+
+Enabling Virtualization
+In order to run VirtualBox in this course, your computer must have virtualization enabled. Some computers come pre-configured with this option enabled, while others don’t. If your computer does not have virtualization enabled by default, please find your manufacturer below and follow the included instructions. For additional information, or if your computer is not listed below, use www.google.com and search “How to enable virtualization“ followed by the manufacturer of your computer. If you run into trouble or are unsure how to proceed, please ask a member of the instructional staff for assistance.
+Some examples of operating systems and virtualization settings:
+
+
+
+
+
+
+
+Dell-
+	1. Turn ON the System.
+	2. Press F2 key at startup BIOS Setup.
+	3. Press the right arrow key to Advanced tab, Select Virtualization and then press the Enter key.
+	4. Select Enabled and press the Enter key.
+	5. Press the F10 key and select Yes and press the Enter key to save changes and Reboot into Windows.
+HP and Acer-
+	1. Turn ON the System
+	2. Press F2 key at startup BIOS Setup. 
+	3. Press the right arrow key to System Configuration tab, Select Virtualization Technology and then press the Enter key. 
+	4. Select Enabled and press the Enter key. 
+	5. Press the F10 key and select Yes and press the Enter key to save changes and Reboot into Windows
+Asus-
+	1. Turn ON the System
+	2. Press 'Del' or 'F2' in the keyboard after power on, then press 'F7' to enter into Advanced Mode(ROG series motherboard can directly enter into Advanced Mode, no need to press 'F7')
+	3. Click [Advanced] - [CPU Configuration]
+	4. Please set [SVM Mode] as [Enabled]
+
+
+Virtualization and the M1 Chip
+Without a doubt, Apple makes terrific computers. Unfortunately, one of their chipsets does not support multi-incidences of virtualization. This means that Apple computers that use the M1 chip will not allow you create a virtual sandbox: hosting the real operating system, a Kali VM, and a target VM simultaneously. This is a very common configuration that is required for your labs. An inability to complete your labs severely limits your experiential understanding of the course material, and will likely prevent you from passing the course.
+Here some workarounds and possible solutions: 
+Solution 1
+For a few months, borrow or trade with someone for their computer that must be virtualization-ready, Windows- or Linux-based, and has at least 32GB RAM and 1TB of Storage. 
+Solution 2 
+Purchase a new virtualization-ready, Windows- or Linux-based computer with at least 32GB RAM and 1TB of Storage. This is not the cheapest option but having the right tools for your job is very important. Imagine hiring a plumber that needed to borrow your wrench to do their job. 
+
+Solution 3
+Cloud computing. For quite literally pennies per hour, you can deploy and administer a cloud space at AWS, Azure or similar service. Microsoft’s Azure offers 200 hours (or 30 days) of free trial time. That, coupled with a few hundred dollars (less than the cost of MS Office 365) can provide you with the necessary RAM, processing and storage for a few months. It also is an outstanding opportunity to learn about cloud computing, add bullet line to your resume, and create a great talking point in your interviews. 
+Solution 4
+Find, recycle or borrow a few “lesser” computers (Each with at least 8GB RAM) with wireless NICs and make a physical sandbox. You can install the OSs locally or use live USB OSs. Connect your real sandbox together wirelessly to a dedicated wireless access point (WAP) which is NOT connected to your real network. This means to isolate (actually unplug) the network cable from your WAP to your switch/router. The wireless piece is important because of the hub infrastructure nature of it. A real cabled switch forwards and filters traffic based on MAC addresses (MAC not Mac). That can cause problems later in the course. 
+VERY IMPORTANT: If you choose this solution, it is up to you to always contain (unplug) your sandbox, so traffic DOES NOT leak out of your home network and onto your ISP’s network. If it does, that is called hacking. It is illegal and your ISP will take it, and your actions, very seriously. The tools we use are the industry’s very best and they are dangerous. In some cases, even law enforcement gets involved. This really happens. Avoid that! Arrest records are most definitely not career enhancing. 
+
+
+Something about VirtualBox:
+Like all top-tier IT companies, Oracle releases frequent updates to VirtualBox. This is, in fact, a cybersecurity best practice. However, if you update your VirtualBox hypervisor local application, you will lose ALL of your VMs and progress on each. Then you will need to rebuild your virtual sandbox from scratch, a rather time-consuming and tedious process. To avoid this, students will choose the VirtualBox app that works best for them and then simply ignore the frequent update reminders. They will then stick with that one installation of VirtualBox for the duration of this Bootcamp. 
+A thought: If you must maintain an updated VirtualBox installation, and you have enough storage, you can save yourself and your network connection some effort by storing your VM files locally as you download and collect them throughout the Bootcamp. 
+
+From <https://login.codingdojo.com/m/550/14681/92269> 
+
+Installing VirtualBox (Mac)
+
+Learning Objectives:
+	• Complete VirtualBox setup for Macintosh.
+
+Note that video demonstrations of these instructions follow directly after the text instructions.
+Installing VirtualBox (For Mac)
+1) Go to the VirtualBox website by clicking here. This is the website from which you'll download the VirtualBox setup file.
+2.) Click macOS/Intel hosts link. The VirtualBox dmg file will begin downloading onto your computer.
+
+
+3) Open the VirtualBox dmg file. Go to the location to which the dmg file was downloaded and double-click the file. Doing so will open the VirtualBox installation window.
+
+4) Double click on the VirtualBox.dmg file:
+
+Navigate through the installation prompts. Do the following:
+		○ Click Continue on the first three pages.
+		○ Click Yes when prompted.
+		○ Click Install
+		○ Click Yes when prompted.
+5) Click Close (in the lower right corner of the window) when prompted to close the installation window.
+
+6) Launch VirtualBox from Finder -> Applications -> VirtualBox
+
+Installing Oracle VM VirtualBox Extension Pack
+In order for Kali Linux to run in VirtualBox, it is necessary to install the Oracle VM VirtualBox Extension Pack.
+1) Revisit the VirtualBox Downloads website by clicking here. This is the website from which you'll download the VirtualBox Extension Pack. Scroll down the website until you see Oracle VM Virtual Extension Pack.
+
+2) After the extension pack has been downloaded, open the file and click “Install”.
+
+
+
+3.)
+Agree to the License Agreement by clicking “I Agree”. Next click “Yes”.
+
+Installing Kali Linux in VirtualBox
+1.) Download Kali Linux
+Operating Systems that were specifically made to be loaded onto VirtualBox can come in many different file extensions. The "image" of Kali Linux that we're going to be using for this course was specifically crafted for VirtualBox and has the .vbox file extension.
+Navigate to  https://www.kali.org/get-kali/ and click on Virtual Machines
+
+Download the file for VirtualBox
+
+
+The virtual machine that we are going to be loading onto VirtualBox comes downloaded with a .7z extension. 7-Zip is a widely used program for compressing files, however to Macintosh computers there are better options to uncompressing the file. To extract the file we will be using The Unarchiver.
+Go to  https://theunarchiver.com/ and download the installation file.
+After the download is complete, install The Unarchiver.
+After installing The Unarchiver, navigate to where you saved the Kali Linux file.
+2.) Verifying the File Integrity of a Downloaded Kali Linux Virtual Image File
+After the Kali Linux Virtual Image has been downloaded to your computer, it is important to verify file integrity. Since files can possibly be modified during transit, it is important to verify that the published SHA256Sum hash value of the file made by the developer, Offensive-Security, and the SHA256Sum hash value of the downloaded file on your computer match.
+In short, SHA256Sum is a way to verify that files have not been tampered with. It is a cryptographic algorithm that tries to make unique “fingerprints” of files. These “fingerprints” are expressed as hash values. The hash value is generated as an output of an cryptographic algorithm that can be compared to verify if a file has been changed from its origin to its destination.
+The following steps are to be followed in order to verify the integrity of the Kali Linux Virtual Image downloaded onto your computer.
+	1. Open a command prompt on your Macintosh computer by pressing the
+	
+	Command and spacebar buttons on your keyboard. A “Spotlight Search” window will appear as shown below.
+	
+	2. Type ‘terminal’ in the text field and press ‘Enter’.
+	
+	3. A command prompt will appear that looks similar to the following:
+	
+	4. In the command prompt, we will be using a built-in Certificate Utility tool in Macintosh to verify the SHA256 checksum. The following is a container example of the command used to verify the SHA256 checksum hash:
+“shasum -a 256 *TheNameOfTheKali7z*”
+For example, if the image file is located in a user’s Downloads folder for a 32 bit machine, I would use the following command:
+“cd Downloads”
+“shasum -a 256 *TheNameOfTheKali7z*”
+	1. After the algorithm has completed, the hash output should look something like this:
+	
+	2. Next we will want to compare the hash value generated by the local computer and the hash value published on Kali's Download Page. Click on the "sum" link.
+	
+	3. Notice how each SHA256Sum hash matches one another. You have now verified the file integrity of the Kali Linux Virtual Image file. The file has likely not been tampered with during the download and should be safe to use.
+	4. You may now close the Terminal prompt.
+3.) Import Kali Linux Appliance
+Now we’re going to import the Kali Linux image into VirtualBox. Let’s extract the file. Command click on the .7z file and click unzip. This will make a folder with 2 files. A .vdi and a .vbox file.
+
+
+
+
+Double Click on the .vbox extension file.
+That's It! VirtualBox will now open and your Kali machine is ready to use!
+
+Launching Kali Linux in VirtualBox
+	1. After the Kali Linux appliance has been imported, click on the green “Start” arrow to launch Kali Linux.
+
+2. Wait for Kali Linux to fully launch.
+
+Login Credentials for Kali Linux
+To log into Kali Linux for the first time, you will need to use the following default login credentials:
+Username: kali
+Password: kali
+
+Kali Linux Desktop
+After successfully logging into Kali Linux, you will see a Kali Linux Desktop similar to the one below:
+
+Update Kali Linux Operating System
+After successfully getting to the Kali Linux desktop, click the black box in the top bar (terminal) and enter the following command: “sudo apt-get update”
+Enter the password of “kali” when prompted:
+
+Upgrade Kali Linux Operating System
+After updating the system, type in the following command: “sudo apt-get upgrade”
+
+When prompted, enter “Y” to confirm the installation.
+
+If you receive an alert for a GRUB Boot loader, please just press “Enter”.
+
+
+
+Use the arrow keys to move your selection to “Yes” and press “Enter”.
+
+You have successfully installed Kali Linux in VirtualBox.
+
+
+
+
+
+From <https://login.codingdojo.com/m/550/14681/92272> 
+
+
+Installing VirtualBox (Windows)
+
+Learning Objectives:
+	• Complete VirtualBox setup for Windows.
+
+Note that video demonstrations of these instructions follow directly after the text instructions.
+Installing VirtualBox (For Windows)
+1.) Go to the VirtualBox website by clicking here. This is the website from which you'll download the VirtualBox setup file.
+2.) Click Windows hosts. You'll see this link below the "VirtualBox 6.1.xx platform packages" heading. The VirtualBox EXE file will begin downloading onto your computer.
+
+3.) Open the VirtualBox EXE file. Go to the location to which the EXE file downloaded and double-click the file. Doing so will open the VirtualBox installation window.
+
+5.) Navigate through the installation prompts. Do the following:
+		○ Click Next on the first three pages.
+		○ Click Yes when prompted.
+		○ Click Install
+		○ Click Yes when prompted.
+6.) Click Install when prompted. Doing so will allow VirtualBox to begin installing on your computer.
+
+7.) Click Finish (in the lower right side of the window) when prompted. Doing so will close the installation window and open VirtualBox.
+Installing Oracle VM VirtualBox Extension Pack
+In order for Kali Linux to run in VirtualBox, it is necessary to install the Oracle VM VirtualBox Extension Pack.
+1.) Re-visit the VirtualBox Downloads website by clicking here. You will download the VirtualBox Extension Pack from the same website. Scroll down the website until you see Oracle VM Virtual Extension Pack.
+
+2.) After the extension pack has been downloaded, open the file and click “Install”.
+
+3.) Agree to the License Agreement by clicking “I Agree”. Next click “Yes”.
+
+Installing Kali Linux in VirtualBox
+1.) Download Kali Linux
+Operating Systems that were specifically made to be loaded onto VirtualBox can come in many different file extensions. The "image" of Kali Linux that we're going to be using for this course was specifically crafted for VirtualBox and has the .vbox file extension.
+Navigate to  https://www.kali.org/get-kali/ and click on Virtual Machines
+
+Download the file for VirtualBox
+
+
+The virtual machine that we are going to be loading onto VirtualBox comes downloaded with a .7z extension. 7-Zip is a widely used program for compressing files. To extract the file we will be using 7-Zip.
+Go to  https://www.7-zip.org/download.html and download the .exe for 64-Bit windows.
+
+After the download is complete, install 7-Zip.
+After installing 7-Zip, navigate to where you saved the Kali Linux file.
+2.) Verifying the File Integrity of a Downloaded Kali Linux Virtual Image File
+After the Kali Linux Virtual Image has been downloaded to your computer, it is important to verify file integrity. Since files can possibly be modified during transit, it is important to verify that the published SHA256Sum hash value of the file made by the developer, Offensive-Security, and the SHA256Sum hash value of the downloaded file on your computer match.
+In short, SHA256Sum is a way to verify that files have not been tampered with. It is a cryptographic algorithm that tries to make unique “fingerprints” of files. These “fingerprints” are expressed as hash values. The hash value is generated as an output of and cryptographic algorithm that can be compared to verify if a file has been changed from its origin to its destination.
+The following steps are to be followed in order to verify the integrity of the Kali Linux Virtual Image downloaded onto your computer.
+	1. Right click on the Kali Linux .7z file. Select 7-Zip -> CRC SHA -> SHA-256
+
+
+  2. 7-Zip is going to calculate the hash. Meanwhile, navigate back to the Kali Downloads page, and instead of hitting the download button on VirtualBox, click on the sum link.
+ 3. Notice how each SHA256Sum hash matches one another. You have now verified the file integrity of the Kali Linux Virtual Image file. The file has not been tampered with during the download and should be safe to use.
+
+Import Kali Linux Appliance
+ Now we’re going to import the Kali Linux image into VirtualBox. Let’s extract the file. Right click, select 7-Zip -> Extract here. This will make a folder with 2 files. A .vdi and a .vbox file.  
+
+
+
+
+Double Click on the .vbox extension file.
+That's It! VirtualBox will now open and your Kali machine is ready to use!
+
+Launching Kali Linux in VirtualBox
+After the Kali Linux appliance has been imported, click on the green “Start” arrow to launch Kali Linux.
+
+Wait for Kali Linux to fully launch.
+
+Login Credentials for Kali Linux
+To log into Kali Linux for the first time, you will need to use the following default login credentials:
+Username: kali
+Password: kali
+
+
+Kali Linux Desktop
+After successfully logging into Kali Linux, you will see a Kali Linux Desktop similar to the one below:
+
+
+You have successfully installed Kali Linux in VirtualBox.
+After successfully getting to the Kali Linux desktop, click the black box in the top bar (terminal) and enter the following command: “sudo apt-get update”
+Enter the password of “kali” when prompted:
+
+Upgrade Kali Linux Operating System
+After updating the system, type in the following command: “sudo apt-get upgrade”.
+
+When prompted, enter “Y” to confirm the installation.
+
+If you receive an alert for a GRUB Boot loader, please just press “Enter”.
+
+Use the arrow keys to move your selection to “Yes” and press “Enter”.
+
+You have successfully installed Kali Linux in VirtualBox.
+
+
+
+
+PreviousNext
+Privacy Policy
+
+From <https://login.codingdojo.com/m/550/14681/92271> 
+
+Network Settings Instructions
+
+Learning Objectives:
+	• Enable virtual machines on the same network.
+
+
+External Video
+
+Instructions
+Hello,
+
+installed latest virtualbox on windows 2022 today.
+there is no network tab in general preferences.
+reboot/reinstall of virtualbox doesn't help.
+
+shall i downgrade to 6.x?
+adnan22
+ 
+Posts: 1
+Joined: 28. Oct 2022, 17:05
+
+From <https://forums.virtualbox.org/viewtopic.php?f=1&t=107610> 
+
+
+by scottgus1 » 29. Oct 2022, 03:16
+That's been moved to File > Tools > Network Manager.
+
+From <https://forums.virtualbox.org/viewtopic.php?f=1&t=107610> 
+
+
+
+
+
+	1. Click 'File' -> 'Preferences' -> 'Network'.
+	2. Click the green plus on the right-hand side of the screen, to create a new network.
+	3. Rename this network to 'Coding Dojo'.
+	4. Click 'Ok'.
+
+From <https://login.codingdojo.com/m/550/14681/92273> 
+
+Final Setup Step
+
+Learning Objectives:
+	• Create a mirror of the virtual machine.
+
+Final Step
+Once you have your system installed and updated, shut it down and proceed to create a mirror of the VM. The best way to do this is to create a clone of the machine by simply right-clicking the VM and clicking 'Clone'.
+
+Change the MAC address police to "Include all network adapter MAC addresses"
+
+Click 'next' and make a 'Full Clone' of the machine.  Once the progress bar stops, you should see both the original machine and the cloned machine.  
+
+You will do ALL of the following activities from the cloned machine and the original will simply serve as a 'clean backup' in case something goes wrong and you need to reinstall.
+
+
+
+
+
+From <https://login.codingdojo.com/m/550/14681/96470> 
+
+
+
