@@ -1,0 +1,903 @@
+
+Notes from lecture will now be added into these core notes from the actual course
+
+
+
+
+Housekeeping
+Quizzes in Core (and Intermediate)
+Quizzes and ecns weeks 2, 4, asnd 6
+Quiz and Belt exams are open note (Cert in Not open Note)
+Quiz on platform NOT graded
+T receive credit, submit screenshot of first questions of first question with result
+The quiz is just ontoer assignment , don’t skop it
+1st official 
+ 
+
+Routers
+
+Used to connect two or more networks to form an inter network
+"they connect"
+Router gets used from my computer to coding dojo and finds the best route.
+Router is what lets things form the outside reach the inside of your network. "The gatekeeper" 
+NAT(Network Address Translation) Changes public IP to Private IP
+Public and Private Addresses
+Internet protocol(set of rules) Denotes the location of that device. Router will assign IP addresses to devices within its network. 
+Public IP addresses and 127.1.10. Each of these numbers is and octet. IP addresses inside the network
+Private addresses IP addresses outside the network
+IP4 four octets
+IP6 has six hexadecimal pairs
+
+Bridges- 
+
+Switches- A device that channels incoming data from any of multiple input ports to the specific output(router) port that will take the data toward its intended destination. Switch is a combination of the two: Hubs and Bridges
+You will always need a router but a switch is optional. 
+EX. Outside internet to Router to the switch that physically attaches wires Ethernet cable to all the computers. 
+Switch provides another layer of protection. You can break into 
+ 
+MAC Media Access Control The ID for the machine. Like its own identification number for the machine.
+EX. AA:BB:CC:00:00:00
+Every machine that communicates with the internet has a Network Interface card. MAC addresses is burned into the NIC 
+
+-10 number starts with 0 0123456789 = 123456789 10 When we count over ten Ten is 01 eleven is 02 13 is 03
+-Hexadecimal numbers 0-9(10)  0-9, A0F (16)
+ AA:BB:CC:00:00:00
+0-9(10)  0-9, A0F (16)
+Tommy computer Co for the first AA;BB:CC 3 pairs of hexadecimal number
+Second half is who manufactured it
+
+MAC Flooding- The attempt to overwhelm the limited switch memory set aside to store the MAC addresses fort these ports
+
+MAC Spoofing- Occurs when an attacker masks their own MAC addresses and pretends to be another machine on the network.  Ex to stop threat actor three plugs for three cords.
+Put switch
+ 
+Group discussion
+
+	1. How should controls be seleceted and calibrated?
+
+Wha ttype of control is a password?
+Technical  is the answer Preventative and Comensating?
+Prventaive
+	3. Whay are embedded systems a vulbnerability?
+	4. Like bluet tooth lights, printer,  they provide a chance to gain accesss to confidential information. 
+
+** Notes from lecture will now be added into these core notes from the actual course **
+
+
+
+
+
+
+
+Housekeeping
+Quizzes in Core (and Intermediate)
+Quizzes and ecns weeks 2, 4, asnd 6
+Quiz and Belt exams are open note (Cert in Not open Note)
+Quiz on platform NOT graded
+T receive credit, submit screenshot of first questions of first question with result
+The quiz is just ontoer assignment , don’t skop it
+1st official 
+ 
+
+Routers
+
+Used to connect two or more networks to form an inter network
+"they connect"
+Router gets used from my computer to coding dojo and finds the best route.
+Router is what lets things form the outside reach the inside of your network. "The gatekeeper" 
+NAT(Network Address Translation) Changes public IP to Private IP
+Public and Private Addresses
+Internet protocol(set of rules) Denotes the location of that device. Router will assign IP addresses to devices within its network. 
+Public IP addresses and 127.1.10. Each of these numbers is and octet. IP addresses inside the network
+Private addresses IP addresses outside the network
+IP4 four octets
+IP6 has six hexadecimal pairs
+
+Bridges- 
+
+Switches- A device that channels incoming data from any of multiple input ports to the specific output(router) port that will take the data toward its intended destination. Switch is a combination of the two: Hubs and Bridges
+You will always need a router but a switch is optional. 
+EX. Outside internet to Router to the switch that physically attaches wires Ethernet cable to all the computers. 
+Switch provides another layer of protection. You can break into 
+ 
+MAC Media Access Control The ID for the machine. Like its own identification number for the machine.
+EX. AA:BB:CC:00:00:00
+Every machine that communicates with the internet has a Network Interface card. MAC addresses is burned into the NIC 
+
+-10 number starts with 0 0123456789 = 123456789 10 When we count over ten Ten is 01 eleven is 02 13 is 03
+-Hexadecimal numbers 0-9(10)  0-9, A0F (16)
+ AA:BB:CC:00:00:00
+0-9(10)  0-9, A0F (16)
+Tommy computer Co for the first AA;BB:CC 3 pairs of hexadecimal number
+Second half is who manufactured it
+
+MAC Flooding- The attempt to overwhelm the limited switch memory set aside to store the MAC addresses fort these ports
+
+MAC Spoofing- Occurs when an attacker masks their own MAC addresses and pretends to be another machine on the network.  Ex to stop threat actor three plugs for three cords.
+Put switch
+ 
+Group discussion
+
+	1. How should controls be seleceted and calibrated?
+
+Wha ttype of control is a password?
+Technical  is the answer Preventative and Comensating?
+Prventaive
+	3. Whay are embedded systems a vulbnerability?
+	4. Like bluet tooth lights, printer,  they provide a chance to gain accesss to confidential information. 
+
+** Notes from lecture will now be added into these core notes from the actual course
+
+
+
+
+** Notes from lecture will now be added into these core notes from the actual course
+
+Social Engineering Attacks
+
+Learning Objectives:
+	• Identify the different types of attacks.
+	• Develop a plan to protect the environment from cyber attacks.
+
+Social Engineering
+Social Engineering is the act of manipulating users into revealing confidential information or performing other actions detrimental to the user. For example, a person asking for your username and password over the phone. Malicious people use various forms of social engineering in an attempt to steal whatever you have of value: your money, information, identity, confidential company data, or IT equipment. Social engineering experts use techniques and principles such as the following:
+	• Authority
+	• Intimidation
+	• Bold impersonation
+	• Urgency, scarcity, and even emergency
+	• The grooming of trust/familiarity/liking
+	• Persistence and patience
+	• Relating to the user: using company jargon, consensus/popular decision, and social facts and proof
+	• Embedding of questions within conversations
+Social Engineering Demo
+Malicious Insider
+The malicious insider is one of the most insidious threats. Instead of impersonating personnel as is done in pretexting, the person actually becomes personnel! This could also be rogue devices or malware inside of an organization.
+Phishing
+Phishing is the attempt at fraudulently obtaining private information. A phisher usually masquerades as someone else, perhaps another entity. An example of phishing would be an e-mail that requests the verification of private information. The e-mail probably leads to a malicious website designed to lure people into a false sense of security to fraudulently obtain information. 
+Spear phishing means an attacker targets specific people and Whaling means targeting senior executives (CEOs, CFOs, etc.). Whaling attacks are much more detailed and require that the attacker knows a good deal of information about the target (much of which is freely available on the Internet). Phone phishing, known as vishing, works in the same manner as phishing but is initiated by a phone call (often using VoIP systems). 
+
+Popular Social Engineering Techniques
+
+Shoulder surfing is when a person uses direct observation to find out a target's password, PIN, or other such authentication information. The simple resolution for this is for the user to shield the screen, keypad, or other authentication-requesting devices. Eavesdropping is when a person uses direct observation to "listen" to a conversation. Soundproof rooms are often employed to stop eavesdropping, and encrypted phone sessions can also be implemented.
+Dumpster diving is when a person literally scavenges for private information in garbage and recycling containers. 
+Baiting is when a malicious individual leaves malware-infected removable media such as a USB drive or optical disc lying around in the plain view. Piggybacking is when an unauthorized person tags along with an authorized person to gain entry to a restricted area—usually with the person's consent. Tailgating is essentially the same with one difference: it is usually without the authorized person's consent. Both of these can be defeated through the use of mantraps. A mantrap is a small space that can usually only fit one person. It has two sets of interlocking doors; the first set must be closed before the other will open, creating a sort of waiting room where people are identified. 
+Watering hole is a strategy that targets users based on the common websites that they frequent. The attacker loads malware beforehand on one or more websites in the hopes that the user(s) will access those sites and activate the malware, ultimately infecting the user's system and possibly spreading through the network. 
+
+Group Discussion
+Which of the social engineering attacks do you feel are the most dangerous to a person or organization?
+
+From <https://login.codingdojo.com/m/550/13137/92285> 
+
+
+DoS & DDoS
+
+Learning Objectives:
+	• Compare and contrast various denial of service attacks.
+	• Apply appropriate security controls for each type of denial of service attack.
+
+
+DoS Attack: (Denial of Service) is an attack meant to shut down a machine or network, making it inaccessible to its intended users. This is usually done by flooding a target with enough traffic to the point that it can no longer process requests. There are software applications that can perform this sort of attack automatically for example HULK. 
+There are several types of DoS attacks that you are required to know and are listed below.
+ICMP Internet Control Message Protocol
+
+
+DDoS (distributed denial-of-service) attack is when a group of compromised systems attacks a single target, causing a DoS to occur at that host. A DDoS attack often utilizes a botnet.
+DNS amplification attacks generate a high volume of packets ultimately intended to flood a target website. In the case of a DNS amplification attack, the attacker initiates DNS requests with a spoofed source IP address. The attacker relies on reflection; responses are not sent back to the attacker, but are instead sent "back" to the victim server. Because the DNS response is larger than the DNS request (usually), it amplifies the amount of data being passed to the victim. An attacker can use a small number of systems with little bandwidth to create a sizable attack. 
+Sinkholes and Blackholes
+
+To combat DoS & DDoS attacks, security admins have the option to employ or make use of sinkholes, black holes, and black holes. 
+A DNS sinkhole/blackhole is a DNS server that can be configured to hand out false information to bots and can detect and block malicious traffic by redirecting it to non-routable addresses. However, the sinkhole can also be used maliciously to redirect unwary users to unwanted IP addresses and domains. A DNS blackhole list (DNSBL) is a published list of IP addresses within DNS that contains the addresses of computers and networks involved in spamming and other malicious activity such as DDoS attacks initiated by botnets. The list can be downloaded and used on an organization's DNS server to help block zombie computers and botnets.
+Spoofing is when an attacker masquerades as another person by falsifying information. 
+
+From <https://login.codingdojo.com/m/550/13137/95894> 
+
+1. 1. Using intimidation, impersonation and a sense of urgency to get someone to reveal confidential information is known as which of the following:
+
+Social Engineering
+2. 2. Which of the following BEST describes an attack in which a group of compromised systems attack a single target to cause a denial of service of some kind?
+DDoS
+3. 3. If you wanted to get a published list of IP addresses involved in spamming or malicious activity which of the following would you look at?
+
+DNSBL
+
+From <https://login.codingdojo.com/m/550/13137/96507> 
+
+
+Network Attacks
+
+Learning Objectives:
+	• List network attacks.
+	• Implement the appropriate security control for a given network attack.
+
+Web-Based Network Attacks
+Session hijacking is the exploitation of a computer session in an attempt to gain unauthorized access to data, services, or other resources on a computer. A few types of session hijacks can occur. Pharming is when an attacker redirects one website's traffic to another website that is bogus and possibly malicious. 
+Session theft can be accomplished by using packet header manipulation or stealing a cookie from the client's computer, which authenticates the client's computer to a server. This can be combated by using encryption and long random numbers for the session key, and regeneration of the session after a successful login. TCP/IP hijacking is when an attacker takes over a TCP session between two computers without the need for a cookie or any other type of host access. 
+Clickjacking describes when a user browsing the web is tricked into clicking something different than what the user thought he or she was clicking. It is usually implemented as a concealed link—embedded code or a script on a website that executes when the user clicks that element.  Man-in-the-middle (MITM) attacks intercept all data between a client and a server. It is a type of active interception. If successful, all communications now go through the MITM attacking computer. Cryptographic protocols such as Secure Sockets Layer (SSL) and Transport Layer Security (TLS) address MITM attacks by using a mutually trusted third-party certification authority (CA).
+Man-in-the-browser (MITB) attack makes use of a Trojan (from a proxy location) that infects a vulnerable web browser and modifies web pages and online transactions, in an attempt to ultimately steal money or data. 
+
+
+Classic Network Attacks
+A Replay attack is a network attack in which valid data transmission is maliciously or fraudulently repeated or delayed.
+Null session is a connection to the Windows interprocess communications share (IPC$). The null session attack is a type of exploit that makes unauthenticated NetBIOS connections to a target computer. The attack uses ports 139 and 445, which are the NetBIOS session port and the Server Message Block (SMB) port, respectively. If successful, an attacker could find user IDs, share names, and various settings and could possibly gain access to files, folders, and other resources. An example of the initial code an attacker might use is
+
+net use \\IP address\ipc$ "" /U: "" copy
+DNS poisoning (or DNS cache poisoning) is the modification of name resolution information that should be in a DNS server's cache. It is done to redirect client computers to incorrect websites.  ARP poisoning describes an attack in which the attacker spoofs their MAC address in order to gain access to resources meant for authenticated machines. 
+
+From <https://login.codingdojo.com/m/550/13137/95718> 
+
+More Attacks
+
+Learning Objectives:
+	• Describe cryptographic and other types of attacks.
+
+
+
+Cryptographic Attacks
+A “birthday paradox,” describes the high (50%) probability that two individuals (in a group of 23 or more) will share a birthday. This same mathematical probability applies in other situations, too, including the likelihood of shared passwords and hashes (collision).
+Dictionary attacks: a lot of possible passwords, which then might be combined or altered (“secret” => “s3cr3t”) to generate passwords to try.  Kali’s “RockYou.txt” dictionary is a good example.
+Brute force attacks try all possible password combinations. 
+Collision attacks take advantage of mathematical issues in cryptographic methods (hashing, etc.).  You want the output of a hash to have a unique value per unique input. Some hashing methods have been found to have duplicate outputs for two unique values.  
+
+Group Discussion
+Many of the above attacks can be used on mobile devices. If you were a security admin at an organization, how would you protect their mobile devices?
+
+From <https://login.codingdojo.com/m/550/13137/92286> 
+
+Tuesday 3/7/23
+
+Password Cracking (Core)
+
+Learning Objectives:
+	• Crack passwords using John the Ripper tool.
+
+We are going to use a command line tool called John the Ripper. We are going to call the application, tell it what kind of hash it is, give it a file of hashes and that's all we need to give it for it to start showing the cracked passwords.
+
+Follow the instructions below to crack hashed passwords using John The Ripper:
+	1. Open Kali Linux.
+	2. Download this file of hashes. Save the file in your Kali VM as 'hashes.txt'
+	3. Open a terminal in Kali Linux.
+	4. Navigate to the folder in the terminal where you downloaded 'hashes.txt'
+	5. Choose the format NT and crack the hashes using the command below.
+john -format=NT hashes.txtcopy
+*Note: -format=NT is an option in John The Ripper that tells the program the hashes you downloaded are encrypted with NTLM. Since we're being explicit and telling the program what encryption is used, John The Ripper can can attempt to crack these faster.
+
+Assignment Submission
+Upload a single document with screenshots of John The Ripper cracking the passwords, and a list of the plaintext cracked passwords. Be sure to provide a sentence or two describing what each screenshot represents.
+• Upload a single document with screenshots of JtR cracking the passwords, and a list of the plaintext cracked passwords. Be sure to provide a sentence or two describing what each screenshot represents.
+
+
+Turned in assignment 3 of week 2
+
+Password cracking w John the ripper, assign 3.
+
+
+ 
+
+
+ 
+ 
+ 
+Edgar,
+First screen shot shows the method we used to get are cracked hashed passwords and the start of the cracked passwords. First with opening a terminal and ls for list to see the files and folders; Desktop  Documents, Downloads, etc. In this case my file (hashes.txt) was in the Downloads folder. So we navigate with cd for change directory to get ourselves in the Downloads directory. Next again, ls to see the hashes.txt file in Downloads folder. Finally, we use the NT format with the command john -format=NT hashes.txt to crack the hashed passwords. Nothing to complicated with commands but its all a learning process in how to use the commands and what they actually do. Repetition, repetition, repetition! 
+Second screen shot is the outcome of the -format=NT hashes.txt command which gave up the cracked hashed passwords. John effectively used its wordlist (most common passwords) and compared the hashes to the wordlist and boom we have at the snap of a finger a bunch of very easy, common passwords with some all-lower case, different languages, and all numbers. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+From <https://c3ttst-my.sharepoint.com/personal/kmk_111_c3ttst_onmicrosoft_com/Documents/Password_cracking_assignment_3_Core.docx> 
+
+
+From <https://login.codingdojo.com/m/550/13137/96469> 
+
+
+
+Physical Security
+
+Learning Objectives:
+	• Describe the purpose of security controls.
+	• Implement appropriate physical security solutions.
+	• List authentication categories.
+	• List alarm categories.
+
+Physical access controls depend on the same access control fundamentals as network or operating system security:
+• Authentication—create access lists and identification mechanisms to allow approved persons through the barriers. 
+• Authorization—create barriers around a resource so that access can be controlled through the defined entry and exit points. 
+• Accounting—keep a record of when entry/exit points are used and detect security breaches.
+• Physical—a conventional lock prevents the door handle from being operated without the use of a key. More expensive types offer greater resistance against lock picking. 
+• Electronic—rather than a key, the lock is operated by entering a PIN on an electronic keypad. This type of lock is also referred to as cipher, combination, or keyless. 
+
+Physical Security
+Authentication Categories
+Card cloning refers to making one or more copies of an existing card. Skimming refers to using a counterfeit card reader to capture card details, which are then used to program a duplicate. USB data blockers can provide mitigation against these attacks by preventing any sort of data transfer when the smartphone or laptop is connected to a charge point.
+Alarm Categories
+A circuit-based alarm sounds when the circuit is opened or closed, depending on the type of alarm. This could be caused by a door or window opening or by a fence being cut. A closed-circuit alarm is more secure because an open circuit alarm can be defeated by cutting the circuit.
+Motion detection and Noise detection trigger an alarm based on feedback from sensors.
+A Proximity alarm uses a radio frequency ID (RFID) tags and readers can be used to track the movement of tagged objects within an area. This can form the basis of an alarm system to detect whether someone is trying to remove equipment.
+A Duress alarm is triggered manually by staff if they come under threat. There are many ways of implementing this type of alarm, including wireless pendants, concealed sensors or triggers, and DECT handsets or smartphones. Some electronic entry locks can also be programmed with a duress code that is different from the ordinary access code. This will open the gateway but also alert security personnel that the lock has been operated under duress.
+CCTV (closed-circuit television) is an inexpensive means of providing surveillance than maintaining separate guards at each gateway or zone, though still not cheap to set up if the infrastructure is not already in place on the premises. CCTV can be combined with AI for object and facial recognition. 
+
+From <https://login.codingdojo.com/m/550/13137/92287> 
+
+Risk Assessment Basics
+
+Learning Objectives:
+	• Define common risk management terms.
+	• Conduct a Risk Assessment of your network.
+
+Risk management can be defined as the identification, assessment, and prioritization of risks, and the mitigating and monitoring of those risks. Specifically, when talking about computer hardware and software, risk management is also known as information assurance (IA). 
+The two common models of IA include the well-known CIA triad, and the DoD "Five Pillars of IA," which comprise the concepts of the CIA triad (confidentiality, integrity, and availability) but also include authentication and non-repudiation. 
+Organizations usually employ one of the four following general strategies when managing a particular risk:
+	• Transfer the risk to another organization or third party.
+	• Avoid the risk.
+	• Reduce the risk.
+	• Accept some or all of the consequences of a risk.
+	
+
+
+From <https://login.codingdojo.com/m/550/13137/92288> 
+
+Thursday 3/9/23 2nd week PKI and Open SSL Certificate (Core) assignment
+
+PKI
+
+From <https://login.codingdojo.com/m/550/13139/92292> 
+
+
+
+Learning Objectives:
+	• Understand the underlying infrastructure of PKI.
+	• Implement PKI Infrastructure or Certificate Authentication
+	
+PKI - Public Key Infrastructure
+
+-System of processes , technologies, and polcies that allow you to encrypt and/or sign data" DigiCert)
+-Commonly used for…
+	Secure web pages
+	Authentication
+	Sign & Encrypt emails
+More..
+ALL ABOUT TRUST
+
+"That little lock on the web page before https://"
+Lets you know that they actually have a certificate.
+Certificates let you know that you have encryption enabled. Lets you know that a site has a high reputation.
+
+2 Key Technologies
+Certificates
+Keys
+	Public key and Private key
+	
+There are a lot of moving parts in PKI and in this lesson, we will go over what PKI is and the components necessary to understand the overall structure and how things work. PKI, or Public Key Infrastructure, is a collection of everything used to establish and manage public-key encryption over the internet. The PKI is all-encompassing: It includes users, client computers, servers, services, and most of all, encryption. PKI creates asymmetric key pairs, a public key and a private key: The private key is kept secret, whereas the public key can be distributed. If the key pair is generated at a server, it is considered to be centralized, and the public key is distributed as needed. If the key pair is generated at a local computer, it is considered to be decentralized, and the keys are not distributed; instead, they are used by that local system. An example of public key usage would be a certificate obtained by a web browser during an encrypted session with an e-commerce website. An example of private key usage would be when a user needs to encrypt the digital signature of a private e-mail. The difference is the level of confidentiality. The public key certificate obtained by the web browser is public and might be obtained by thousands of individuals. The private key used to encrypt the e-mail is not to be shared with anyone.
+Certificates are digitally signed electronic documents that bind a public key with a user identity. The identity information might include a person's name and organization, or other details relevant to the user to whom the certificate is to be issued. 
+
+
+
+How Does It Work?
+	Public Key
+	Private Key
+
+Key Management life cycle for a PKI Admin
+	Generate a key using a cypher
+	Designate keys to appropriate users (key users)
+	Store and protect keys
+	Revoke Key
+	Expiration
+
+Key Terms
+	Digital/Public Certificate
+	Digital form of Authentication
+Certificate Authority (CA) When you you want a certidiacte you go to these f n guys
+Registration Authority (RA) The guys verifiy if you are solid your address, are you who you say you are?
+Digital Signature
+	Encrypted signature that you can use to sign electronic messages or documents (think family seal, Official!)
+Problem with self signed certs, Problem is anyone can do this. Not signed by the CA(Certificate Authority)
+Lifecycle
+	Subject (Your web server) sends Certrificate Sign Request (CSR) to the RA
+	RA confirms you ryou
+	CA grants you the X.509 Certificatre
+	Digitally signed  private key and sent to yoyu
+	Your done
+STRUCTURE
+	Root Certificate Authority (CA)     --All the web pages that have to do w Amazon prime The General or Root Amazon Certificate is good for all there inside web pages.
+	 
+X.509 is in the exam
+What is an X.509 certificate?
+An X.509 certificate is a digital certificate that uses the widely accepted international X.509 public key infrastructure (PKI) standard to verify that a public key belongs to the user, computer or service identity contained within the certificate.
+A public key is a large numerical value used to encrypt data or check the legitimacy of a digital signature. A PKI, moreover, is the underlying framework that enables entities like users and servers to securely exchange information using digital certificates.
+The X.509 certificate is a safeguard against malicious network impersonators. When a certificate is signed by a trusted authority, or is otherwise validated, the device holding the certificate can validate documents. It can also use a public key certificate to secure communications with a second party.
+
+Digital certificates must be requested from a registration authority and granted by a certificate authority.
+The X.509 certificate is defined by the International Telecommunication Union's Telecommunication Standardization Sector (ITU-T).
+In cryptography, the X.509 certificate securely associates cryptographic key pairs of public and private keys with websites, individuals or organizations. The certificate is typically used to manage identity and security in computer networking and over the internet. For the internet, it is used in numerous protocols to ensure a malicious website doesn't fool a web browser. The X.509 certificate is also used to secure email, device communications and digital signatures.
+The X.509 standard is based on Abstract Syntax Notation One, an interface description language. An X.509 certificate contains an identity and a public key. It binds an identity -- such as an individual or hostname -- to a public key with a digital signature. The signature is either made by a trusted certificate authority (CA) or is self-signed. Some digital certificates can also be automated.
+
+From <https://www.techtarget.com/searchsecurity/definition/X509-certificate> 
+
+X.509 certificate fields
+An X.509 certificate contains information about the identity to which the certificate is issued and the identity that issued it. Standard information in an X.509 certificate includes the following:
+• Version. Which X.509 version applies to the certificate, indicating what data the certificate must include.
+• Serial number. The CA creating the certificate must assign it a serial number that distinguishes the CA certificate from other certificates.
+• Algorithm information. The signature algorithm the issuer uses to sign the certificate.
+• Issuer distinguished name. The name of the entity issuing the certificate -- usually, the CA.
+• Validity period of the certificate. The start and end date, as well as the time the certificate is valid and can be trusted.
+• Subject distinguished name. The name to which the certificate is issued.
+• Subject public key information. The public key associated with the identity.
+• Extensions (optional). Extensions have their own unique IDs, expressed as a set of values called an object identifier. An extension can be rejected if it is not recognized or if the extension has information that can't be processed.
+Applications of X.509 certificates
+Common applications of X.509 certificates include the following:
+• Digital identities. A key use of X.509 certificates can be to authenticate the digital identities of devices, people, data and applications.
+• TLS/SSL and web browser security. PKI and X.509 are the basis for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols. Web browsers read the X.509 certificate of a webpage to verify its TLS/SSL status.
+
+
+Public key infrastructure has four key components.
+• Digital signatures and document signing. X.509 certificates can authenticate the identity of a digitally signed document, specifically authenticating both the signature and document.
+• Email certificates. Secure email standards -- for example, Secure/Multipurpose Internet Mail Extensions, or S/MIME -- use X.509 certificates.
+• Secure Shell keys. Secure Shell (SSH) keys are a form of X.509 certificate. They provide secure access credentials used in the SSH protocol.
+• Code signing. Code signing uses certificates to authenticate code so end users can verify that code has not been altered by a third party.
+Benefits of X.509 certificates
+Potential benefits that come with X.509 certificates include the following:
+• Wide area of use. X.509 certificates are a part of web browser security, web server security, online document signing, SSH keys and email security.
+• Level of trust. Certificates help safeguard against potentially malicious network impersonators.
+• How signed certificates are issued. Certificates are signed by a publicly trusted issuer, such as a CA, or self-signed.
+History of X.509 certificates
+The first X.509 certificates were issued in 1988 as part of the ITU-T and the X.500 directory services standard. The current version, version 9, was defined in October 2019.
+As more versions came out, more certificate fields were added or refined. For example, in 1993, version 2 added two fields to support directory access control, as well as subject and issuer unique identifiers. The X.509 version 3 certificate was released in 1996 and defines the formatting used for certificate extensions. It also was used by the Internet Engineering Task Force in the development of its own X.509 Public Key Infrastructure Certificate and Certificate Revocation List, or CRL, Profile standard.
+
+From <https://www.techtarget.com/searchsecurity/definition/X509-certificate> 
+
+
+Key Point
+Most certificates are based on the X.509 standard, which is a common PKI standard developed by the ITU-T that often incorporates the single sign-on (SSO) authentication method. This way, a recipient of a single X.509 certificate has access to multiple resources, possibly in multiple locations. Although difficult, X.509 certificates that use MD5 and SHA1 hashes can be compromised. A more powerful hashing algorithm such as SHA2 should be implemented with the certificate. X.509 is the core of the PKIX, which is the IETF's Public Key Infrastructure (X.509) working group. Components of an X.509 certificate include the following:
+	• Owner (user) information, including their public key
+	• Certificate authority information, including their name, digital signature, serial number, issue, and expiration dates, and version
+Certificates can be used for connections to websites, for e-mail, and for many other things in the Internet world, as well as encryption is done locally. For example, a user working in a Windows environment might want to use the Encrypting File System (EFS) to encrypt data locally. The Windows domain can be configured to allow for user certificates governing and enhancing this encryption process. So, certificates can be used internally or externally, but most people are more familiar with the certificate used to make secure HTTP connections, usually with SSL/TLS-based certificates.
+
+External Video
+SSL Certificate Types: This includes domain, organizational, and extended validation certificates.
+
+
+
+Key Point
+In a certificate chain, also known as a certification path, the anchor for this trust is the root certificate authority. At the bottom of the chain, we have the end-entity certificate for a machine/computer. That's the certificate that you would see if you looked at the details of a secure HTTPS session in your web browser. Those then handshakes with an intermediate certificate belonging to a subordinate certificate authority. This certificate signs the end-entity certificate. That then handshake with the root certificate, which represents the root certificate authority. It signs the intermediate certificate and in and of itself is self-signing, which means that it not only creates the certificate but signs it as well. It signs it with its own private key. The root CA will employ code signing: digitally signing and time stamping the certificate to provide integrity and authenticity. However, even this can be defeated, so the security admin has to always be on the lookout for CVEs detailing revoked certificates, and even entire issuing certificate companies that may have been compromised. 
+Certificate Formats: There are several certificate formats you should know for the exam. They can be identified in part by their file extension or encoding type used. First, let's briefly discuss the ITU-T X.690 encoding formats:
+	• Basic Encoding Rules (BER): This is the original ruleset governing the encoding of ASN.1 data structures. Any data created is encoded with a type identifier, a length description, and the content's value. BER can use one of several encoding methods.
+	• Canonical Encoding Rules (CER): This is a restricted version of BER in that it only allows the use of one encoding type; all others are restricted.
+	• Distinguished Encoding Rules (DER): Another restricted variant of BER, this only allows for one type of encoding, and has restrictive rules for length, character strings, and how elements are sorted. It is widely used for X.509 certificates. For example, certificate enrollment in Windows Servers uses DER exclusively.
+
+From <https://login.codingdojo.com/m/550/13139/92292> 
+
+More Certificate Information
+
+Learning Objectives:
+	• Implement secure certificate practices.
+	• Explain the certificate recovery process.
+
+The certificate authority (CA) is the entity (usually a server) that issues certificates to users. In a PKI system that uses a CA, the CA is known as a trusted third party. Most PKI systems use a CA. The CA is also responsible for verifying the identity of the recipient of the certificate. An example of a technology that uses certificates would be secure websites. If you opened your browser and connected to a secure site, the browser would first check the certificate that comes from VeriSign or another similar company; it would validate the certificate. You (the user) and the website are the two parties attempting to communicate. The CA is a third party that negotiates the security of the connection between you and the website. For a user to obtain a digital identity certificate from a CA, the user's computer must initiate a certificate signing request (CSR) and present two items of information: The first is proof of the user's identity; the second is a public key. This public key is then matched to the CA's private key, and if successful the certificate is granted to the user.
+A basic example of this would be if you connect to www.paypal.com. When connecting to this website, it automatically redirects you to https://www.paypal.com, which is secured by way of a VeriSign-issued certificate. You know you have been redirected to a secure site because the browser has various indicators. For instance, the web browser will probably show a padlock in the locked position, and the name of the company will be displayed in green, as shown in Figure 15-1. 
+
+ If you were to click on the green area of the address field in Firefox, you could ultimately get to the certificate details.
+
+Details of a Typical VeriSign Certificate
+The General tab shows that the certificate gets a super-long hexadecimal serial number, and shows when the certificate was originally issued and when it expires, among other information. You can also note that the certificate has been fingerprinted with SHA-256 (a variant of SHA-2) and SHA1, enabling you or the website (or issuer) to verify the integrity of the certificate. If for some reason the certificate cannot be verified by any of the parties, and the issuer confirms this, then the issuer would need to revoke it and place it in the certificate revocation list (CRL). The Details tab gives us advanced and more complete information about the certificate used. I suggest you take a look at a few more websites that use SSL/TLS certificates and peruse the General and Details tabs. Compare the certificates with each other to learn more about the different levels of encryption, different levels of fingerprinting, and the different issuing companies. 
+
+Key Point
+One way to add security to the certificate validation process is to use certificate pinning, also known as SSL pinning or public key pinning. This can help to detect and block many types of MITM attacks by adding an extra step beyond normal X.509 certificate validation. Essentially, a client obtains a certificate from a CA in the normal way but also checks the public key in the server's certificate against a hashed public key used for the server name. This functionality must be incorporated into the client-side, so it is important to use a secure and up-to-date web browser on each client in order to take advantage of certificate pinning. Recipients can use one or more certificates. Certificate mapping defines how many certificates are associated with a particular recipient. If an individual certificate is mapped to a recipient, it is known as a one-to-one mapping. 
+If multiple certificates are mapped to a recipient, it is known as many-to-one mapping. Multiple certificates might be used if the recipient requires multiple secure (and separate) communications channels. In some cases, a registration authority (RA) is used to verify requests for certificates. If the request is deemed valid, the RA informs the CA to issue the certificate. An RA might also be used if the organization deals with several CAs. In this case, the RA is at the top of a hierarchical structure and verifies the identity of the user. An RA isn't necessary for a PKI, but if you are centrally storing certificates, a CA is necessary. Certificate authorities aren't just for the rich and famous (for example, PayPal uses VeriSign as the issuer). You can have a CA, too! If you are running a Windows Server, you can install your own CA—for example, one that utilizes L2TP or possibly SSL/TLS; more on those protocols later in this lesson. Of course, a server's built-in certificates are not necessarily secure. If you were to implement this technology in a secure environment in your organization, you would probably want to obtain proper certificates from a trusted source to use with the Windows Server. 
+The certificate revocation list (CRL) is a list of certificates that are no longer valid or that have been revoked by the issuer. There are two possible states of revocation: revoked, which is when a certificate has been irreversibly revoked and cannot be used again, and hold, which is used to temporarily invalidate a certificate.
+Certificate keys can also be held in escrow. Key escrow is when a secure copy of a user's private key is held in case the key is lost. This may be necessary so that third parties such as the government or other organizations can ultimately gain access to communications and data encrypted with that key. If data loss is unacceptable, you should implement key escrow in your PKI. 
+A web of trust is a decentralized trust model that addresses issues associated with the public authentication of public keys common to CA-based PKIs. It is considered peer-to-peer in that there is no root CA; instead, self-signed certificates are created and used that have been attested to by the creator. Users can decide what certificates they want to trust and can share those trusted certificates with others, making the web of trust grow larger. Of course, one of the most common reasons that a certificate issuer is not recognized by a web browser is due to unknown self-signed certificates. 
+
+From <https://login.codingdojo.com/m/550/13139/95720> 
+
+1. 1. Which of the following best describes a digital certificate?
+
+Digitally signed documents binding a public key with an identity.
+2. 2. Which of the following is the best hashing algorithm for X.509?
+
+SHA2
+3. 3. A trusted third party in a PKI system is also known as what?
+
+Certificate Authority
+
+From <https://login.codingdojo.com/m/550/13139/96509> 
+What is an SSL certificate?
+An SSL certificate is a digital certificate that authenticates a website's identity and enables an encrypted connection. SSL stands for Secure Sockets Layer, a security protocol that creates an encrypted link between a web server and a web browser.
+Companies and organizations need to add SSL certificates to their websites to secure online transactions and keep customer information private and secure.
+In short: SSL keeps internet connections secure and prevents criminals from reading or modifying information transferred between two systems. When you see a padlock icon next to the URL in the address bar, that means SSL protects the website you are visiting.
+Since its inception about 25 years ago, there have been several versions of SSL protocol, all of which at some point ran into security troubles. A revamped and renamed version followed — TLS (Transport Layer Security), which is still in use today. However, the initials SSL stuck, so the new version of the protocol is still usually called by the old name.
+
+From <https://www.kaspersky.com/resource-center/definitions/what-is-a-ssl-certificate> 
+
+How do SSL certificates work?
+SSL works by ensuring that any data transferred between users and websites, or between two systems, remains impossible to read. It uses encryption algorithms to scramble data in transit, which prevents hackers from reading it as it is sent over the connection. This data includes potentially sensitive information such as names, addresses, credit card numbers, or other financial details.
+The process works like this:
+4. A browser or server attempts to connect to a website (i.e., a web server) secured with SSL.
+5. The browser or server requests that the web server identifies itself.
+6. The web server sends the browser or server a copy of its SSL certificate in response.
+7. The browser or server checks to see whether it trusts the SSL certificate. If it does, it signals this to the webserver.
+8. The web server then returns a digitally signed acknowledgment to start an SSL encrypted session.
+9. Encrypted data is shared between the browser or server and the webserver.
+This process is sometimes referred to as an "SSL handshake." While it sounds like a lengthy process, it takes place in milliseconds.
+When a website is secured by an SSL certificate, the acronym HTTPS (which stands for HyperText Transfer Protocol Secure) appears in the URL. Without an SSL certificate, only the letters HTTP – i.e., without the S for Secure – will appear. A padlock icon will also display in the URL address bar. This signals trust and provides reassurance to those visiting the website.
+To view an SSL certificate's details, you can click on the padlock symbol located within the browser bar. Details typically included within SSL certificates include:
+• The domain name that the certificate was issued for
+• Which person, organization, or device it was issued to
+• Which Certificate Authority issued it
+• The Certificate Authority's digital signature
+• Associated subdomains
+• Issue date of the certificate
+• The expiry date of the certificate
+• The public key (the private key is not revealed)
+Why you need an SSL certificate
+Websites need SSL certificates to keep user data secure, verify ownership of the website, prevent attackers from creating a fake version of the site, and convey trust to users.
+If a website is asking users to sign in, enter personal details such as their credit card numbers, or view confidential information such as health benefits or financial information, then it is essential to keep the data confidential. SSL certificates help keep online interactions private and assure users that the website is authentic and safe to share private information with.
+More relevant to businesses is the fact that an SSL certificate is required for an HTTPS web address. HTTPS is the secure form of HTTP, which means that HTTPS websites have their traffic encrypted by SSL. Most browsers tag HTTP sites – those without SSL certificates – as "not secure." This sends a clear signal to users that the site may not be trustworthy – incentivizing businesses who have not done so to migrate to HTTPS.
+An SSL certificate helps to secure information such as:
+• Login credentials
+• Credit card transactions or bank account information
+• Personally identifiable information — such as full name, address, date of birth, or telephone number
+• Legal documents and contracts
+• Medical records
+• Proprietary information
+Types of SSL certificate
+There are different types of SSL certificates with different validation levels. The six main types are:
+10. Extended Validation certificates (EV SSL)
+11. Organization Validated certificates (OV SSL)
+12. Domain Validated certificates (DV SSL)
+13. Wildcard SSL certificates
+14. Multi-Domain SSL certificates (MDC)
+15. Unified Communications Certificates (UCC)
+Extended Validation certificates (EV SSL)
+This is the highest-ranking and most expensive type of SSL certificate. It tends to be used for high profile websites which collect data and involve online payments. When installed, this SSL certificate displays the padlock, HTTPS, name of the business, and the country on the browser address bar. Displaying the website owner's information in the address bar helps distinguish the site from malicious sites. To set up an EV SSL certificate, the website owner must go through a standardized identity verification process to confirm they are authorized legally to the exclusive rights to the domain.
+Organization Validated certificates (OV SSL)
+This version of SSL certificate has a similar assurance similar level to the EV SSL certificate since to obtain one; the website owner needs to complete a substantial validation process. This type of certificate also displays the website owner's information in the address bar to distinguish from malicious sites. OV SSL certificates tend to be the second most expensive (after EV SSLs), and their primary purpose is to encrypt the user's sensitive information during transactions. Commercial or public-facing websites must install an OV SSL certificate to ensure that any customer information shared remains confidential.
+Domain Validated certificates (DV SSL)
+The validation process to obtain this SSL certificate type is minimal, and as a result, Domain Validation SSL certificates provide lower assurance and minimal encryption. They tend to be used for blogs or informational websites – i.e., which do not involve data collection or online payments. This SSL certificate type is one of the least expensive and quickest to obtain. The validation process only requires website owners to prove domain ownership by responding to an email or phone call. The browser address bar only displays HTTPS and a padlock with no business name displayed.
+Wildcard SSL certificates
+Wildcard SSL certificates allow you to secure a base domain and unlimited sub-domains on a single certificate. If you have multiple sub-domains to secure, then a Wildcard SSL certificate purchase is much less expensive than buying individual SSL certificates for each of them. Wildcard SSL certificates have an asterisk * as part of the common name, where the asterisk represents any valid sub-domains that have the same base domain. For example, a single Wildcard certificate for *website can be used to secure:
+• payments.yourdomain.com
+• login.yourdomain.com
+• mail.yourdomain.com
+• download.yourdomain.com
+• anything.yourdomain.com
+Multi-Domain SSL Certificate (MDC)
+A Multi-Domain certificate can be used to secure many domains and/or sub-domain names. This includes the combination of completely unique domains and sub-domains with different TLDs (Top-Level Domains) except for local/internal ones.
+For example:
+• www.example.com
+• example.org
+• mail.this-domain.net
+• example.anything.com.au
+• checkout.example.com
+• secure.example.org
+Multi-Domain certificates do not support sub-domains by default. If you need to secure both www.example.com and example.com with one Multi-Domain certificate, then both hostnames should be specified when obtaining the certificate.
+Unified Communications Certificate (UCC)
+Unified Communications Certificates (UCC) are also considered Multi-Domain SSL certificates. UCCs were initially designed to secure Microsoft Exchange and Live Communications servers. Today, any website owner can use these certificates to allow multiple domain names to be secured on a single certificate. UCC Certificates are organizationally validated and display a padlock on a browser. UCCs can be used as EV SSL certificates to give website visitors the highest assurance through the green address bar.
+It is essential to be familiar with the different types of SSL certificates to obtain the right type of certificate for your website.
+How to obtain an SSL certificate
+SSL certificates can be obtained directly from a Certificate Authority (CA). Certificate Authorities – sometimes also referred to as Certification Authorities – issue millions of SSL certificates each year. They play a critical role in how the internet operates and how transparent, trusted interactions can occur online.
+The cost of an SSL certificate can range from free to hundreds of dollars, depending on the level of security you require. Once you decide on the type of certificate you require, you can then look for Certificate Issuers, which offer SSLs at the level you require.
+Obtaining your SSL involves the following steps:
+• Prepare by getting your server set up and ensuring your WHOIS record is updated and matches what you are submitting to the Certificate Authority (it needs to show the correct company name and address, etc.)
+• Generating a Certificate Signing Request (CSR) on your server. This is an action your hosting company can assist with.
+• Submitting this to the Certificate Authority to validate your domain and company details
+• Installing the certificate they provide once the process is complete.
+Once obtained, you need to configure the certificate on your web host or on your own servers if you host the website yourself.
+How quickly you receive your certificate depends on what type of certificate you get and which certificate provider you procure it from. Each level of validation takes a different length of time to complete. A simple Domain Validation SSL certificate can be issued within minutes of being ordered, whereas Extended Validation can take as long as a full week.
+
+From <https://www.kaspersky.com/resource-center/definitions/what-is-a-ssl-certificate> 
+
+Can an SSL certificate be used on multiple servers?
+It is possible to use one SSL certificate for multiple domains on the same server. Depending on the vendor, you can also use one SSL certificate on multiple servers. This is because of Multi-Domain SSL certificates, which we discussed above.
+As the name implies, Multi-Domain SSL Certificates work with multiple domains. The number is left up to the specific issuing Certificate Authority. A Multi-Domain SSL Certificate is different from a Single Domain SSL Certificate, which – again, as the name implies – is designed to secure a single domain.
+To make matters confusing, you may hear Multi-Domain SSL Certificates, also referred to as SAN certificates. SAN stands for Subject Alternative Name. Every multi-domain certificate has additional fields (i.e., SANs), which you can use to list additional domains that you want to cover under one certificate.
+Unified Communications Certificates (UCCs) and Wildcard SSL Certificates also allow for multi-domains and, in the latter case, an unlimited number of subdomains.
+What happens when an SSL certificate expires?
+SSL certificates do expire; they don't last forever. The Certificate Authority/Browser Forum, which serves as the de facto regulatory body for the SSL industry, states that SSL certificates should have a lifespan of no more than 27 months. This essentially means two years plus you can carry over up to three months if you renew with time remaining on your previous SSL certificate.
+SSL certificates expire because, as with any form of authentication, information needs to be periodically re-validated to check it is still accurate. Things change on the internet, as companies and also websites are bought and sold. As they change hands, the information relevant to SSL certificates also changes. The purpose of the expiry period is to ensure that the information used to authenticate servers and organizations is as up-to-date and accurate as possible.
+Previously, SSL certificates could be issued for as long as five years, which was subsequently reduced to three and most recently to two years plus a potential extra three months. In 2020, Google, Apple, and Mozilla announced they would enforce one-year SSL certificates, despite this proposal being voted down by the Certificate Authority Browser Forum. This took effect from September 2020. It is possible that in the future, the length of validity will reduce still further.
+When an SSL certificate expires, it makes the site in question unreachable. When a user's browser arrives at a website, it checks the SSL certificate's validity within milliseconds (as part of the SSL handshake). If the SSL certificate has expired, visitors will receive a message to the effect of — "This site is not secure. Potential risk ahead".
+While users do have the option to proceed, it is not advisable to do so, given the cybersecurity risks involved, including the possibility of malware. This will significantly impact bounce rates for website owners, as users rapidly click off the homepage and go elsewhere.
+Keeping on top of when SSL certificates expire presents a challenge for larger businesses. While smaller and medium-sized businesses (SMEs) may have one or only a few certificates to manage, enterprise-level organizations that potentially transact across markets – with numerous websites and networks – will have many more. At this level, allowing an SSL certificate to expire is usually the result of oversight rather than incompetence. The best way for larger businesses to stay on top of when their SSL certificates expire is by using a certificate management platform. There are various products on the market, which you can find using an online search. These allow enterprises to see and manage digital certificates across their entire infrastructure. If you do use one of these platforms, it is important to log in regularly so you can be aware of when renewals are due.
+If you allow a certificate to expire, the certificate becomes invalid, and you will no longer be able to run secure transactions on your website. The Certification Authority (CA) will prompt you to renew your SSL certificate before the expiration date.
+Whichever Certificate Authority or SSL service you use to obtain your SSL certificates from will send you expiration notifications at set intervals, usually starting at 90 days out. Try to ensure that these reminders are being sent to an email distribution list — rather than a single individual, who may have left the company or moved to another role by the time the reminder is sent. Think about which stakeholders in your company are on this distribution list to ensure the right people see the reminders at the right time.
+How to tell if a site has an SSL certificate
+The easiest way to see if a site has an SSL certificate is by looking at the address bar in your browser:
+• If the URL begins with HTTPS instead of HTTP, that means the site is secured using an SSL certificate.
+• Secure sites show a closed padlock emblem, which you can click on to see security details – the most trustworthy sites will have green padlocks or address bars.
+• Browsers also show warning signs when a connection is not secure — such as a red padlock, a padlock which is not closed, a line going through the website's address, or a warning triangle on top of the padlock emblem.
+How to ensure your online session is safe
+Only submit your personal data and online payment details to websites with EV or OV certificates. DV certificates are not suitable for eCommerce websites. You can tell if a site has an EV or OV certificate by looking at the address bar. For an EV SSL, the organization's name will be visible in the address bar itself. For an OV SSL, you can see the organization's name's details by clicking on the padlock icon. For a DV SSL, only the padlock icon is visible.
+Read the website's privacy policy. This enables you to see how your data will be used. Legitimate companies will be transparent about how they collect your data and what they do with it.
+Look out for trust signals or indicators on websites.
+As well as SSL certificates, these include reputable logos or badges which show the website meets specific security standards. Other signs that can help you determine if a site is real or not include checking for a physical address and telephone number, checking their returns or refunds policy, and making sure prices are believable and not too good to be true.
+Stay alert to phishing scams.
+Sometimes cyber attackers create websites that mimic existing websites to trick people into purchasing something or logging in to their phishing site. It is possible for a phishing site to obtain an SSL certificate and therefore encrypt all the traffic that flows between you and it. A growing proportion of phishing scams occur on HTTPS sites — deceiving users who feel reassured by the padlock icon's presence.
+To avoid these kinds of attacks:
+• Always examine the domain of the site you are on and ensure it is spelled correctly. The URL of a fake site might differ by only one character – e.g., amaz0n.com instead of amazon.com. If in doubt, type the domain directly into your browser to make sure you are connecting to the website you intend to visit.
+• Never enter logins, passwords, banking credentials, or any other personal information on the site unless you are sure of its authenticity.
+• Always consider what a particular site is offering, whether it looks suspicious, and whether you really need to register on it.
+• Make sure your devices are well protected: Kaspersky Internet Security checks URLs against an extensive database of phishing sites, and it detects scams regardless of how "safe" the resource looks.
+Cybersecurity risks continue to evolve but understanding the types of SSL certificates to look out for and how to distinguish a safe site from a potentially dangerous one will help internet users avoid scams and protect their personal data from cybercriminals.
+
+From <https://www.kaspersky.com/resource-center/definitions/what-is-a-ssl-certificate> 
+
+
+
+IAM (Identity and Access Management)
+
+Learning Objectives:
+	• Decide which MFA method is best for different scenarios.
+	• Discern when MFA vs. SSO is best to use.
+
+Identification & AAA
+In this lesson, we will be discussing the differences between identification, authorization, authentication, and accounting(AAA). We need to know what each one of these means and what the differences are between them because they sound similar and serve some of the same purposes, however, you will find being able to differentiate between these terms used in analyzing and choosing an effective security solution. Let’s start with what we mean by identification.
+A good example of identification would be a user name to identify a user, an identifying name for a web server on a network, etc. The process of identification is simply describing a user or object on the network with a designated identifier.
+When we talk about authorization we are just talking about what permissions a certain user would have. In other words, what users have the authorization to do on a network is an important part of any security policy or security solution.
+Authentication should simply be thought of as verifying the identity of a user, a device, or a process. You have no doubt heard about authentication before and realized that in order to gain access to a system you must first be authenticated.
+The final thing to talk about before telling you how this all ties together is accounting. Accounting in cyber security is measuring the resources that a user consumes during access to the system. This includes logging session statistics and user information regarding the duration that the user had access to the system as well as all of the data that has been sent and received.
+The real question is, how does all of this tie together? Let’s take the example again of someone working from home and accessing the office network from home. In order to do that you must log in with the credentials that you have. While you were on the network because of your role you have access to manipulate certain systems and create user accounts because you were in IT. You are not however granted access to financial files, or anything related to confidential business practices in trade secrets.
+Multifactor Authentication Methods
+Multi-factor authentication or MFA: access is only granted after successfully providing two or more pieces of evidence to the authentication model.
+Something you know: the most common factor used in the authentication. Examples of this include a password, a pin number, etc. Because this method is most commonly used and has been used for a long time attackers have been figuring out ways to outsmart this method for the longest amount of time. This is why strong passwords and multi-factor authentication are highly recommended in any security solution. 
+Something you have: This literally means items that you have in order to authenticate yourself. Examples include things such as smart cards, handheld tokens, etc. 
+Something you are: referring to biometric methods such as fingerprints, hand geometry, retinal or iris scans, handwriting, and voice analysis. 
+Somewhere you are: This seems self-explanatory but there are authentication models that authenticated you based on your location. For instance, a company based in the United States that only has a presence and only does business in the United States should be configured so that no login requests from Europe or Asia will be successful because that is highly suspicious.
+Something you do: This is based on a number of things including typing speed in the patterns of the changing speeds throughout the password. At the very least, this would make it impossible for brute force attacks to be necessary because no one types a password instantaneously.
+Single-Sign-On Authentication
+As the name suggests, SSO allows users to log in or access multiple systems and services by providing credentials only once.
+One of the ways that single sign-on can work is by using a federation, otherwise known as a federated SSO. This is what would allow you to sign in to Facebook using Google for example. This Federation simply means that there is established trust between multiple organizations to authorize and authenticate each other’s users. 
+A single sign-on can extend further than just a handful of organizations by using what is called transitive trust. This means that trust is extended not only to the child's object but also to each object that that child trusts.
+
+Group Discussion
+Which of the above authentication methods are the most secure?
+
+From <https://login.codingdojo.com/m/550/13139/92293> 
+
+Layer 1 | Physical Layer | Where bits of data move across physical cables and radio waves through the network
+
+Lecture form Thrusday 2nd week
+
+Network Geography
+
+	- LAN Local Are Network  A network that covers a local area, like a home, a small office, or one floor building.
+	
+	- WAN Wide Area Network Connects internal networks separated geographically through leased lines or VPN's
+	- Ex. Amazon has buildings in different states. They can be one network connected over different states insay one in Az and one in Cal.
+	
+	- VLAN  Virtual Area Network  This is a digital LAN, where the devices might be physically near or far, but through computer logic they will be considered to be in the same network. Ex. Inside a LAN there can be two of the 10 computers that have VLAN where they may have elevated privileges. Creating separate networks within your network.. Remote work can be considered VLANs Say 5 different computers in different states can states can be in the same network with a virtual network. 
+
+The internal standards for communication or the OSI Model
+OSI Model Open Systems Interconnection
+
+APPLICATION (7) Asking for the coding dojo website
+Protocol specific HTTP, HTTPS, FTP, 
+The layer that the end user sees
+Provides the user with the rules and permissions to do things
+Applications can request access to system resources within this layer
+Where you interact with the webpage
+
+PPRESENTATION (6)
+Translation
+		-Brings all the data together and gets it ready for the receiving layer
+Encryption/Decryption
+The machine is presenting the data in a machine readable way 1s & 0's
+
+SESSION (5)   Establishes a connection layer between the two machines
+Dialogue between two computer or s session
+Authorization and Authentication happen here
+Processes requests and can report back in case of an error
+
+Transport (4)   Kicks in when the connection is made Segments
+TCP/UDP present here
+		Transmission Control Protocol TCP  Reliable 100% will start over in connection lost
+		User Datagram Protocol UDP Will send data but if it drops  it will keep sending
+Source/Destination port numbers
+Protocol Assignment
+Data is broken down into many segments that are sent separately, then rebuilt upon arriving
+
+Encapsulation of the data source port destination port chopping it up to bits. Then upwrap it into a frame
+
+NETWORK (3) Basically how …Look it up Tommy Go back over recording
+IP Address determine where the data is going 
+DNS Domain Name System Coding Dojo to 1.1.2.3(public Infor or whatever the address is
+
+Routers decide how the data is getting there
+Communication outside your network is established here
+
+Router Home Router Home machine My machine wants somerhing form somewherw you need ot send data ot some one lese machine. Data becomes a segment.. Our router now how has the job DNS go throughDNS condindojo .com give the router public IP addres fo rthis websie into a packet then goies from router Then publeic IP to NAT
+Routers basically layers 3 an d  
+DATA LINK (2) Finally made it to the Router at the destination point We now have the private IP addresses of the destination machine  Private IP address has a to become a MAC addresses so that I can see the exact hardware of the machine to send the data to. Switches live in layer two. Switches layer two
+
+Address Resolution Protocol (ARP) 
+Network Address Translation (NAT)
+Media Access Control (MAC) Addresses
+
+Main thing that happens in Data Link Private into MAC 
+address Uses and arc table with two columns. 
+Pulls binary data, groups into FRAMES
+Switches are on this layer (most switches)
+
+
+ARP Poising Where threat actor hijacks the Table and messes up the MAC addresses 
+Where all traffic go es to the threat actor Effects the confidentially of all our data.
+MAC addresses spoofing    Will spoof or digitally fake there MAC addresses to look like someone else's to have your info sent to them
+
+MAC flood attack. A threat actor can flood a layer 2 device’s ARP table (usually done against a switch with unicast)
+MAC Address Spoofing. This is where the threat actor will spoof (or digitally fake) their MAC address to read like another machine’s MAC address
+
+Limit your number of matches to 4
+Public Ip to Private you get a frame, I think
+
+PHYSICAL LAYER (1)
+
+Lowest Layer
+Carries data (bits)
+Everything begins and ends on the network
+Cables, fiber optics, repeaters, hubs, NICs, etc
+		Network Interface Card
+
+Layer 1 | Physical Layer | Where bits of data move across physical cables and radio waves through the network
+
+OSI is the Fucking path the packets take to bet from A to B
+
+Public Key 
+
+Checks to establish or terminate sessions based on requests
+
+this was my answer to him:
+
+It is possible for a compromised device to have multiple MAC addresses or IP addresses associated with it. For example, a compromised device could be running virtualization software that creates multiple virtual network interfaces, each with its own MAC address and IP address.
+
+However, the presence of multiple MAC addresses or IP addresses on a device does not necessarily indicate that the device is compromised. There are many legitimate reasons why a device might have multiple MAC addresses or IP addresses, such as:
+
+The device is connected to multiple networks (e.g., wired and wireless).
+The device has multiple network adapters (e.g., Ethernet and Wi-Fi).
+The device is running virtualization software.
+The device is using network address translation (NAT) to share a single IP address among multiple devices.
+
+To help you remember the layers (from the top down):
+
+"All People Seem To Need Data Processing"
+
+7. All (Application)
+6. People (Presentation)
+5. Seem (Session)
+4. To (Transport)
+3. Need (Network)
+2. Data  (Data Link
+1. Processing (Physical)
+
+To help you remember the layers (from the bottom up):
+
+"Please Do Not Throw Some Pizza Away"
+
+1. Please (physical)
+2. Do (Data link)
+3. Not (Network)
+4. Throw (Transport)
+5. Some (Session)
+6. Pizza (presentation)
+7. Away (Application)
+
+
+                    QUIZ:
+
+	1. 1. Which threat actors violate computer security for personal gain?
+	
+	          Black hat hackers
+	
+	
+	2. 2. A federal appeals court recently made a judgment that caused significant public outrage. Soon after the ruling, the court's website was hacked, and the content was replaced with the text "Equal justice for all." Which of the following type of threat actors attacked the court's site?
+	
+	          Hacktivists
+	
+	
+	3. 3. In cybersecurity, a threat actor is an individual or an entity responsible for cyber incidents against the technical equipment of enterprises and users. How should you differentiate an attack by a script kiddie from that of a gray hat hacker?
+	
+	          Script kiddies lack the technical knowledge to carry out attacks, so they hire a hacker to do it, whereas gray hat hackers violate computer security to fulfill their financial needs.
+	
+	
+	4. 4. Hacktivists and state actors are huge threats to government systems. What is the main difference between hacktivists and state actors?
+	
+	          Hacktivists misuse a computer system or network for socially or politically motivated reasons, whereas state actors are covertly sponsored by a government to attack its foes.
+	
+	
+	5. 5. What is the primary goal of penetration testing?
+	
+	          Attempt to uncover deep vulnerabilities and then manually exploit them
+	
+	
+	6. 6. There is often confusion between vulnerability scanning and penetration testing. What is the best explanation of the difference between vulnerability scanning and penetration testing?
+	
+	          Vulnerability scanning is performed using an automated tool to scan a network for known vulnerability signatures. 
+            Penetration testing involves attempting to manually uncover deep vulnerabilities just as a threat actor would, and then exploiting them.
+	
+	
+	7. 7. Which of the following tools can be used to scan 16 IP addresses for vulnerabilities?
+	
+	          Nessus Essentials
+	
+	
+	8. 8. Which of the following penetration testing consultants have limited knowledge of the network and some elevated privileges?
+	
+	          Gray box
+	
+	
+	9. 9. Which of the following techniques is a method of passive reconnaissance?
+	
+	          Port scanning
+	
+	
+	10. 10. Which of the following is a characteristic of a vulnerability scan that is not a characteristic of a penetration test?
+	
+	          A vulnerability scan is usually automated.
+	
+	
+	11. 11. Ian, a systems administrator, was checking systems on Monday morning when he noticed several alarms on his screen. He found many of the normal settings in his computer and programs changed, but he was sure no one had physically entered his room since Friday. If Ian did not make these changes, which of the events below is the most likely reason for the anomalies?
+	
+	          A backdoor was installed previously and utilized over the weekend to access the computer and the programs.
+	
+	
+	12. 12. What type of attack occurs when the threat actor snoops and intercepts the digital data transmitted by the computer and resends that data, impersonating the user?
+	
+	          Replay
+	
+	
+	13. 13. A machine where the operating system runs an application on top of an operating system is called a/an _______.
+	
+	          Virtual machine
+	
+	
+	14. 14. Which of the following statements about domain reputation is correct?
+	
+	        Domain reputation will be low if the domain is used for distributing malware or launching attacks.
+	
+	
+	15. 15. Which of the following is a major objective of packet analysis?
+	
+	  	    Assess and secure networks
+	
+
+	16. 16. Which of the following is a third-party network analysis tool?
+	
+	        nmap
+	
+	
+	17. 17. Which of the following helps achieve data privacy in an enterprise network?
+	
+	        Access control schemes
+	
+	
+	18. 18. Which of the following computing platforms is highly vulnerable to attacks?
+	
+	        Legacy
+	
+	
+	19. 19. What is an officially released software security update intended to repair a vulnerability called?
+	
+	        Patch
+	
+
+	20. 20. Your company recently purchased routers with new and updated features and deployed them in the highly secure enterprise network without changing the default settings. A few days later, the enterprise network suffered a data breach, and you are assigned to prepare a report on the data breach. Which of the following vulnerabilities should you identify as the source of the breach?
+	
+	        Configuration vulnerability
+	
+	
+	21. 21. Zero-day vulnerabilities and configuration vulnerabilities can heavily impact a system if exploited. How should you differentiate between a zero-day vulnerability and a configuration vulnerability?
+	
+	
+	
+	        A zero-day vulnerability is an unknown vulnerability in released software that is found and exploited by a threat actor, 
+          whereas a configuration vulnerability is caused by improper settings in hardware or software.
+ 
+
+From <https://c3ttst-my.sharepoint.com/personal/kmk_111_c3ttst_onmicrosoft_com/Documents/Quiz_week2_Core.docx> 
+
+
+
+
+
