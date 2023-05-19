@@ -1,0 +1,836 @@
+47 Cyber Security Interview Questions & Answers [2023 Guide]
+
+Sakshi Gupta | 19 minute read | November 3, 2022
+
+In this article
+	• Entry Level Cyber Security Interview Questions
+	• Senior Level Cyber Security Interview Questions
+	• Cyber Security Interview Questions & Answers—General
+	• Cybersecurity Career FAQs
+Cybersecurity professionals are in high demand, and the market shows no signs of slowing down. Tech research and advisory firm Gartner projects that cybersecurity spending will reach $172 billion in 2022—a nearly $20 billion increase from the $155 billion spent on IT security and risk management in 2021. 
+However, depending on the role and how encompassing it is, cybersecurity analyst interview questions may require showing a breadth of knowledge regarding various technologies and programming languages. And given that cybersecurity positions involve protecting sensitive business data, you must prove that you are trustworthy, reliable, and possess problem-solving skills, ingenuity, and calm when facing a difficult situation.
+To help you prepare, we’ve assembled a list of sample cybersecurity interview questions that should give you an idea of what to expect on your next interview!
+Entry Level Cyber Security Interview Questions
+These questions are designed to test your foundational knowledge of cybersecurity concepts and techniques. 
+What Do You Mean by Cybersecurity?
+
+
+
+
+Cybersecurity is the protection of critical systems and sensitive information from digital security threats. The field of cybersecurity encompasses infrastructure security, network security, cloud security, and application security. Cybersecurity protocols are responsible for preventing security breaches that could compromise an organization’s data and infrastructure. Cybersecurity encompasses security engineering and architecture, incident response, consulting, testing, and ethical hacking. 
+What Does a Cybersecurity Analyst Do?
+Cybersecurity analysts strive to preserve the integrity of sensitive data by defending infrastructure and systems from cyberattacks. To protect these assets, cybersecurity analysts evaluate system vulnerabilities through diagnostic testing and traffic monitoring. Based on the results of these assessments, cybersecurity analysts design and implement risk management strategies. Cybersecurity analysts also respond to cyber attacks, conduct forensic analysis of previous cyber incidents, and work to ensure organizational compliance with relevant security standards and protocols. 
+What Are the Most Required Cybersecurity Skills?
+
+
+Cybersecurity professionals must have a strong command of the technical skills necessary to build secure networks, diagnose and resolve security issues, and implement risk management solutions. These skills include reverse engineering, application design, firewall administration, encryption, and ethical hacking. 
+What Is the Difference Between a Threat, a Vulnerability, and a Risk?
+Answering this question calls for a deep understanding of cybersecurity and anyone working in the field should be able to give a strong response. You should expect a follow-up question asking which of the three to focus more on. A simple way to put it: a threat is from someone targeting a vulnerability (or weakness) in the organization that was not mitigated or taken care of since it was not properly identified as a risk.
+What Is Cryptography?
+Cryptography is a secure communication technique that prevents parties outside of the sender and intended recipient from accessing the contents of a confidential transmission. The process of cryptography uses an algorithm to convert plaintext input into an encrypted ciphertext output. The message can be converted back into readable plaintext by authorized recipients who possess the necessary key. 
+What Is a Firewall? How Do You Set It Up?
+A firewall is a hardware or software network security device that monitors inbound and outbound network traffic. Firewalls, which block the flow of traffic flagged as suspicious or malicious, are considered the first line of defense in the field of network security. 
+To configure a firewall, you’ll need to: 
+	• Secure the firewall. Only authorized administrators should have access. 
+	• Designate firewall zones. Evaluate assets of values and group them together according to function and sensitivity. Create a corresponding IP address schema.
+	• Build access control lists. These rules dictate which traffic is permitted to flow in and out of different zones.
+	• Configure related firewall services and logging. Set up your firewall to report to your logging server and disable any services you don’t plan to use. 
+	• Test. Use vulnerability assessments to check that the firewall is behaving according to the parameters of your access control lists.
+Firewalls analyze network traffic according to pre-configured security rules and only accept inbound connections that follow these rules. Incoming data packets that do not adhere to these rules will be blocked by the firewall, which operates like a guard at the computer’s port—the function is analogous to a bouncer checking IDs at a nightclub entrance. If your firewall is functioning properly, only trusted IP addresses are granted access.
+
+What Is Shoulder Surfing?
+
+
+Should surfing is a method of data theft by which a bad actor peers over the shoulder of a target in order to steal confidential information like passwords and PIN numbers that can later be used to initiate a cyberattack. Like phishing, shoulder surfing is a social engineering technique—meaning it belongs to a class of information security attacks that rely on psychological manipulation to extract confidential information or influence victims to perform actions counter to their best interests. 
+What Do You Mean by XSS?
+Cross-site scripting (XSS) is a type of cyberattack that injects malicious scripts into legitimate websites. XSS attacks use web applications to send these fragments of code—typically as browser-side scripts—to oblivious end users whose browsers execute the malicious script because it appears to originate from a trusted source. 
+
+Is Encryption Different From Hashing?
+
+
+Encryption is a two-way function in which plaintext is converted into illegible ciphertext and then restored to its original plaintext form using a key. Hashing, on the other hand, is a keyless one-way function that converts information into a hash key. This hash key cannot be reversed, meaning that the original information is irretrievable. 
+What Do You Mean by a VPN?
+A virtual private network (VPN) establishes a protected network connection when using a public network. A VPN can encrypt internet traffic in real-time, thereby securing data that travels across the network and preventing third parties from tracking user activity. VPNs redirect a user’s IP address through a remote host server, allowing for IP address concealment. 
+What is the difference between VA (vulnerability assessment) and PT (penetration testing)?
+Vulnerability assessments identify and report security weaknesses in system architectures. Penetration testing strives to exploit those vulnerabilities and determine the extent to which a cybercriminal could compromise an organization’s assets.
+Define Botnet. Is It Crucial in Cybersecurity?
+A botnet is a sophisticated, centrally coordinated malware-infected network controlled by a remote attacker. Each controlled device within this network is considered a bot. Large-scale botnets can consist of millions of bots, enabling cybercriminals to launch massive attacks. Botnets are capable of executing distributed denial-of-service attacks (DDoS attacks), brute force attacks, and more. The term “botnet” is shorthand for “robot network.” Because botnets can cause extensive damage, combating these types of attacks is crucial in the field of cybersecurity.
+Explain a Three-Way Handshake.
+TCP/IP networks create client-server connections using three-way handshakes, which allow both ends of the connection to reliably transmit data between devices. When a client wants to connect with a server, an SYN (synchronize sequence number) is sent to inform the server of the client’s impending request. The server responds with SYN+ACK (acknowledgment), to which the client responds with ACK, thereby establishing a connection through which data will transfer.
+What Are the Response Codes That Can Be Received From a Web Application?
+When a client sends a request to a web server, a status code is returned to indicate the response that will occur. HTTP response status codes include: 
+	• Informational responses (100–199)
+	• Successful responses (200–299)
+	• Redirection messages (300–399)
+	• Client error responses (400–499)
+	• Server error responses (500–599)
+Response codes relevant to web application security testing include: 301 (moved permanently), 302 (found—temporary redirect), 400 (bad request), 401 (unauthorized), 403 (forbidden), 404 (not found), 405 (method not allowed), and 500 (internal server error).
+
+Define Traceroute.
+
+
+Traceroute maps the route that data travels across devices and networks from source to destination. Traceroute uses Internet Control Message Protocol (ICMP) packets to track and record this route and calculates how long the packet takes to hop from router to router. It can also identify points of failure where data was unable to be transferred. 
+What Is Referred to as a Man-in-the-Middle Attack?
+A man-in-the-middle attack occurs when a bad actor interferes with communications between two parties and monitors or manipulates the traffic traveling between them. Man-in-the-middle attackers are able to passively eavesdrop on the connection or actively intercept the connection in order to reroute traffic to another destination. The goal of such attacks may be to steal information or corrupt data, among other motivations. 
+What Is Data Leakage?
+Data leakage occurs when a party within an organization shares confidential information including trade secrets, source code, and private data with unauthorized recipients. Not all data leaks are the result of deliberately malicious activity, however. These events might occur due to security gaps, user negligence, or system errors.
+What Are Cyberattacks? Name the Most Common Ones.
+Cyberattacks are malicious offensive attempts to obtain unauthorized access to a system or network in order to steal, corrupt, or destroy information—typically for the attacker’s benefit.
+Common types of cyberattacks include malware, phishing, man-in-the-middle attacks, SQL injections, DNS tunnelling, and zero-day exploits. 
+Get To Know Other Cybersecurity Students
+
+Ed Burke
+Cyber Security Career Track Student at Springboard
+Read Story
+
+Dipen Patel
+Cybersecurity Analyst at Accenture
+Read Story
+
+Vianey Luna
+IT Security Specialist at Cooper Machinery Services
+Read Story
+Senior Level Cyber Security Interview Questions
+These technical questions are designed to evaluate your understanding of more advanced cybersecurity concepts and techniques. 
+How Do You Ensure That a Server Is Secure?
+
+
+
+To secure a server, it is vital to first establish a protected connection using SSH (Secure Shell) Protocol, as SSH access encrypts data transmissions. SSH uses port 22 by default, which is common knowledge to hackers—so use port numbers between 1024 and 32,767 to reduce the risk of attack. You should also authenticate an SSH server using SSH keys instead of a traditional password. To secure web administration areas, deploy a Secure Socket Layer (SSL) to safeguard server-client and server-server communications via the internet. Intrusion prevention software, firewalls, password requirements, and user management tactics can help maintain server security. 
+How Do You Differentiate Between Symmetric and Asymmetric Encryption?
+While symmetric encryption uses a single key for encryption and decryption, asymmetric encryption uses a public key for encryption and a private key for decryption. The success of symmetric encryption necessitates a secure exchange of the key, and the technique is typically used to transfer large volumes of data. Asymmetric encryption is a slower but more secure technique that is generally deployed to transfer small amounts of data. While symmetric encryption offers confidentiality, asymmetric encryption guarantees confidentiality as well as authenticity and non-repudiation. 
+IDS vs IPS: What Is the Difference?
+
+
+
+Intrusion detection systems (IDS) monitor networks for suspicious activity. When a potential threat is detected, the system will alert the administrator. Intrusion Prevention Systems (IPS) are equipped to respond to threats, and are able to reject data packets, issue firewall commands, and sever connections. Both systems can operate on a signature or anomaly basis. Signature-based systems detect attack behaviors or “signatures” that match a preprogrammed list, while anomaly-based systems use AI and machine learning to detect deviations from a model of normal behavior.
+What Is the CIA Triad?
+The CIA triad is a conceptual model designed to represent the core components of information security and guide organizations as they craft their cybersecurity strategies. CIA stands for confidentiality, integrity, and availability. To maintain the confidentiality of an organization’s data, only authorized parties and processes should have data access privileges. To preserve the integrity of their data, organizations must prevent tampering and malicious modification. To ensure data availability, systems and networks should run smoothly so that authorized parties can access data whenever necessary. Cyberattacks target one or more legs of this triad.
+Related Read: 13 Best Information Security Courses
+HIDS vs NIDS: Are They the Same?
+HIDS are host-based intrusion detection systems while NIDS are network-based intrusion detection systems. Because HIDS can detect malicious data packets originating from within the enterprise network, these systems are useful for catching inside threats. HIDS reviews historical data to identify unconventional cyberattacks—unusual host-based actions changes to system files will trigger an alert. NIDS, however, detect threats in real-time through live data tracking of network traffic, meaning NIDS can catch hackers before a complete system breach occurs. 
+What Is SSL Encryption?
+SSL (Secure Sockets Layer) encryption serves to create a secure internet connection. SSL encryption protects client-client, server-server, and client-server connections, circumventing unauthorized parties from monitoring or tampering with data transmitted online. An updated protocol called TLS (Transport Layer Security) encryption has replaced SSL encryption as the standard security certificate. 
+Explain a Brute Force Attack Along With the Steps To Prevent It.
+Brute force attacks strive to unlock password-protected assets by repetitively entering authentication credentials either manually (based on guesswork) or via automated credential stuffing (allowing for rapid testing of numerous possible combinations). To prevent brute force attacks, cyber security professionals should:
+	• Make unique login URLs for various user groups.
+	• Monitor server logs and analyzes log files. 
+	• Use two-Factor Authentication.
+	• Limit logins to a particular IP address or range.
+	• Implement CAPTCHA as part of the login process to prevent automated attacks.
+	• Throttle login attempts (triggered by failed login attempts). 
+	• Make the root user inaccessible via SSH.
+	
+What Do You Mean by Port Scanning?
+
+
+Ports are vital assets that are vulnerable to security breaches. Attackers use port scanning to locate open ports that are sending or receiving data on a network. This technique is also used to assess a host’s vulnerabilities by sending packets to various ports and analyzing their responses. Nevertheless, port scanning is not an inherently malicious activity—cybersecurity specialists use port scanning to evaluate network security.
+Explain the OSI Model.
+Developed in the 1970s, the OSI (Open Systems Communications) model is a conceptual framework that illustrates the architecture and communication functions of a network system. The model, which consists of seven collaborative layers, characterizes these functions into rules and describes how layers operate collaboratively to transmit data.  
+What Is Identity Theft? Can You Prevent It?
+
+
+
+Identity theft occurs when an attacker uses a target’s private data to impersonate or steal from them. Methods of identity theft prevention include basic cybersecurity best practices like using robust, frequently updated passwords and adding authentication steps whenever possible. Installing antivirus software can prevent intruders from accessing your personal information via malware. Some of the most common methods of identity theft include hacking, phishing, and physical mail theft.
+Explain Social Network Phishing.
+Phishing is a cybercrime technique in which attackers disguise fraudulent communications as legitimate or trustworthy in order to steal sensitive data or install malware on a target’s device. Social network phishing, sometimes also referred to as angler phishing, harnesses notifications or messaging features on social media to lure targets. 
+Black Hat Hackers vs White Hat Hackers vs Grey Hat Hackers: Are All Illegal?
+
+
+
+Black hat hackers use cybersecurity knowledge to gain unauthorized access to networks and systems for malicious or exploitative ends. This type of hacking is illegal. Conversely, white hat hackers—also known as ethical hackers—are hired to evaluate the vulnerabilities of a client’s system. Because white hat hackers operate with the permission of their “targets,” this activity is legal. Grey hat hackers may search for system vulnerabilities without permission, but instead of exploiting the vulnerability directly may offer to fix the issue for a price. Because the intrusion was not permitted, grey hat hacking is often considered unethical and illegal.
+How Frequently Do You Perform Patch Management?
+Patches are necessary to prevent security breaches, and patch management is a vital part of upgrading and securing apps, software, and operating systems. The frequency with which you should perform management depends on the unique components of your security infrastructure as well as industry-specific regulatory requirements (HIPAA, for example, has particular stipulations for patch management in healthcare settings). 
+As a rule of thumb, you should conduct antivirus updates weekly, and database patches should be installed quarterly in confluence with the patch release cycle. Vital security patches should be implemented within days of release. Daily patch reports consisting of inventory scans can help verify that all recent updates are installed. 
+Can You Reset a Password-Protected BIOS Configuration?
+BIOS (Basic Input or Output System) is a firmware located on a memory chip, often in a computer’s motherboard or system board. A typical BIOS security feature is a user password that must be entered to boot up a device. If you wish to reset a password-protected BIOS configuration, you’ll need to turn off your device, locate a password reset jumper on the system board, remove the jumper plug from the password jumper-pins, and turn on the device without the jumper plug to clear the password. This will reset the BIOS to default factory settings. 
+What Is the Difference Between Black Box Testing and White Box Testing?
+Black box testing evaluates the behavior and functionality of a software product. This testing methodology operates from an end-user perspective and requires no software engineering knowledge. Black box testers do not have information about the internal structure or design of the product. Conversely, white box testing is typically performed by developers to assess the quality of a product’s code. The tester must understand the internal operations of the product.
+What Do You Mean by Phishing? How Many Types of Phishing Are There?
+
+
+
+Phishing is a type of cyberattack in which communications that appear trustworthy contain content that installs malware on a target’s device or directs a target to a malicious website. While email phishing is perhaps most common, other types of phishing exist as well. 
+Spear phishing pursues specific targets within an organization and uses real information to convince targets that the malicious communication is an internal request from the organization, thereby increasing the chances that the target will access the malware disguised in the communication. Whaling is a type of phishing that targets C-suite executives, and smishing is a phishing attack conducted via text or SMS. From vishing to pharming, over ten different kinds of phishing exist—and the list continues to grow. 
+What Is Forward Secrecy?
+Forward secrecy is a feature of certain key agreement protocols that generates a unique session key for each transaction. Thanks to forward secrecy, an intruder cannot access data from more than one communication between a client and a server—even if the security of one communication is compromised.  
+What Are Spyware Attacks?
+Spyware is a kind of malware that is covertly installed on a targeted device to collect private data. Spyware can infiltrate a device when a user visits a malicious website, opens an infected file attachment, or installs a program or application containing spyware. Once installed, the spyware monitors activity and captures sensitive data, later relaying this information back to third-party entities. 
+What Is ARP Poisoning? Can You Explain With an Example?
+ARP poisoning is a type of cyberattack that aims to interrupt, redirect, or covertly monitor network traffic. The ARP (address resolution protocol) establishes IP-level connections to new hosts by accepting requests from new devices to join the LAN (local area network) and provides an IP address. The ARP also translates the IP address to a MAC address and sends ARP packet requests to query appropriate MAC addresses to use, which saves time for network administrators. 
+After sending fabricated ARP packets to link an intruder’s MAC address with an IP of a device already connected to the LAN (known as ARP spoofing), a hacker can initiate ARP poisoning by changing the extant ARP table to contain falsified MAC maps. A successful ARP poisoning will link the attacker’s MAC address with the target’s LAN, rerouting incoming traffic to the attacker. 
+What Do You Mean by SQL Injection?
+A SQL injection is a type of cyberattack that inserts malicious SQL code via input data to manipulate databases. A properly executed SQL injection can read sensitive data stored in the database, modify that data, execute administration operations, or potentially issue operating system commands. This enables attackers to manipulate data, create repudiation problems, destroy data or restrict access to it, disclose all data within the database, and make themselves administrators of the database server. 
+Explain Active Reconnaissance.
+Active reconnaissance is a type of cyberattack used to gather intelligence about a system’s vulnerabilities. To conduct this kind of reconnaissance, attackers must interact with the target via automated scanning or manual testing with tools like traceroute. While this can be a quick and accurate way to gather information, active reconnaissance is a high-risk, high-reward approach, as direct engagement with a target is more likely to be caught by a firewall or IDS.
+
+How Do You Differentiate Between Viruses and Worms?
+
+
+While viruses attach to a file or program, worms exploit network vulnerabilities to enter a network. Viruses only replicate when activated by a host, and will remain dormant in a system until an action is taken to trigger execution. Conversely, worms propagate independently after breaching a system and can spread without human interaction or the assistance of a host.  
+Cyber Security Interview Questions & Answers—General
+In addition to evaluating your technical skills, a potential employer will want to assess your soft skills through cybersecurity questions that are designed to reveal more about your personality and how you operate in the workplace.
+Introduce Yourself
+This prompt is an opportunity to give your interviewer a sense of what you will bring to the table as an employee, so ground your response in the context of cybersecurity. Summarize your cybersecurity background and experience in a way that highlights skills that are relevant to the role you’re applying for. Research company culture ahead of time, and discuss your past achievements and future goals using language that aligns with the organization’s mission and values. Offer details that will spark the interviewer’s curiosity. 
+Why Do You Want To Build a Career in Cybersecurity?
+This is an opportunity to talk about the specific goals that are motivating your pursuit of a cybersecurity career. Focus your response on how these aspirations will drive you to contribute to the company, and emphasize how your career priorities will help your employer succeed. This is also a chance to assure your interviewer that the career you plan to build will involve sticking around at the company for an extended period of time. To successfully answer this question, illustrate how your passion for cybersecurity and plans for the future of your career will benefit your employer.
+What Are Your Greatest Strengths and Accomplishments?
+
+
+
+Take the opportunity to show how you helped your old company. Did you design its latest firewalls that prevented breaches? Did you reroute the routers? Help with information access security? Do you work well with people and show leadership skills? Talk about the types of technology you know well and how you made a positive impact in your last position. Explain how you built solid relationships with your coworkers and how you all worked together on successful projects—and how you intend to do the same at this new company.
+What Is the Most Challenging Project You Encountered on Your Learning Journey?
+Everyone makes mistakes, and no one is good at everything. Dig into your past: You might have overseen the response to a breach or some other serious problem. It might not have been your fault, but how you handled it shows your professionalism and problem-solving abilities. Demonstrate that you are willing and able to learn from mistakes. Explain how you took responsibility and stepped up to be a leader, and discuss how you’ll apply what you learned in your new role. 
+Situational Question Based on the Resume.
+Situational or behavioral interview questions are designed to shed light on your communication skills, problem-solving abilities, temperament, and attitude. An interviewer may base situational questions on the content of your resume and inquire about successes, challenges, or conflicts in your previous roles. 
+These types of questions might ask you to discuss a time in a previous role when a data breach caught you by surprise, or an instance in which you disagreed with a teammate about a solution—or a scenario in which a powerful individual requested an exception to bend company policy in a way that would compromise security (eg. allowing use of a home computer for official tasks). Employers will want to know how you managed these situations and what the outcome was. 
+How Do You Envision Your First 90 Days on the Job?
+
+
+
+Your answer should encompass how you intend to meet with your team members to find out more about them and how you can work together. You should talk about how you will prioritize gaining an understanding of what your managers need from you and what all the stakeholders hope to achieve while also building a strong rapport with your co-workers. You should ask what you can do to make an impact right away. Talk about how you intend to learn and get into the midst of business as soon as you can.
+Cybersecurity Career FAQs
+Wondering if a job in cybersecurity is right for you? Read on to learn more about compensation, job satisfaction, career outlook, and training for cybersecurity professionals. 
+Why Is Cybersecurity in Demand?
+First and foremost, cyberattacks are costly—in fact, data breach costs rose to $4.24 billion per incident in 2021. As a result, many companies are investing in cybersecurity to skirt revenue loss and maintain customer trust. Digital transformation has touched every industry, and assets ranging from online financial transactions to industrial IoT-enabled machinery are now vulnerable to exploitation. As a result, cybersecurity regulations are growing, motivating organizations to protect their data and stay up-to-date with evolving legislative mandates. 
+Is Cybersecurity a Good Career?
+The scope of cybersecurity is constantly expanding, creating expansive opportunities for professional development. To stay ahead of the continuous evolution of cyber threats, cybersecurity professionals must learn about emerging technologies, solutions, and trends. Cybersecurity is a dynamic field brimming with a variety and exciting challenges. Cybersecurity professionals also have the chance to make major real-world impacts with their work. 
+Finally, this career offers room for growth. Cybersecurity professionals have ample opportunities for advancement across multiple career paths. If you pursue security engineering, you may ascend to the rank of security architect and assume responsibility for the broader security architecture of your organization. If you pursue incident response positions, you’ll likely be able to pivot into the digital forensic investigation.
+If you want to pursue leadership roles, you’ll find opportunities to advance into managerial and administrative roles. Cybersecurity managers oversee network systems and coordinate cybersecurity teams to ensure compliance. The top-ranking cybersecurity position within a company is that of a chief information security officer.
+Is Cybersecurity a High-Paying Job?
+According to Indeed, the average base salary for cybersecurity analysts is $93,745. Some cybersecurity roles are compensated with even higher salaries. Security engineers earn an average base salary of $103,622, while penetration testers take home $112,442 on average. Cloud consultants earn $125,082 per year on average. Directors of information security make $138,663 on average plus a $20,000 annual cash bonus.
+How Long Does It Take To Learn Cybersecurity?
+To launch a cybersecurity career, you’ll need to build the necessary technical skills through a degree program or a tech bootcamp. If you pursue a bachelor’s degree or master’s degree in computer science, information system management, or engineering, you’ll need to set aside two to four years of study—plus time to prepare for cybersecurity certification exams.
+If you choose to learn cybersecurity through a high-quality bootcamp program, you can finish the course in six months working at approximately 15-20 hours per week. A strong bootcamp program will also incorporate preparation materials and offer official practice exams to help you earn a cybersecurity certification. 
+With the right curriculum and one-on-one guidance from an industry expert mentor, you’ll be able to build the cybersecurity skills you need to get hired.
+
+From <https://www.springboard.com/blog/cybersecurity/25-cybersecurity-job-interview-questions-and-answers/> 
+
+
+
+How can you defend from this? Those in larger organizations that have security teams can use their red and blue team resources. Normally, the red team emulates attackers to determine identify flaws or weaknesses in systems. The blue team defends against attackers and to improve the company’s security settings and posture.
+Your firm should then use purple teams that blend the resources of the blue and red teams to help train everyone to be aware of attack sequences. This coordination between the two teams allows the firm to be better aware of attacks and get appropriate alerts.
+
+From <https://www.csoonline.com/article/3530321/how-to-prevent-attackers-from-using-windows-against-you.html> 
+
+• RAT, an executable program that gives unauthorized remote access to a user's computer
+• Trojan, an executable program that pretends to perform a harmless activity while doing something malicious
+• Rootkit, a malware that uses the lower layers of the operating system or undocumented functions to make alterations to the operating system's processes
+• Backdoor, which gives access to a computer, program, or service that overrides any normal security protections
+
+
+
+
+Where I started taking Notes from the Beginning
+
+So, this is a living document - a collection of neat tools, sites, and information you can share with students or explore yourself!
+If you have tools to add to this list, send them to @Rick Butler and, after a brief review, we'll add them, with your name tagged at the bottom as a contributor.
+Organizations
+	• National Cyber League - https://nationalcyberleague.org/home
+Tools
+	• HackTheBox - https://www.hackthebox.eu/
+
+• HelpSystems Cyber Games - https://www.helpsystems.com/blog/break-time-6-cybersecurity-games-youll-love
+• MXToolbox - https://mxtoolbox.com/SuperTool.aspx
+• Resplendence - System Tools - https://www.resplendence.com/main
+• TryHackMe - https://tryhackme.com/
+ViewDNS - https://viewdns.info/
+
+Information
+	• CIRT.net Default Passwords - https://cirt.net/passwords
+	• CompTIA Cyber Awareness Month - https://www.comptia.org/blog/cybersecurity-awareness-month
+	• US Defense Counterintelligence and Security Agency - https://www.dcsa.mil/
+	• Firebrand CTF Course - https://firebrand.training/en/cours...ntinuous-testing-foundation-ctf-certification
+	• Huntsman Cybersecurity Maturity Model Certification - https://www.huntsmansecurity.com/blog/understanding-cyber-security-maturity-models/
+	• ICSA Labs - https://www.icsalabs.com/
+	• Incident Response Playbooks - https://www.incidentresponse.com/playbooks/
+	• Kaspersky Cybermap - https://cybermap.kaspersky.com/
+	• KNOB Attacks - https://knobattack.com/
+	• Mike Bazzell's Intel Techniques - https://inteltechniques.com/
+	• MITRE Search CVE List - https://cve.mitre.org/cve/search_cve_list.html
+	• National Security Toolkit (NST) - http://www.networksecuritytoolkit.org/nst/index.html
+	• NIST National Vulnerability Database - https://nvd.nist.gov/
+	• OSINT Framework - https://osintframework.com/
+	• SANS Ultimate List of Cheat Sheets - https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/
+	
+Hardware
+	• Hak5 Hacking Gear - https://shop.hak5.org/
+
+Software
+	• Carrot2 on GitHub - https://github.com/carrot2/carrot2
+	• CSI Linux - https://csilinux.com/
+	• CyberChef - https://gchq.github.io/CyberChef/
+	• Glasswire Firewall - https://www.glasswire.com/
+	• Hunchly: OSINT Online Evidence Collection - https://www.hunch.ly/
+	• Jitsi - Secure Video Conferencing - https://jitsi.org/
+	• Kali Linux - https://www.kali.org/
+Low Orbit Ion Cannon: DDoS Network Stressor - https://sourceforge.net/projects/loic
+
+• Network Miner - https://www.netresec.com/?page=NetworkMiner
+• OSQuery: Endpoint Visibility - https://osquery.io/downloads/official/4.4.0
+• ParrotOS - https://www.parrotsec.org/
+• Security Onion - https://securityonionsolutions.com/
+• Spiderfoot HX - https://www.spiderfoot.net/hx/
+• Windows ESU Patching - https://hackandpwn.com/windows-7-esu-patching/
+
+What is a Port?
+A Port is a number assigned to a specific protocol. It is a virtual communication endpoint used for network connection. Ports live in software designed to operate on devices and connect over the web. Computers received a vast amount of data, and the port helps them distinguish different types of traffic and make a computer understand what it should do with the received or sent data over the same network connection. There are different numbers assigned to different ports like port 80,443,21,22,53, 123,179, etc.
+
+From <https://www.clickssl.net/blog/port-80-http-vs-port-443-https> 
+
+
+IP address definition
+An IP address is a unique address that identifies a device on the internet or a local network. IP stands for "Internet Protocol," which is the set of rules governing the format of data sent via the internet or local network.
+In essence, IP addresses are the identifier that allows information to be sent between devices on a network: they contain location information and make devices accessible for communication. The internet needs a way to differentiate between different computers, routers, and websites. IP addresses provide a way of doing so and form an essential part of how the internet works.
+
+From <https://www.kaspersky.com/resource-center/definitions/what-is-an-ip-address> 
+
+What is an IP Address?
+An IP address is a string of numbers separated by periods. IP addresses are expressed as a set of four numbers — an example address might be 192.158.1.38. Each number in the set can range from 0 to 255. So, the full IP addressing range goes from 0.0.0.0 to 255.255.255.255.
+IP addresses are not random. They are mathematically produced and allocated by the Internet Assigned Numbers Authority (IANA), a division of the Internet Corporation for Assigned Names and Numbers (ICANN). ICANN is a non-profit organization that was established in the United States in 1998 to help maintain the security of the internet and allow it to be usable by all. Each time anyone registers a domain on the internet, they go through a domain name registrar, who pays a small fee to ICANN to register the domain.
+Watch this video to learn what IP address is, why IP address is important and how to protect it from hackers:
+
+From <https://www.kaspersky.com/resource-center/definitions/what-is-an-ip-address> 
+
+How do IP addresses work
+If you want to understand why a particular device is not connecting in the way you would expect or you want to troubleshoot why your network may not be working, it helps understand how IP addresses work.
+Internet Protocol works the same way as any other language, by communicating using set guidelines to pass information. All devices find, send, and exchange information with other connected devices using this protocol. By speaking the same language, any computer in any location can talk to one another.
+The use of IP addresses typically happens behind the scenes. The process works like this:
+1. Your device indirectly connects to the internet by connecting at first to a network connected to the internet, which then grants your device access to the internet.
+2. When you are at home, that network will probably be your Internet Service Provider (ISP). At work, it will be your company network.
+3. Your IP address is assigned to your device by your ISP.
+4. Your internet activity goes through the ISP, and they route it back to you, using your IP address. Since they are giving you access to the internet, it is their role to assign an IP address to your device.
+5. However, your IP address can change. For example, turning your modem or router on or off can change it. Or you can contact your ISP, and they can change it for you.
+6. When you are out and about – for example, traveling – and you take your device with you, your home IP address does not come with you. This is because you will be using another network (Wi-Fi at a hotel, airport, or coffee shop, etc.) to access the internet and will be using a different (and temporary) IP address, assigned to you by the ISP of the hotel, airport or coffee shop.
+As the process implies, there are different types of IP addresses, which we explore below.
+Types of IP addresses
+There are different categories of IP addresses, and within each category, different types.
+Consumer IP addresses
+Every individual or business with an internet service plan will have two types of IP addresses: their private IP addresses and their public IP address. The terms public and private relate to the network location — that is, a private IP address is used inside a network, while a public one is used outside a network.
+Private IP addresses
+Every device that connects to your internet network has a private IP address. This includes computers, smartphones, and tablets but also any Bluetooth-enabled devices like speakers, printers, or smart TVs. With the growing internet of things, the number of private IP addresses you have at home is probably growing. Your router needs a way to identify these items separately, and many items need a way to recognize each other. Therefore, your router generates private IP addresses that are unique identifiers for each device that differentiate them on the network.
+Public IP addresses
+A public IP address is the primary address associated with your whole network. While each connected device has its own IP address, they are also included within the main IP address for your network. As described above, your public IP address is provided to your router by your ISP. Typically, ISPs have a large pool of IP addresses that they distribute to their customers. Your public IP address is the address that all the devices outside your internet network will use to recognize your network.
+Public IP addresses
+Public IP addresses come in two forms – dynamic and static.
+Dynamic IP addresses
+Dynamic IP addresses change automatically and regularly. ISPs buy a large pool of IP addresses and assign them automatically to their customers. Periodically, they re-assign them and put the older IP addresses back into the pool to be used for other customers. The rationale for this approach is to generate cost savings for the ISP. Automating the regular movement of IP addresses means they don’t have to carry out specific actions to re-establish a customer's IP address if they move home, for example. There are security benefits, too, because a changing IP address makes it harder for criminals to hack into your network interface.
+Static IP addresses
+In contrast to dynamic IP addresses, static addresses remain consistent. Once the network assigns an IP address, it remains the same. Most individuals and businesses do not need a static IP address, but for businesses that plan to host their own server, it is crucial to have one. This is because a static IP address ensures that websites and email addresses tied to it will have a consistent IP address — vital if you want other devices to be able to find them consistently on the web.
+This leads to the next point – which is the two types of website IP addresses.
+There are two types of website IP addresses
+For website owners who don’t host their own server, and instead rely on a web hosting package – which is the case for most websites – there are two types of website IP addresses. These are shared and dedicated.
+Shared IP addresses
+Websites that rely on shared hosting plans from web hosting providers will typically be one of many websites hosted on the same server. This tends to be the case for individual websites or SME websites, where traffic volumes are manageable, and the sites themselves are limited in terms of the number of pages, etc. Websites hosted in this way will have shared IP addresses.
+Dedicated IP addresses
+Some web hosting plans have the option to purchase a dedicated IP address (or addresses). This can make obtaining an SSL certificate easier and allows you to run your own File Transfer Protocol (FTP) server. This makes it easier to share and transfer files with multiple people within an organization and allow anonymous FTP sharing options. A dedicated IP address also allows you to access your website using the IP address alone rather than the domain name — useful if you want to build and test it before registering your domain.
+How to look up IP addresses
+The simplest way to check your router’s public IP address is to search “What is my IP address?” on Google. Google will show you the answer at the top of the page.
+Other websites will show you the same information: they can see your public IP address because, by visiting the site, your router has made a request and therefore revealed the information. The site IPLocation goes further by showing the name of your ISP and your city.
+Generally, you will only receive an approximation of location using this technique — where the provider is, but not the actual device location. If you are doing this, remember to log out of your VPN too. Obtaining the actual physical location address for the public IP address usually requires a search warrant to be submitted to the ISP.
+Finding your private IP address varies by platform:
+In Windows:
+• Use the command prompt.
+• Search for “cmd” (without the quotes) using Windows search
+• In the resulting pop-up box, type “ipconfig” (no quote marks) to find the information.
+On a Mac:
+• Go to System Preferences
+• Select network – and the information should be visible.
+On an iPhone:
+• Go to Settings
+• Select Wi-Fi and click the “i" in a circle () next to the network you are on – the IP address should be visible under the DHCP tab.
+If you need to check the IP addresses of other devices on your network, go into the router. How you access the router depends on the brand and the software it uses. Generally, you should be able to type the router's gateway IP address into a web browser on the same network to access it. From there, you will need to navigate to something like "attached devices," which should display a list of all the devices currently or recently attached to the network — including their IP addresses.
+IP address security threats
+Cybercriminals can use various techniques to obtain your IP address. Two of the most common are social engineering and online stalking.
+Attackers can use social engineering to deceive you into revealing your IP address. For example, they can find you through Skype or a similar instant messaging application, which uses IP addresses to communicate. If you chat with strangers using these apps, it is important to note that they can see your IP address. Attackers can use a Skype Resolver tool, where they can find your IP address from your username.
+Online stalking
+Criminals can track down your IP address by merely stalking your online activity. Any number of online activities can reveal your IP address, from playing video games to commenting on websites and forums.
+Once they have your IP address, attackers can go to an IP address tracking website, such as whatismyipaddress.com, type it in, and then get an idea of your location. They can then cross-reference other open-source data if they want to validate whether the IP address is associated with you specifically. They can then use LinkedIn, Facebook, or other social networks that show where you live, and then see if that matches the area given.
+If a Facebook stalker uses a phishing attack against people with your name to install spying malware, the IP address associated with your system would likely confirm your identity to the stalker.
+If cybercriminals know your IP address, they can launch attacks against you or even impersonate you. It is important to be aware of the risks and how to mitigate them. Risks include:
+Downloading illegal content using your IP address
+Hackers are known to use hacked IP addresses to download illegal content and anything else they do not want to be traced back to them. For example, using the identity of your IP address, criminals could download pirated movies, music, and video – which would breach your ISP’s terms of use – and much more seriously, content related to terrorism or child pornography. This could mean that you – through no fault of your own – could attract the attention of law enforcement.
+Tracking down your location
+If they know your IP address, hackers can use geolocation technology to identify your region, city, and state. They only need to do a little more digging on social media to identify your home and potentially burgle it when they know you are away.
+Directly attacking your network
+Criminals can directly target your network and launch a variety of assaults. One of the most popular is a DDoS attack (distributed denial-of-service). This type of cyberattack occurs when hackers use previously infected machines to generate a high volume of requests to flood the targeted system or server. This creates too much traffic for the server to handle, resulting in a disruption of services. Essentially, it shuts down your internet. While this attack is typically launched against businesses and video game services, it can occur against an individual, though this is much less common. Online gamers are at particularly high risk for this, as their screen is visible while streaming (on which an IP address can be discovered).
+Hacking into your device
+The internet uses ports as well as your IP address to connect. There are thousands of ports for every IP address, and a hacker who knows your IP can try those ports to attempt to force a connection. For example, they could take over your phone and steal your information. If a criminal does obtain access to your device, they could install malware on it.
+
+From <https://www.kaspersky.com/resource-center/definitions/what-is-an-ip-address> 
+
+https://www.kaspersky.com/resource-center/definitions/what-is-an-ip-address#:~:text=How%20to%20protect%20and,variety%20of%20cybercriminals%27%20attacks.
+
+NAT (Network Address Translation) - Current network security features used today
+ 
+ 
+NAT (Network Address Translation)
+Primarily NAT was introduced to the world of IT and networking due to the lack of IP addresses, or looking at it from another view, due to the vast amount of growing IT technology relying on IP addresses. To add to this, NAT adds a layer of security, by hiding computers, servers and other IT equipment from the outside world.
+How NAT works
+When computers and servers within a network communicate, they need to be identified to each other by a unique address, in which resulted in the creation of a 32 bit number, and the combinations of these 32 bits would accommodate for over 4 billion unique addresses, known as IP address. This was named IPv4, and although over 4 billion addresses sounds a lot, it really is not considering how fast the world of computers and the internet has grown.
+To circumvent this problem, a temporary solution was produced known as NAT. NAT resulted in two types of IP addresses, public and private. A range of private addresses were introduced, which anyone could use, as long as these were kept private within the network and not routed on the internet. The range of private addresses known as RFC 1918 are;
+Class A 10.0.0.0 - 10.255.255.255
+Class B 172.16.0.0 - 172.31.255.255
+Class C 192.168.0.0 - 192.168.255.255
+NAT allows you to use these private IP address on the internal network. So within your private network you would assign a unique IP address to all your computers, servers and other IP driven resources, usually done via DHCP. Another company can use the same private IP addresses as well, as long as they are kept internal to their network. So two companies maybe using the same range of IP addresses but because they are private to their network, they are not conflicting with each other.
+However when internal hosts do need to communicate to the public network (Internet) then this is where a public address comes into the equation. This address usually purchased from an ISP is a routable public address everyone can see, which would represent your network gateway. This public address would be unique, no one else would use this address.
+Now getting to the point; When a host on the internal network with an internal IP address does need to communicate outside it's private network, it would use the public IP address on the network's gateway to identify itself to the rest of the world, and this translation of converting a private IP address to public is done by NAT. For example a computer on an internal address of 192.168.1.10 wanted to communicate with a web server somewhere on the internet, NAT would translate the address 192.168.1.10 to the company's public address, lets call this 1.1.1.1 for example. so that the internal address is identified as the public address when communicating with the outside world. This has to be done because when the web server somewhere on the internet was to reply to this internal computer, it needs to send this to a unique and routable address on the internet, the public address. It can not use the original address of 192.168.1.10, as this is private, none routable and hidden from the outside world. This address, of 1.1.1.1 would be the address of the public address for that company and can be seen by everyone. Now the web server would reply to that public address, 1.1.1.1. NAT would then use its records to translate the packets received from the web server that was destined to 1.1.1.1 back to the internal network address of 192.168.1.10, and though the computer who requested the original info, will receive the requested packets.
+Now you can obviously see the two benefits of NAT. Firstly it would save on the IP addresses we use, as every single computer does not need a public address, and also it would hide these private computers from the outside world. Everyone can only see the public address, the rest is hidden behind this public address. So from the internet only the public address on the external interface of the firewall or router can be seen, and nothing beyond it.
+Types of NAT
+Three main types of NAT rules are used today depending on what needs to be accomplished;
+Static NAT
+A pool of public IP addresses are assigned to the NAT device. A private IP address can then be statically mapped to anyone of these public addresses. This type of NATTING scheme is usually used for servers requiring the same IP address always, hence the name "static", so server 1 will always have the same IP address assigned to it, server 2 will have a different public IP address assigned to it and so on.
+Dynamic NAT
+Again the NAT device will consist of a pool of IP addresses. This time though the pool of IP addresses will be used when needed and then given back to the pool. So if computer A needed a public address, it would take one from the pool, then hand it back when done. The next time the same computer wanted an IP address it may be assigned a different public address from the pool, because the one used previously may be in use by another computer, hence the name "dynamic". So users who want to communicate on the internet at any one time will be limited by how many public IP addresses are available in the NAT pool. A company would purchase a number of public IP's depending on their need.
+Port Address Translation (PAT)
+In this type of setup, a company would only have one public IP address assigned to their network, and so everyone would share this one public address when using the internet, browsing the web for example. Yes, you may be asking how can everyone share one address, well the clue lies within the name, Port address translation. When a computer wants to use the internet, the NAT device, using the PAT method will remember the IP address and source port of the internal host. For example 192.168.1.10 with a source port of 55331 wanted to browse Amazon.com. The NAT device will keep a note of this, and when Amazon replies to the public address and the port number of 55331, the NAT device will use the PAT method and look up the port information which maps to the internal computer requesting it. So it would be saying, this information Amazon has sent back to the public address and port number 55331, maps to the IP address 192.168.1.10 who originally requested it, though the information is for that computer. So the connections are uniquely identified by a source port, all using the same public IP but with unique source ports to identify who requested what information.
+A company would save a reasonable amount of money and IP addresses using this method because it is only using one IP address. This has been a major factor to why IPv6 has been mentioned for some years now but still not required in most countries.
+NAT is also implemented in home based routers and hardware firewalls such as the Netgear's and the Linksys of this world as well as the high end hardware firewalls such as the likes of Cisco and Juniper.
+This has proved a valuable feature on hardware firewalls for saving public IP addresses and also a countermeasure for some types of attacks such as a reconnaissance attack.
+Disadvantages of NAT
+As with everything, NAT does have it's drawbacks. Some applications and services such as VPN and video conferencing struggle to process via NAT (Not entirely true as you can most of the time get them configured to work with NAT, but can get a little messy when setting rules up in applications,, routers and firewalls).
+IPv6
+However to circumvent the above issue a few extra public IP addresses can be purchased for these dedicated services. For the long run however, IPv6 is already being rolled out in some technologies and some parts of the world. This addressing scheme uses 128bit numbering scheme as opposed to IPv4's 32bits used for addresses. IPv6 supports 2 to the power of 128 addresses, compared to IPv4's 2 to the power of 32, now that is a massively huge increase of IP addresses, though future proofing the growth of IP addressing using IPv6.
+
+From <http://www.internet-computer-security.com/Firewall/NAT.html> 
+
+
+
+ segments called octets that are separated by a period. The numbers within each octet range between 0 and 255. Here's an example of a typical IPv4 address:
+192.168.40.39
+No other device on your network -- unless you are using NAT -- will have the same IP address. Therefore,  for a device to communicate with another, the sending device must know the location of the destination before it can begin transmitting data. Depending on the locations of the source and destination devices as they relate to the subnet mask, the process of discovering the location of the destination device address will vary.
+
+From <https://www.networkcomputing.com/network-security/ip-addresses-subnet-masks-and-default-gateways> 
+
+Subnet masks
+As the name indicates, the subnet mask is used to subdivide a network into smaller, more manageable chunks. And when I say "more manageable," I'm mostly referring to the amount of broadcast traffic that can be tolerated within a network. As described above, in order for a sending device to transmit data to a receiving device, the sender needs to know where the destination is. The destination will either be on the same subnetwork as the source, or on some other subnetwork.
+In our example, let's assume that the source IP address is 192.168.40.15 while our destination IP address remains 192.168.40.39. In order to determine if the devices are on the same subnet, we need the subnet mask. The mask designates where the network boundaries reside. Here, our subnet mask is 255.255.255.0. This can also be written as a /24 network mask. To understand the IP subnetwork boundaries, let's look at the IP address and subnet mask for our destination device:
+192.168.040.039
+255.255.255.000
+As you can see, the four octets of the IP address align with the four octets of the subnet mask. The 255 octets in the subnet mask tell us that the corresponding numbers in the IP address are static and never change. Therefore, we know that the first three octets -- 192.168.40 of our IP address -- designate the network portion of our destination IP. And since the fourth octet is 0, that means this is the host octet and that individual devices can be assigned any number from 1-254. If that's the case, then our source IP address of 192.168.40.15 means these two devices belong to the same subnet.
+
+From <https://www.networkcomputing.com/network-security/ip-addresses-subnet-masks-and-default-gateways/page/0/1> 
+
+Broadcasts
+If the devices are in the same subnet, the mechanism used to determine the location of the destination device is the broadcast. A broadcast packet is a special packet on the subnetwork that's sent to every device on the subnetwork. The broadcast address is designated as 255.255.255.255. This is known as a limited broadcast because it is limited to the subnet that it originated from.
+When a broadcast is received -- which is actually a broadcast MAC address that is local to that VLAN -- all devices within that subnet respond with their IP address and the physical MAC address of the network card. These two pieces of information are then placed into an address resolution protocol (ARP) table. The table is used to keep track of the location of devices on the same subnet. And ultimately, the ARP table is used to efficiently switch data on the same subnet at the data link layer of the OSI model.
+As you can imagine, the larger the subnetwork is, the more broadcast and ARP traffic will consume your network. In our example, a 255.255.255.0 network mask can hold up to 254 different devices. The next largest network is 512, and then 1024. Depending on your network capacity, anything over 1024 hosts on a single subnet is going to create too much broadcast traffic. Instead, subnets are intended to shrink broadcast domains so that the broadcasts themselves have little to no impact on the performance of the network.
+
+From <https://www.networkcomputing.com/network-security/ip-addresses-subnet-masks-and-default-gateways/page/0/2> 
+
+
+Default gateways
+I've covered how devices communicate using IP when the devices are on the same subnet. But what happens if they are on different networks? This is where the default gateway comes into play. As described previously, the source device and destination device are either on the same subnet or they're on different subnets. In this example, let's change our source IP address, while keeping the destination address the same. So now our source and destination address and subnet masks are:
+192.168.99.15 255.255.255.0
+192.168.40.39 255.255.255.0
+Because we are still using /24 subnet masks, we know these two devices are in different subnets since the third octet for each is different. And because subnets are used to break up broadcasts, using the broadcast mechanism with an ARP table will not work in this situation. This is why we need a default gateway.
+The default gateway is used as the destination of all traffic that is not on the same subnet. The gateway is a layer 3 device such as a router or multi-layer switch that is used to route traffic on a hop-by-hop basis. But for the purposes of this discussion, the only thing the end device needs to know is whether the data is on the same subnet. If it's not, the source device delivers traffic to the end device through the default gateway.
+The default gateway always resides in the same subnet as the end device IP. The gateway can really be any unique address within the subnet itself, but most network administrators designate the first number of the subnet as the gateway. Therefore, 192.168.99.1 would be the default gateway of our source device given the fact that we have a 255.255.255.0 subnet mask.
+ 
+
+From <https://www.networkcomputing.com/network-security/ip-addresses-subnet-masks-and-default-gateways/page/0/3> 
+
+
+What Is NAT?
+NAT stands for network address translation. It’s a way to map multiple private addresses inside a local network to a public IP address before transferring the information onto the internet. Organizations that want multiple devices to employ a single IP address use NAT, as do most home routers. If you’re connecting from your home right now, chances are your cable modem or DSL router is already providing NAT to your home.
+How Does NAT Work?
+Let’s say that there is a laptop connected to a home network using NAT. That network eventually connects to a router that addresses the internet. Suppose that someone uses that laptop to search for directions to their favorite restaurant. The laptop is using NAT. So, it sends this request in an IP packet to the router, which passes that request along to the internet and the search service you’re using. But before your request leaves your home network, the router first changes the internal IP address from a private local IP address to a public IP address. Your router effectively translates the private address you’re using to one that can be used on the internet, and then back again. Now you know that your humble little cable modem or DSL router has a little, automated translator working inside of it.
+If the packet keeps a private address, the receiving server won’t know where to send the information back to. This is because a private IP address cannot be routed onto the internet. If your router were to try doing this, all internet routers are programmed to automatically drop private IP addresses. The nice thing is, though, that all routers sold today for home offices and small offices can readily translate back and forth between private IP address and publicly-routed IP addresses.
+
+From <https://www.comptia.org/content/guides/what-is-network-address-translation> 
+
+
+From <https://www.comptia.org/content/guides/what-is-network-address-translation> 
+
+What are Private IP Addresses?
+As the internet became more popular years ago, the organization that manages IP addresses, known as the Internet Assigned Numbers Authority (IANA) realized that they needed to do something. So, they created a network address translation scheme. This scheme is described in a document called Request for Comments (RFC) 1918. This is just one document of thousands that define how the internet works. If you want to learn about NAT, this is the document that all router manufactures must implement. No matter what type of NAT you use, you will be using RFC 1918 addresses.
+If you were to try to send an RFC 1918 private IP address onto the internet, it would be much like sending a physical piece of mail with the return address of “anonymous,” yet requesting return service notification. If you were to try doing that with a snail mail service, you would never get that return service notification, because the service wouldn’t be able to tell where “anonymous” even is.
+
+From <https://www.comptia.org/content/guides/what-is-network-address-translation> 
+
+NAT Types
+There are three different types of NATs. People and organizations use them for different reasons, but they all still work as a NAT.
+Static NAT
+When the local address is converted to a public one, this NAT chooses the same one. This means there will be a consistent public IP address associated with that router or NAT device.
+Dynamic NAT
+Instead of choosing the same IP address every time, this NAT goes through a pool of public IP addresses. This results in the router or NAT device getting a different address each time the router translates the local address to a public address.
+PAT
+PAT stands for port address translation. It’s a type of dynamic NAT, but it bands several local IP addresses to a singular public one. Organizations that want all their employees’ activity to use a singular IP address use a PAT, often under the supervision of a network administrator.
+Why Use NAT?
+NAT is a straightforward process. Most routing equipment you purchase at a store will implement it automatically, or with a simple click of a mouse. Let’s get a bit deeper into NAT’s role in IP conservation and explain its limited role in providing security services.
+IP Conservation
+IP addresses identify each device connected to the internet. The existing IP version 4 (IPv4) uses 32-bit numbered IP addresses, which allows for 4 billion possible IP addresses, which seemed like more than enough when it launched in the 1970s.
+However, the internet has exploded, and while not all 7 billion people on the planet access the internet regularly, those that do often have multiple connected devices: Phones, personal desktop, work laptop, tablet, TV, even refrigerators.
+Therefore, the number of devices accessing the internet far surpasses the number of IP addresses available. Routing all of these devices via one connection using NAT helps to consolidate multiple private IP addresses into one public IP address. This helps to keep more public IP addresses available even while private IP addresses proliferate.
+IPv6: More Addresses and Routing Efficiency
+On June 6, 2012, IP version 6 (IPv6) officially launched after decades of development. IPv6 was created for many reasons. One of them was to accommodate the need for more IP addresses. This is because traditional NAT itself couldn’t quite keep up with demand. IPv6 uses 128-bit numbered IP addresses, which allow for exponentially more potential IP addresses than IPv4. It will take many years before this process finishes; so until then, using NAT for IPv4 addresses will remain a common practice. More importantly, though, IPv6 does more than just provide a (much) larger IP address space. IPv6 also makes routing much more efficient. For example, IPv6 doesn’t put the burden on routers to process traffic as much as IPv4 does.
+
+From <https://www.comptia.org/content/guides/what-is-network-address-translation> 
+
+NAT and Security
+NAT and private IP addressing are not security services per se. But the use of NAT and private IP addresses is often perceived as a first step towards security. Because NAT transfers packets of data from public to private addresses, it also helps prevent outside computers from directly accessing your private device. For example, an individual on the internet would not be able to use ping or a Web browser to connect to your home computer, unless you created a very specific mapping.
+Still, it is important to understand that in and of itself, NAT does not provide security services, such as firewalling, monitoring, antivirus protection, intrusion detection, application security or zero trust services. It is best to consider NAT as a service that conserves and organizes IP addresses, rather than securing information or privacy. Part of the confusion about whether or not NAT provides security services is that it implements private IP addresses. It might seem natural to assume that the term private implies security and privacy. But in almost every practical way, NAT does not provide security services. Instead, it allows you to use RFC 1918 addresses.
+
+From <https://www.comptia.org/content/guides/what-is-network-address-translation> 
+
+SUBNET 
+A subnet, or subnetwork, is a smaller network within a larger one.
+
+A simple network / subnet. Source: What Is My IP Address?
+Subnets make networks more efficient by simplifying routes from one computer or server to another.
+Also, because subnets allow us to break up networks into smaller ones, they've dramatically increased the number of devices that can connect to the internet.
+Without subnets, every internet connect device would need its own IP address. There are only about 4.2 billion possible IP addresses under the current IPv4 system, so we would have run out many years ago.
+Subnets often work with a subnet mask, which acts as a soft of filter for internet traffic. Using an IP address and a subnet mask, devices can figure out of another device is part of the same network (connected to the same router or within the same company), or is somewhere else online.
+
+An IP address and subnet mask. Source: IPv4
+
+From <https://www.freecodecamp.org/news/subnet-definition/> 
+
+Subnet mask
+A subnet mask defines the range of IP addresses that can be used within a network or subnet. It also separates an IP address into two parts: network bits and host bits.
+Subnet masks are used when subnetting, which is when you break a network up into smaller networks. By adjusting the subnet mask, you can set the number of available IP addresses within a network.
+For example, a common subnet mask for simple home networks is 255.255.255.0. This subnet mask allows up to 254 usable IP addresses within the home network. In other words, up to 254 computers, phones, and other internet connected devices can connect to your router/network and access the internet.
+Subnet masks break an IP address up into network bits and host bits. When a device sees the network and host bits of another device's IP address, it can figure out if the other device is part of the same network (home, business, etc.), or is somewhere else online
+
+An IP address and subnet mask. Source: IPv4
+
+From <https://www.freecodecamp.org/news/subnet-mask-definition/> 
+
+IP address definition
+An IP address is a unique address that identifies a device on the internet or a local network. IP stands for "Internet Protocol," which is the set of rules governing the format of data sent via the internet or local network.
+In essence, IP addresses are the identifier that allows information to be sent between devices on a network: they contain location information and make devices accessible for communication. The internet needs a way to differentiate between different computers, routers, and websites. IP addresses provide a way of doing so and form an essential part of how the internet works.
+
+From <https://www.kaspersky.com/resource-center/definitions/what-is-an-ip-address> 
+
+What is an IP Address?
+An IP address is a string of numbers separated by periods. IP addresses are expressed as a set of four numbers — an example address might be 192.158.1.38. Each number in the set can range from 0 to 255. So, the full IP addressing range goes from 0.0.0.0 to 255.255.255.255.
+IP addresses are not random. They are mathematically produced and allocated by the Internet Assigned Numbers Authority (IANA), a division of the Internet Corporation for Assigned Names and Numbers (ICANN). ICANN is a non-profit organization that was established in the United States in 1998 to help maintain the security of the internet and allow it to be usable by all. Each time anyone registers a domain on the internet, they go through a domain name registrar, who pays a small fee to ICANN to register the domain.
+Watch this video to learn what IP address is, why IP address is important and how to protect it from hackers:
+
+From <https://www.kaspersky.com/resource-center/definitions/what-is-an-ip-address> 
+
+If you want to understand why a particular device is not connecting in the way you would expect or you want to troubleshoot why your network may not be working, it helps understand how IP addresses work.
+Internet Protocol works the same way as any other language, by communicating using set guidelines to pass information. All devices find, send, and exchange information with other connected devices using this protocol. By speaking the same language, any computer in any location can talk to one another.
+The use of IP addresses typically happens behind the scenes. The process works like this:
+7. Your device indirectly connects to the internet by connecting at first to a network connected to the internet, which then grants your device access to the internet.
+8. When you are at home, that network will probably be your Internet Service Provider (ISP). At work, it will be your company network.
+9. Your IP address is assigned to your device by your ISP.
+10. Your internet activity goes through the ISP, and they route it back to you, using your IP address. Since they are giving you access to the internet, it is their role to assign an IP address to your device.
+11. However, your IP address can change. For example, turning your modem or router on or off can change it. Or you can contact your ISP, and they can change it for you.
+12. When you are out and about – for example, traveling – and you take your device with you, your home IP address does not come with you. This is because you will be using another network (Wi-Fi at a hotel, airport, or coffee shop, etc.) to access the internet and will be using a different (and temporary) IP address, assigned to you by the ISP of the hotel, airport or coffee shop.
+As the process implies, there are different types of IP addresses, which we explore below.
+Types of IP addresses
+There are different categories of IP addresses, and within each category, different types.
+Consumer IP addresses
+Every individual or business with an internet service plan will have two types of IP addresses: their private IP addresses and their public IP address. The terms public and private relate to the network location — that is, a private IP address is used inside a network, while a public one is used outside a network.
+Private IP addresses
+Every device that connects to your internet network has a private IP address. This includes computers, smartphones, and tablets but also any Bluetooth-enabled devices like speakers, printers, or smart TVs. With the growing internet of things, the number of private IP addresses you have at home is probably growing. Your router needs a way to identify these items separately, and many items need a way to recognize each other. Therefore, your router generates private IP addresses that are unique identifiers for each device that differentiate them on the network.
+Public IP addresses
+A public IP address is the primary address associated with your whole network. While each connected device has its own IP address, they are also included within the main IP address for your network. As described above, your public IP address is provided to your router by your ISP. Typically, ISPs have a large pool of IP addresses that they distribute to their customers. Your public IP address is the address that all the devices outside your internet network will use to recognize your network.
+Public IP addresses
+Public IP addresses come in two forms – dynamic and static.
+Dynamic IP addresses
+Dynamic IP addresses change automatically and regularly. ISPs buy a large pool of IP addresses and assign them automatically to their customers. Periodically, they re-assign them and put the older IP addresses back into the pool to be used for other customers. The rationale for this approach is to generate cost savings for the ISP. Automating the regular movement of IP addresses means they don’t have to carry out specific actions to re-establish a customer's IP address if they move home, for example. There are security benefits, too, because a changing IP address makes it harder for criminals to hack into your network interface.
+Static IP addresses
+In contrast to dynamic IP addresses, static addresses remain consistent. Once the network assigns an IP address, it remains the same. Most individuals and businesses do not need a static IP address, but for businesses that plan to host their own server, it is crucial to have one. This is because a static IP address ensures that websites and email addresses tied to it will have a consistent IP address — vital if you want other devices to be able to find them consistently on the web.
+This leads to the next point – which is the two types of website IP addresses.
+There are two types of website IP addresses
+For website owners who don’t host their own server, and instead rely on a web hosting package – which is the case for most websites – there are two types of website IP addresses. These are shared and dedicated.
+Shared IP addresses
+Websites that rely on shared hosting plans from web hosting providers will typically be one of many websites hosted on the same server. This tends to be the case for individual websites or SME websites, where traffic volumes are manageable, and the sites themselves are limited in terms of the number of pages, etc. Websites hosted in this way will have shared IP addresses.
+Dedicated IP addresses
+Some web hosting plans have the option to purchase a dedicated IP address (or addresses). This can make obtaining an SSL certificate easier and allows you to run your own File Transfer Protocol (FTP) server. This makes it easier to share and transfer files with multiple people within an organization and allow anonymous FTP sharing options. A dedicated IP address also allows you to access your website using the IP address alone rather than the domain name — useful if you want to build and test it before registering your domain.
+How to look up IP addresses
+The simplest way to check your router’s public IP address is to search “What is my IP address?” on Google. Google will show you the answer at the top of the page.
+Other websites will show you the same information: they can see your public IP address because, by visiting the site, your router has made a request and therefore revealed the information. The site IPLocation goes further by showing the name of your ISP and your city.
+Generally, you will only receive an approximation of location using this technique — where the provider is, but not the actual device location. If you are doing this, remember to log out of your VPN too. Obtaining the actual physical location address for the public IP address usually requires a search warrant to be submitted to the ISP.
+Finding your private IP address varies by platform:
+In Windows:
+• Use the command prompt.
+• Search for “cmd” (without the quotes) using Windows search
+• In the resulting pop-up box, type “ipconfig” (no quote marks) to find the information.
+On a Mac:
+• Go to System Preferences
+• Select network – and the information should be visible.
+On an iPhone:
+• Go to Settings
+• Select Wi-Fi and click the “i" in a circle () next to the network you are on – the IP address should be visible under the DHCP tab.
+If you need to check the IP addresses of other devices on your network, go into the router. How you access the router depends on the brand and the software it uses. Generally, you should be able to type the router's gateway IP address into a web browser on the same network to access it. From there, you will need to navigate to something like "attached devices," which should display a list of all the devices currently or recently attached to the network — including their IP addresses.
+IP address security threats
+Cybercriminals can use various techniques to obtain your IP address. Two of the most common are social engineering and online stalking.
+Attackers can use social engineering to deceive you into revealing your IP address. For example, they can find you through Skype or a similar instant messaging application, which uses IP addresses to communicate. If you chat with strangers using these apps, it is important to note that they can see your IP address. Attackers can use a Skype Resolver tool, where they can find your IP address from your username.
+Online stalking
+Criminals can track down your IP address by merely stalking your online activity. Any number of online activities can reveal your IP address, from playing video games to commenting on websites and forums.
+Once they have your IP address, attackers can go to an IP address tracking website, such as whatismyipaddress.com, type it in, and then get an idea of your location. They can then cross-reference other open-source data if they want to validate whether the IP address is associated with you specifically. They can then use LinkedIn, Facebook, or other social networks that show where you live, and then see if that matches the area given.
+If a Facebook stalker uses a phishing attack against people with your name to install spying malware, the IP address associated with your system would likely confirm your identity to the stalker.
+If cybercriminals know your IP address, they can launch attacks against you or even impersonate you. It is important to be aware of the risks and how to mitigate them. Risks include:
+Downloading illegal content using your IP address
+Hackers are known to use hacked IP addresses to download illegal content and anything else they do not want to be traced back to them. For example, using the identity of your IP address, criminals could download pirated movies, music, and video – which would breach your ISP’s terms of use – and much more seriously, content related to terrorism or child pornography. This could mean that you – through no fault of your own – could attract the attention of law enforcement.
+Tracking down your location
+If they know your IP address, hackers can use geolocation technology to identify your region, city, and state. They only need to do a little more digging on social media to identify your home and potentially burgle it when they know you are away.
+Directly attacking your network
+Criminals can directly target your network and launch a variety of assaults. One of the most popular is a DDoS attack (distributed denial-of-service). This type of cyberattack occurs when hackers use previously infected machines to generate a high volume of requests to flood the targeted system or server. This creates too much traffic for the server to handle, resulting in a disruption of services. Essentially, it shuts down your internet. While this attack is typically launched against businesses and video game services, it can occur against an individual, though this is much less common. Online gamers are at particularly high risk for this, as their screen is visible while streaming (on which an IP address can be discovered).
+Hacking into your device
+The internet uses ports as well as your IP address to connect. There are thousands of ports for every IP address, and a hacker who knows your IP can try those ports to attempt to force a connection. For example, they could take over your phone and steal your information. If a criminal does obtain access to your device, they could install malware on it.
+
+From <https://www.kaspersky.com/resource-center/definitions/what-is-an-ip-address> 
+
+How to protect and hide your IP address
+Hiding your IP address is a way to protect your personal information and online identity. The two primary ways to hide your IP address are:
+13. Using a proxy server
+14. Using a virtual private network (VPN)
+A proxy server is an intermediary server through which your traffic is routed:
+• The internet servers you visit see only the IP address of that proxy server and not your IP address.
+• When those servers send information back to you, it goes to the proxy server, which then routes it to you.
+A drawback of proxy servers is that some of the services can spy on you — so you need to trust it. Depending on which one you use, they can also insert ads into your browser.
+VPN offers a better solution:
+• When you connect your computer – or smartphone or tablet – to a VPN, the device acts as if it is on the same local network as the VPN.
+• All your network traffic is sent over a secure connection to the VPN.
+• Because your computer behaves as if it is on the network, you can securely access local network resources even when you are in another country.
+• You can also use the internet as if you were present at the VPN’s location, which has benefits if you are using public Wi-Fi or want to access geo-blocked websites.
+Kaspersky Secure Connection is a VPN that protects you on public Wi-Fi, keeps your communications private, and ensures that you are not exposed to phishing, malware, viruses, and other cyber threats.
+When should you use VPN
+Using a VPN hides your IP address and redirects your traffic through a separate server, making it much safer for you online. Situations where you might use a VPN include:
+When using public Wi-Fi
+When using a public Wi-Fi network, even one that is password-protected, a VPN is advisable. If a hacker is on the same Wi-Fi network, it is easy for them to snoop on your data. The basic security that the average public Wi-Fi network employs does not provide robust protection from other users on the same network.
+Using a VPN will add an extra layer of security to your data, ensuring you bypass the public Wi-Fi’s ISP and encrypting all your communication.
+When you are traveling
+If you are traveling to a foreign country – for example, China, where sites like Facebook are blocked – a VPN can help you access services that may not be available in that country. 
+The VPN will often allow you to use streaming services that you paid for and have access to in your home country, but they are not available in another because of international rights issues. Using a VPN can enable you to use the service as if you were at home. Travelers may also be able to find cheaper airfare when using a VPN, as prices can vary from region to region.
+When you are working remotely
+This is especially relevant in the post-COVID world, where many people are working remotely. Often employers require the use of a VPN to access company services remotely for security reasons. A VPN that connects to your office's server can give you access to internal company networks and resources when you are not in the office. It can do the same for your home network while you are out and about. 
+When you just want some privacy
+Even in the comfort of your own home, using the internet for everyday purposes, using a VPN can be a good idea. Whenever you access a website, the server you connect to logs your IP address and attaches it to all the other data the site can learn about you: your browsing habits, what you click on, how long you spend looking at a particular page. They can sell this data to advertising companies who use it to tailor ads straight to you. This is why ads on the internet sometimes feel oddly personal: it’s because they are. Your IP address can also be used to track your location, even when your location services are turned off. Using a VPN prevents you from leaving footprints on the web.
+Don’t forget your mobile devices, either. They have IP addresses too, and you probably use them in a wider variety of locations than your home computer, including public Wi-Fi hotspots. It is advisable to use a VPN on your mobile when connecting to a network you may not fully trust.
+Other ways to protect your privacy
+Change privacy settings on instant messaging applications
+Apps installed on your device are a major source of IP address hacking. Instant messaging and other calling apps can be used as a tool by cybercriminals. Using IM apps only allows direct connections from contacts and doesn't accept calls or messages from people you don’t know. Changing your privacy settings makes it harder to find your IP address because people who don’t know you cannot connect with you.
+Create unique passwords
+Your device password is the only barrier that can restrict people from accessing your device. Some people prefer to stick to their devices' default passwords, which makes them vulnerable to attack. Like all your accounts, your device needs to have a unique and strong password that is not easy to decode. A strong password contains a mix of upper- and lower-case letters, numerals, and characters. This will help to safeguard your device against IP address hacking.
+Stay alert to phishing emails and malicious content
+A high proportion of malware and device tracking software is installed via phishing emails. When you connect with any site, this provides the site with access to your IP address and device location, making it vulnerable to hacking. Be vigilant when opening emails from unknown senders and avoid clicking on links that could send you to unauthorized sites. Pay close attention to the emails' content, even if they appear to come from well-known sites and legitimate businesses.
+Use a good antivirus solution and keep it up to date
+Install comprehensive antivirus software and keep it up to date. For example, Kaspersky’s Anti-Virus protection guards you from viruses on your PC and Android devices, secures and stores your passwords and private documents, and encrypts the data you send and receive online with VPN.
+Protecting your IP address is a crucial aspect of protecting your online identity. Securing it through these steps is a way to stay safe against the wide variety of cybercriminals' attacks.
+
+From <https://www.kaspersky.com/resource-center/definitions/what-is-an-ip-address> 
+
+Stands for "Media Access Control Address."
+A MAC address is a hardware identification number that uniquely identifies each device on a network. Every network interface card, such as an Ethernet card or a Wi-Fi adapter, has a permanent MAC address assigned by its manufacturer; some operating systems allow an adapter's MAC address to be temporarily changed, or "spoofed," in software.
+Routers and other network infrastructure equipment use both IP and MAC addresses to track which devices connect to a network; an IP address represents the software connection, while a MAC address represents the hardware connection. A network administrator can configure a network to reject connections from specific MAC addresses or restrict network access to a set of approved MAC addresses.
+Since a MAC address uniquely identifies a particular network adapter, there must be enough unique addresses for every device that needs one. The address format uses a 48-bit identifier, formatted as six hexadecimal numbers separated by colons, that provides more than 281 trillion potential addresses. For example, an Ethernet card may have a MAC address of 00:0d:83:b1:c0:8e.
+NOTE: When a computer or mobile device connects to a public Wi-Fi access point — or even scans for available networks — its MAC address may be recorded and possibly used to track it as it moves around and connects to other networks. To increase privacy, some operating systems now allow you to automatically create a randomly-generated temporary MAC address when connecting to new Wi-Fi networks.
+
+From <https://techterms.com/definition/macaddress> 
+
+What is a MAC Address and How Do I Find It?
+Whether you work in a wired network office or a wireless one, one thing is common for both environments: It takes network software and hardware (cables, routers, etc.) to transfer data from your computer to another, or from a computer thousands of miles away to yours. In the end, to get the data you want right to YOU, it comes down to addresses — specifically, IP addresses and MAC addresses.
+What is a MAC Address?
+A Media Access Control (MAC) address is a string of characters that identifies a device on a network. It’s tied to a key connection device in your computer called the network interface card, or NIC. The NIC is essentially a computer circuit card that makes it possible for your computer to connect to a network. A NIC turns data into an electrical signal that can be transmitted over the network.
+
+From <https://whatismyipaddress.com/mac-address> 
+
+
+Every NIC has a hardware address that’s known as a MAC address. Whereas IP addresses are associated with a networking software called TCP/IP, MAC addresses are linked to the hardware of network adapters.
+Manufacturers assign a MAC address to a network adapter when it is produced. It is hardwired or hard-coded onto your computer’s NIC and is unique to it. Something called the Address Resolution Protocol (ARP) translates an IP address into a MAC address. Think of the ARP as a passport that takes data from an IP address through an actual piece of computer hardware.
+What is a MAC address used for?
+All devices on the same network subnet have different MAC addresses. MAC addresses are very useful in diagnosing network issues such as problems with IP addresses.
+MAC addresses are useful for network diagnosis because they never change, as opposed to a dynamic IP address, which can change from time to time. For a network administrator, that makes a MAC address a more reliable way to identify senders and receivers of data on the network.
+On wireless networks, a process called MAC filtering is a security measure to prevent unwanted network access by hackers and intruders. In MAC address filtering, the router is configured to accept traffic only from specific MAC addresses. This way, computers whose MAC addresses are approved will be able to communicate through the network — even if they were given a new IP address by the Dynamic Host Configuration Protocol (DHCP) process.
+Meanwhile, a hacker who’s hijacked a network IP address will be blocked because their MAC address will not be on the approved list and will be filtered out.
+How MAC Addresses Get Assigned
+Some well-known manufacturers of network adapters or NICs are Dell, Belkin, Nortel, and Cisco. These manufacturers all place a special number sequence (called the Organizationally Unique Identifier or OUI) in the MAC address that identifies them as the manufacturer. The OUI is typically right at the front of the address.
+For example, consider a network adapter with the MAC address “00-14-22-01-23-45.” The OUI for the manufacture of this router is the first three octets: 00-14-22. 
+Note that in computer-speak, an octet means a set of 8 bits. Two hexadecimal digits represent 8 bits and thus one octet.
+The OUIs for some well-known manufacturers are:
+	• Dell: 00-14-22
+	• Nortel: 00-04-DC
+	• Cisco: 00-40-96
+	• Belkin: 00-30-BD
+It’s common for the larger manufacturers of networking equipment to have more than one set of OUIs.
+Difference Between MAC Address and IP Address
+The basic difference between an IP address and a MAC address is that an IP address represents software and a MAC address represents hardware. The MAC address identifies specific devices within the same local network and the IP address identifies those devices outside of the local network.
+Once again, that’s hardware and software working together, IP addresses and MAC addresses working together. The MAC address is sometimes referred to as a networking hardware address, the burned-in address (BIA), or the physical address.
+An example of a MAC address for an Ethernet NIC would be: 00:0a:95:9d:68:16.
+As you’ve probably noticed, the MAC address itself doesn’t look anything like an IP address (see yours here). The MAC address is a string of usually six sets of two-digits or characters, separated by colons.
+How to Find MAC Address on Windows
+There are two ways to find your MAC address on Windows 10: with the command prompt and in network settings.
+How to find your MAC address on Windows 10 with the command prompt
+	1. Type command prompt into the search bar on the taskbar at the bottom of the screen. 
+	2. Select Command Prompt from the search results.
+	3. When the command prompt window opens, start typing ipconfig/all and press Enter. All of your network configuration settings will display.
+	4. Scroll down to the section with your network adapter and find Physical Address in the list. The values that appear next to Physical Address are your computer’s MAC address.
+How to find your MAC address on Windows 10 in your network settings
+	1. Type settings into the search bar on the taskbar at the bottom of the screen.
+	2. Select the Settings app to open your settings.
+	3. Select Network & Internet.
+	4. Select Properties.
+	5. Scroll down to the bottom until you see Physical Address (MAC). The values listed next to this are your computer’s MAC address.
+How to Find MAC Address on macOS (Apple desktop)
+Follow these steps to find the MAC address on your Mac computer:
+	1. Select the Apple icon in the top left corner.
+	2. Select System Preferences.
+	3. Select Network.
+	4. Select the button in the bottom right corner that says Advanced.
+	5. Ensure Hardware is selected at the top and look for MAC Address. The characters that appear next to this are your MAC address for your computer.
+How to Find MAC Address on Linux
+Since machines running Linux can have a variety of distributions with different settings formats, the easiest way to find the MAC address on Linux is by using the command prompt.
+	1. Open the terminal window.
+	2. Type ifconfig-a and press Enter to run the command.
+	3. The displayed results will show MAC addresses for all interfaces on your network.
+How to Find MAC Address on iOS
+Follow these steps to find the MAC address for your iOS device:
+	1. Open your Settings app.
+	2. Select General and then About.
+	3. Scroll to Wi-Fi Addresses and you’ll find the wireless MAC address listed.
+How to Find MAC Address on Android
+The instructions for finding the MAC address of an Android device differ slightly depending on the device. In general, however, the process should resemble the following steps:
+	1. Open your Settings app.
+	2. Select Network & Internet.
+	3. Select the Wi-Fi network you’re currently connected to.
+	4. Select Advanced.
+	5. Scroll down to see the Network Details and look for MAC Address. The characters you see next to this are your MAC Address.
+Note that some Android devices have a privacy feature that assigns the device a randomized MAC address, rather than using the device’s real MAC address. 
+Conclusion
+A MAC address is one of those crucial things you have to have if you want to connect to the internet but that you won’t need to think about most of the time. But if you’re trying to configure a router or administer a network, you’ll want to know how to find them.
+
+From <https://whatismyipaddress.com/mac-address> 
+
+A protocol is a collection of codified rules that describe how data is transmitted across a network. Consider it the language used by computers to let them converse more efficiently.
+
+From <https://www.how2shout.com/how-to/port-445-what-is-the-use-and-how-to-disable-this-tcp-port.html> 
+
+What is the Server Message Block protocol?
+The Server Message Block protocol (SMB protocol) is a client-server communication protocol used for sharing access to files, printers, serial ports and other resources on a network. It can also carry transaction protocols for interprocess communication. Over the years, SMB has been used primarily to connect Windows computers, although most other systems -- such as Linux and macOS -- also include client components for connecting to SMB resources.
+A group at IBM developed the SMB protocol in the 1980s. The protocol has since spawned multiple variants, also known as dialects, to meet evolving network requirements over the years. Throughout that time, SMB has been widely implemented and continues to be one of the most popular solutions for file sharing in the workplace.
+How does the SMB protocol work?
+The SMB protocol enables applications and their users to access files on remote servers, as well as connect to other resources, including printers, mailslots and named pipes. SMB provides client applications with a secure and controlled method for opening, reading, moving, creating and updating files on remote servers. The protocol can also communicate with server programs configured to receive SMB client requests.
+Known as a response-request protocol, the SMB protocol is one of the most common methods used for network communications. In this model, the client sends an SMB request to the server to initiate the connection. When the server receives the request, it replies by sending an SMB response back to the client, establishing the communication channel necessary for a two-way conversation.
+The SMB protocol operates at the application layer but relies on lower network levels for transport. At one time, SMB ran on top of Network Basic Input/Output System over Transmission Control Protocol/Internet Protocol (NetBIOS over TCP/IP, or NBT) or, to a lesser degree, legacy protocols such as Internetwork Packet Exchange or NetBIOS Extended User Interface. When SMB was using NBT, it relied on ports 137, 138 and 139 for transport. Now, SMB runs directly over TCP/IP and uses port 445.
+Today, communications with devices that do not support SMB directly over TCP/IP require the use of NetBIOS over a transport protocol such as TCP/IP.
+Microsoft Windows operating systems (OSes) since Windows 95 have included client and server SMB protocol support. The Linux OS and macOS also provide built-in support for SMB. In addition, Unix-based systems can use Samba to facilitate SMB access to file and print services.
+A client and server can implement different SMB dialects. If they do, the systems must first negotiate the differences between editions before starting a session.
+What are SMB protocol dialects?
+Since the SMB protocol was introduced, a number of SMB dialects have been released that have improved on the original implementation, delivering greater capabilities, scalability, security and efficiency. Here is a brief overview of the most notable dialects:
+• SMB 1.0 (1984). SMB 1.0 was created by IBM for file sharing in DOS. It introduced opportunistic locking (OpLock) as a client-side caching mechanism designed to reduce network traffic. Microsoft would later include the SMB protocol in its LAN Manager product.
+• CIFS (1996). CIFS is a Microsoft-developed SMB dialect that debuted in Windows 95. Short for Common Internet File System, CIFS added support for larger file sizes, direct transport over TCP/IP, and symbolic links and hard links.
+• SMB 2.0 (2006). SMB 2.0 was released with Windows Vista and Windows Server 2008. It reduced chattiness to improve performance, enhanced scalability and resiliency, and added support for wide area network (WAN) acceleration.
+• SMB 2.1 (2010). SMB 2.1 was introduced with Windows Server 2008 R2 and Windows 7. The client OpLock leasing model replaced OpLock to enhance caching and improve performance. Other updates included large maximum transmission unit support and improved energy efficiency, which enabled clients with open files from an SMB server to enter sleep mode.
+• SMB 3.0 (2012). SMB 3.0 debuted in Windows 8 and Windows Server 2012. It added several significant upgrades to improve availability, performance, backup, security and management. Noteworthy new features included SMB Multichannel, SMB Direct, transparent failover of client access, Remote Volume Shadow Copy Service support, SMB Encryption and more.
+• SMB 3.02 (2014). SMB 3.02 was introduced in Windows 8.1 and Windows Server 2012 R2. It included performance updates and the ability to disable CIFS/SMB 1.0 support, including removal of the related binaries.
+• SMB 3.1.1 (2015). SMB 3.1.1 was released with Windows 10 and Windows Server 2016. It added support for advanced encryption, pre-authentication integrity to prevent man-in-the-middle (MitM) attacks and cluster dialect fencing, among other updates.
+Is the SMB protocol safe?
+In 2017, the WannaCry and Petya ransomware attacks exploited a vulnerability in SMB 1.0 that made it possible to load malware on vulnerable clients and then propagate the malware across networks. Microsoft subsequently released a patch, but experts have advised users and administrators to disable SMB 1.0/CIFS on all systems.
+SMB 3.0 and later are far more secure than previous dialects, having introduced a number of protections. For example, SMB 3.0 added end-to-end data encryption, while protecting data from eavesdropping. SMB 3.0 also offered secure dialect negotiation, which helps protect against MitM attacks.
+SMB 3.1.1 improved on security even further by updating the encryption capabilities, adding pre-authentication integrity. It also included a mechanism for negotiating the crypto-algorithm on a per-connection basis.
+CIFS vs. SMB
+As noted above, CIFS is an early dialect of the SMB protocol developed by Microsoft. Although the terms SMB and CIFS are sometimes used interchangeably, CIFS refers specifically to a single implementation of SMB. That said, application interfaces and technical documentation often refer to them as one and the same, particularly SMB 1.0 and CIFS, using labels such as SMB 1.0/CIFS.
+However, the distinction between dialects is important to recognize. For example, SMB 1.0 and CIFS do not have the same level of security protections found in later dialects, as demonstrated by the WannaCry ransomware. SMB 3.0 provides far more advanced security protections. For this reason, most modern systems use the newer SMB dialects. For example, Windows 10 currently supports SMB 3.1.1, the most recent SMB dialect.
+Dialects also make a difference when it comes to performance. For instance, CIFS was noted for being a chatty protocol that bogged WAN performance due to the combined burdens of latency and numerous acknowledgments. The dialect to follow, SMB 2.0, improved the protocol's efficiency by drastically reducing its hundreds of commands and subcommands down to just 19.
+CIFS, NFS and SMB file-sharing protocols compared
+Samba vs. SMB
+Released in 1992, Samba is an open source implementation of the SMB protocol for Unix systems and Linux distributions. The Samba platform includes a server that enables various client types to access SMB resources.
+The server supports file sharing and print services, authentication and authorization, name resolution, and service announcements (browsing) between Linux/Unix servers and Windows clients. For example, Samba can be installed on a Unix server to provide file and print services to Windows 10 desktops.
+In addition, Samba makes it possible to integrate Linux/Unix servers and desktops in an Active Directory environment.
+This was last updated in August 2021
+
+
+
+
+			How to Use John the Ripper | John the Ripper Password Cracker | Techofide
+
+ kanav  Jan. 29, 2023
+
+This is the blog where you will see one of the most famous and powerful tool for password cracking which is John the Ripper.
+John the Ripper is the tool that is used by most of the ethical hackers to perform dictionary attacks for password cracking. In this blog, I have shown what is John the Ripper, How to use John the Ripper, How John the Ripper password cracker works and practical tutorial on John the Ripper usage.
+So Let's get started...
+What is John the Ripper?
+John the Ripper is the name of the password cracker tool that is developed by Openwall. As the name, It is used to crack password hashes by using its most popular inbuilt program, rules and codes that are also an individual password cracker itself in a single package.
+It automatically detects types of password hashes, you can also customize this tool according to your wish. It can be used to crack password-protected compressed files like Zip, Rar, Doc, pdf etc.
+What is a Hash Function?
+Hashing is the process of converting an input of any length into a fixed-size string of text using the mathematical function (Hash Function) i.e, any text no matter how long it is can be converted into any random combination of numbers and alphabets through an algorithm
+
+	• A message to be hashed is called input 
+	• The algorithm that encrypts string into hash is the so-called hash function 
+	• The output called the hash value
+There are many formulas that can be used to hash a message
+Hash Function Example
+Let's understand hashing process with a real-life example. The best example is how our system password stores in the database.
+Without Hashing Algorithm
+Whenever you set a password it will directly store in the database as a text file that may be read easily if the system compromised. It will save your password in a plain file as the same string you entered. Check the below image with syntax and example
+With Hashing Algorithm
+Whenever you set your password it will take your password as an input string and with the help of hashing function, it converts that password into a hash (random combination of number and alphabet) and stores it in the database. It enhances security by encrypting input strings. It will save your password in a different format so no one can read it even if your system compromise.
+Types of Hashing Algorithms
+John the Ripper tool are able to perform various attacks and crack a lot of hash formats such as MD5, SHA1, Adler32, SHA512, MD2 etc. 
+You can check all the formats that supports by JTR with the following command
+john --list=formats
+How John the Ripper Password Cracker Tool Works?
+The main objective of John the Ripper is to crack the password. There are many ways that can be supported but it is mainly known for Dictionary attacks. However, you can also run other types of attacks like Bruteforce attack, Rainbow Table etc.
+Dictionary attack: This is the popular and most usable attack in the JTR (John the Ripper) password cracker tool where we used pre-defined words or a list of words that can be used to crack the password. This attack uses the words from the wordlist (A text file having pre-defined words) and matches every single word from the list with a password to crack in sequence. 
+	Que: Do you know why it's called Dictionary attack?
+	Ans: This attack uses pre-defined words that are present in english dictionary, Hence its name is dictionary attack.
+Brute-force attack: If you are using this attack then you have to do the configuration of few things before its use such as the defining minimum and maximum lengths of the password, defining possible characters that you want to test during the cracking process like (special characters, alphabets and numbers).
+For Example, The matching string that you are using for cracking passwords should include uppercase alphabets, special characters and numbers like ABC32@$
+
+The user gets a password on the successful match, but this effective process is slow. for example, a 10-character password including upper and lower letters along with numbers and special characters will take over 10 years to be guessed by a computer,
+John the Ripper Download
+It was developed for Unix Operating systems and was only work on Linux based systems but now available for all platforms such as Windows, BSD, Mac.
+In Kali Linux John the Ripper is `already available under password cracking metapackages, so you don't need to download it. If you don't know about Kali Linux and want to install that then you can click on how to install Kali Linux
+	• You can download John the Ripper password cracker from the official website Openwall.
+	• You can also get the source code and binaries according to your operating system,
+	• You can contribute if you like this tool on GitHub 
+How to Install John the Ripper Password Cracker?
+As I told it already present in Kali Linux that can be executed by opening the terminal and running the john command. Installing JTR binaries on other systems are also easy.
+If you are using different Linux distributions like Ubuntu, Fedora, Arch etc. then you can install it by running the below single command the difference in command only will be the package manager i.e, for Ubuntu you use apt, Arch uses Pacman and Redhat uses yum. So replace your desired package manager name in the below command according to your device.
+sudo apt-get install john
+What is John the Ripper Used for?
+The penetration testers, ethical hackers, security experts and other Cyber Security professionals use this tool to find weak algorithms and then make them strong so that they can't be hacked. 
+	• Security professionals build their confidential files with a strong hash algorithm to prevent external unauthorized access.
+	• Hackers used it to crack multiple accounts and simply crack their credentials.
+	• Security experts use it to strengthen their encryption.
+	• It can also be used for hacking shells and passwords
+	• SHA-crypt hashes
+	• It provides a mangling feature which is a preprocessor in JTR that optimizes the word list to make the password cracking process faster.
+How to Use John the Ripper
+Now we have enough knowledge of the John the Ripper tool and we also installed it. Let's see how we use it.
+Using this password cracker tool is very easy and straightforward, you just need to type john followed by the hash file that you want to crack and then just define the format of the hash and hit enter.
+john hash.txt --format=RAW-MD5
+In the above picture, you can see lots of supported formats, You can do various things with this tool such as using wordlists, rules, modes, options, decrypting formats etc, We will see below how to use these various things in this tool.
+John the Ripper Tutorial
+Now in this section, we will learn practically how to use john the ripper password cracker to crack password-protected zip, rar, hash, MD5 and SHA1 files, also we will see how to crack Linux passwords of all users.
+Note: In this tutorial, we will also use some basic Linux commands to create text files and redirect their outputs to other files. So if you are not familiar with the command line then you can check my blog by clicking on basic Linux commands.
+So Let's get started...
+1) Cracking Zip File
+Step 1) Now you can see that we have a zip file techofide.zip which is password protected and asking for a password to open it
+Step 2) Now as we know JTR use hash to crack password, so we first need to generate a hash of our zip file. The below command will generate a hash of our techofide.zip file and store that generated hash value into a hash.txt file
+sudo zip2john techofide.zip > hash.txt
+Step 3) Let's break it with our tool, So now we have a hash of our zip file that we will use to crack the password. In the below command we use the format option to specify the zip file and then the hash.txt file where we store our hash value.
+sudo john --format=zip hash.txt
+In the above picture, you can see our command complete the session and returns with the correct password 54321 
+You can crack the rar file with the same command just replace zip with rar.
+2) Cracking MD5 Password
+Step 1) In this example I am generating a hash by using md5 hash generator to show you how to crack MD5 formatted files password. In the below image you can see I have generated the hash of the 12345 string. You can copy the MD5 hash to perform the same practical
+Step 2) In the below picture you can see the file sha1.txt. I have used the cat command to show you the data of the sha1.txt file, You can see the MD5 hash value 8772cc...
+Step 3) Now let's crack the MD5 Hash, In the below command we have specified format along with the hash file.
+john sha1.txt --format=RAW-MD5
+In the above screenshot, you can see the output that cracks the hash and returns the 12345 passwords.
+3) Cracking SHA1 Password Using Wordlist
+Step 1) Cracking SHA1 type of password is the same as MD5 you just need to replace MD5 with SHA1 but here I will also show you how you can use wordlist to perform a dictionary attack with John the Ripper to crack the password.
+Note: If you are performing this attack in Kali Linux then you can find wordlists folder i.e, in /usr/share/wordlists/ location, you can see fasttrack.txt, nmap.lst and rockyou.txt. I am using the rockyou.txt file
+If you are using a different operating system then you can download this file by clicking on rockyou.txt
+Step 2) Use the below command with your hash file to crack it.
+john SHA1 rockyou.txt --format=RAW-SHA1
+In the above picture, you can see it returns the correct password i.e, alejandro. In this command, SHA1 is our hash file and rockyou.txt is our wordlist
+4) Cracking Linux Password
+Step 1) When we create a password of the Linux system it stores in /etc/shadow location in encrypted form i.e, like a hash. So cracking a Linux password is easy with just a single command that is given below.
+sudo john /etc/shadow
+In the above image, you can see it decrypt all users passwords i.e, user Kanav's password is kanav123
+Conclusion
+Now we know what is John the Ripper, How to use John the Ripper, How John the Ripper password cracker works, How passwords can be cracked and also a tutorial on its real-life important uses, but this not get over yet there are lots of other things that can be done by JTR.
+Remenber if the password is long it will also take long time to crack. We will see more practicals on that in our upcoming blogs.
+I hope you like this blog, please like, share and drop your comment on this blog that will be a great support from you
+Thanks for reading this article. 
+
+From <https://techofide.com/blogs/how-to-use-john-the-ripper-john-the-ripper-password-cracker-techofide/> 
+
+
