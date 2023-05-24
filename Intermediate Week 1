@@ -1,0 +1,1532 @@
+First day Monday 5/22
+Take this shit serious and challenge yourself!
+Miss class let George know and CC Neil who ever that is.
+
+Intermediate F&Q in the Stack schedule for help w the assighments
+Communicaiton and the ability to communication ie the soft skills is so key to promotion and getting ahead in Cybersecuiryt. Be able to dumb down to those who don’t understand
+
+SME - Subject Matter Expert
+
+George Baker (Instructor)
+
+• Engineering Officer - Army Corps of Engineers 1782nd Engineering Company
+• Senior IT Analyst - NIWC LANT Air & Space IPT
+ 
+• Senior IT Business Analyst - Department of Labor OCIO
+• ICOFS Consultant - KPMG, LLP Cyber & Technology Risk Management (USMC)
+	• Hobbies - Enjoy DIY projects, anything outdoors, or that involves good food!  
+	• Pets - Bloodhound (Helsinki) & Chihuahua (Gosler)
+
+
+Expectations
+	• Attendance 80%
+		○ Group Exercises are critical
+			§ Career & Personal Development
+	• Assignments 90%
+	• Exams 80% passing (red), 95% (black belt)
+		○ Red belt required to move on to the next module (Professional)
+	• The administrative staff addresses unmet expectations
+		○ (3 Unexcused Absences, reach out to Neil via rsison@codingdojo.com)
+	• Questions are encouraged
+		○ Lectures
+		○ Assignments
+		○ Personal Development
+	• Utilize discord, email, TA Calendly (1-1 individual discussions)
+
+
+
+
+Professional Development Overview
+	• Core - CompTIA Security+
+		○ Global Certification
+		○ Baseline Skills 
+		○ Core Security Functions & Fundamentals
+	• Intermediate - CompTIA CySA+
+		○ Cybersecurity Analyst 
+		○ IT Workforce Certification
+		○ Detect and Combat Threats 
+		○ Continuous Security Monitoring
+	
+	Cybersecurity is “Broad & Deep”
+
+
+*Reminder Assignment FAQs*
+If your having any trouble on assignments or having trouble getting a certain application or software running. 
+Please take a look at the assignment FAQs via the stack schedule for applicable guidance before going to discord or setting up a meeting with the TA’s or myself. 
+Although we love to interact with you guys, we don’t want to have duplicative efforts occurring
+
+
+Week 1 Day 1
+	• Security Control Types
+		○ IT Security Control Families and Functional Controls
+		○ Roles & Responsibilities of Cybersecurity Analysts & Professionals
+		○ Security Operation Centers
+	• Threat Intelligence
+		○ Role in IT security controls
+		○ Intelligence Cycle
+		○ Intelligence Sources
+	• Classifying Threats
+		○ Threat Classification
+		○ Threat Actors
+
+1. Cybersecurity Roles Jobs Slide
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. Cybersecurity Analyst Slide
+
+Cybersecurity Analyst
+	• A senior position within an organization’s security team with direct responsibility for protecting sensitive information and preventing unauthorized access to electronic data and the systems that protect it
+	• Cybersecurity Analysts are essentially network defenders responsible for hardening and protecting networks, servers, laptops, desktops, and any device that processes or uses information
+
+3. Cybersecurity Teams
+
+Cybersecurity Teams
+	• Cybersecurity teams contain both junior and senior analysts 
+		○ Junior analysts work under someone who is much more senior
+		○ Before the IT literacy push many junior analysts held the role of a cybersecurity specialist or technician before transitioning into the analyst role
+
+4. Functions of a Cybersecurity Analyst
+
+Functions of a Cybersecurity Analyst
+	• Cybersecurity analysts perform many essential functions such as:
+		○ Implementing and configuring security controls
+		○ Security Operations
+		○ Incident Response 
+		○ Auditing security processes & procedures
+		○ Conducting risk assessments, vulnerability assessments, and penetration tests
+		○ Maintaining up-to-date threat intelligence
+
+
+5. Cybersecurity Analyst Considerations
+
+Cybersecurity Analyst Considerations
+	• Cybersecurity analysts must understand that problem solving will be their most critical skill because day to day they must:
+		○ Take little pieces of information from different systems, threat intelligence, and common sense to formulate solutions
+		○ Articulate to a non-technical audience 
+		○ Think on their feet and make sound decision under pressure because things happen fast in the IT industry
+
+
+6. Security Operations Slide
+
+	• What are Security Operation?
+		○ What are their purpose? 
+			§ Who conducts them? 
+
+Strategies, Techniques, & Processes that help secure information and assets against unauthorized access and risks. Preserving the Confidentiality, Integrity, and Availability of Entity Systems & Services. 
+Aid the facilitation of: Configuring, Operating, Monitoring, Responding, Customer Service, Problem Ticket Resolution, Service Requests, & Interface with Internal & External Clients 
+
+7. What is a SOC slide?
+
+8. What is a SOC?
+• A location where security professionals monitor and protect critical information assets in an organization
+
+Overview
+• Single Point of Contact Area where all data is received
+• On-duty Analyst review incoming data to identify what things are occurring on the network (IoCs)
+• SOCs are primarily used by larger corporations, government agencies, and health care organizations.
+
+9. SOC Visual Slide
+10. SOC Visual
+
+11. 
+
+12. SOC Capabilities Slide
+SOC Capabilities
+	• Monitor traffic, Protect the network, Respond to Threats
+	• Configure (Harden) Settings & Configurations 
+	• Create, Enact, & Improve Response to Threats 
+	• Audit Security Processes 
+	• Perform Risk, Vulnerability, & Penetration Assessments/Tests
+	 
+	• Maintaining Up-To-Date Intelligence & Advise on Legal, Compliance, and Regulatory Issues
+
+
+13. SOC Requirements Slide
+
+SOC Requirements
+	• To be successful, SOCs must have some fundamental requirements that consist of the following:
+		○ Authority to operate through organizational policies and procedures to tell other parts of the organization what needs to happen (shutdown of a server)
+		○ Contain motivated and skilled professionals (Not enough to have someone filling a seat)
+		○ Incorporate processes into a single center, mostly for security processes & IT (The SOC is not a help or service desk)
+		○ Equipped to perform Incident Response 
+		○ Capability to protect itself and the organization at large (Consider if the SOC is compromised) 
+
+14. SOC Requirements Takeaway
+
+SOC Requirements Takeaway
+	• The SOC should be the single point of contact (POC) for security, monitoring, and incident response:
+		○ Communication, collaboration, and effective people, policies, & procedures are essential
+	• SOCs can be outsourced due to cost
+	• Must have the authority to operate (empowered to make decisions)
+	• Must contain motivated and skilled professionals 
+	• Must possess capability to perform incident response and protect itself
+
+15. Security Controls
+
+Security Controls
+	• A security control is a technology or procedure put in place to mitigate vulnerabilities and risk in order to ensure the confidentiality, integrity, availability, and nonrepudiation of data and information (CIA Triad)
+	• Security controls should be selected and deployed in a structured manner using an overall framework (ex. Access Control, Data Transmissions, Segregation of Duties)
+		○ If we know our risks, we can prioritize them, mitigate them, and develop an approach to maintaining a good security posture to prevent issues and attackers (NIST SP 800-53, 18 Control Families for Classification by User Entities)
+
+16. Security Control in Depth
+
+Security Control In-depth
+	•  There are three big family of controls that are prioritized by organizations that consist of (technical, operational, and managerial)
+
+
+
+17. Technical (Logical ) Controls
+
+
+Technical(Logical) Controls
+	•  Technical controls are a category of security control that is implemented as a system (hardware, software, or firmware)
+		○ A firewall installed on a network, anti-virus software, or a patch on an operating system are all examples of a technical control
+			
+
+
+18. Operational Control
+
+
+Operational Controls
+	• Operational controls are a security control that is implemented primarily by people rather than systems
+		○ Security guards, trained employees, are both examples of operational controls
+
+
+19. Managerial Control
+
+
+Managerial Controls
+	• Managerial controls are a category of security control that provides oversight of the information system
+		○ Risk identification or the usage of different tools to evaluate and select different controls by using vulnerability scans would be examples of an oversight or an assessment, which quantify a managerial control
+
+
+20. Administrative Control
+
+
+Administrative Controls
+	• Controls that you can’t distinguish between larger control families are known as administrative controls (hybrid for controls that may work together)
+		○ An organizational vulnerability management program or process that has been implemented in your organization may be considered as an administrative control because it may incorporate technical, operational, and managerial controls that all work together to protect your organization (framework)
+
+
+21. Security Controls In-Depth Cont.
+
+Security Controls In-depth Cont.
+	• There are also functional controls that are part of the broader concept of control groups within the field of security and risk management
+
+
+
+22. Functional Control Types
+
+
+Functional Control Types
+	• Functional control types allow you categorize certain things in your organization in accordance with the goal or function that they may perform but don’t belong to a specific family of controls
+		○ Functional control types consist of preventative, detective, and corrective controls
+
+
+23. Preventive Control
+
+
+Preventive Control
+	• A control that acts to eliminate or reduce the likelihood that an attack can succeed 
+		○ An access control list on a firewall, intrusion prevention systems, and intrusion detection systems all constitute preventative controls
+
+
+24. Detective Control
+
+Detective Control
+	• A control that may not prevent or deter access, but will identify and record any attempted or successful intrusion
+		○ Log data is an example of a detective control, in the physical world an example of this would be a security camera
+
+
+25. Corrective Control
+
+
+Corrective Control
+	• A control that acts to eliminate or reduce the impact of an intrusion event
+		○ A backup system providing a backup of all critical files to an off site backup location would be an example of a good corrective control
+
+
+
+26. Functional Controls Takeway
+
+
+Functional Controls Takeaway
+	• No single security control is invulnerable, so that efficiency of a control is instead measured by how long it delays an attack
+		○ The longer a security control can delay an attack, the more effective that security control is to your organization
+		○ Combining effective security controls allows organizations to establish a good defensive in depth posture
+		
+
+
+
+
+Additional Functional Controls For Consideration
+	• In addition to preventative, detective, and corrective functional controls, organizations also consider physical, deterrent, and compensating security controls 
+
+
+26. Physical Control Slide
+
+
+Physical Control
+	• A type of security control that acts against in-person intrusion attacks
+		○ These controls consist of items such as alarms, gateways, locks, lighting, security systems, and security guards 
+		○ Physical controls, can be detective, preventative, and corrective
+
+
+
+
+27. Deterrent Control Slide
+
+
+
+Deterrent Control
+	• A type of security control that discourages intrusion attempts
+		○ The control may not be physical or logical but can still prevent intrusion such as a warning or beware sign 
+
+
+
+
+28. Compensating Control Slide
+
+Compensating Control
+	• A type of security control that acts as a substitute for a principle control
+		○ The best level of protection that an organization has the capability to provide, maybe they can’t afford the best but they can afford something equivalent
+
+
+29. Security Intelligence Slide
+
+
+Security Intelligence
+	• Security intelligence is the process through which data generated in the ongoing use of information systems is collected, processed, analyzed, and disseminated to provide insights into the security status of those systems
+	• For instance, system administrators log things in their system and review their firewall and intrusion logs to gain intelligence on what their system is allowing or not allowing to establish a good security posture
+
+30. Cyber Threat Intelligence Slide
+
+
+Cyber Threat Intelligence
+	• The process of investigating, collecting, analyzing, and disseminating information about emerging threats and threat sources to provide data about the external threat landscape
+	• In security threat intelligence, IT professionals focus on internal monitoring, but in cyber threat intelligence we leverage an outward thinking approach to determine what threats and vulnerabilities are out there and could infiltrate our organization
+	
+31. Cyber Threat Intelligence Sources Slide
+
+Cyber Threat Intelligence Sources
+	• Cyber threat intelligence often comes in the form of a narrative report or a data feed, both are used to gain the big picture and specifics 
+		○ Narrative reports provide the analysis of a certain adversary group or a certain type of malware and consist of a written report compiled by a threat analyst (big picture)
+		○ Data feeds can consist of a list of known bad indicators, things like indicators of compromise, domain names, IP addresses, or even hashes of exploit malware code (specifics)
+	
+
+32. Threat Intelligence Cycle Slide
+
+Threat Intelligence Cycle
+	• The process through which data generated in the ongoing use of information systems is collected, processed, analyzed, and disseminated to provide insight of security posture
+	
+
+
+33. Requirements Phase (Planning & Direction) Slide
+
+
+Requirements Phase (Planning & Direction)
+	• The requirements phase sets out the goals for the intelligence gathering effort
+		○ In this phase IT professionals establish the goals and scope of the intelligence gathering effort to determine what type of information they want to collect 
+		○ IT professionals also consider special factors or constraints that may interfere with threat intelligence gathering (legal restrictions)
+
+
+34.  Collection Phase (Collection & Processing) Slide
+
+
+Collection Phase (Collection & Processing)
+	• The collection process is facilitated by software tools, such as SIEMs, and then processed for later analysis
+		○ IT professionals may collect data from numerous sources such as intrusion and firewall logs in this phase
+		○ IT professionals also standardize data in this phase to create a repository to make it easier to search and sort through data
+
+35. Analysis Phase Slide
+
+
+Analysis Phase
+	• The analysis is performed against the given use cases from the planning phase and may utilize automated analysis, artificial intelligence, and machine learning
+		○ IT professionals depend on tools to automate and help comb through data
+		○ In this phase IT professionals take a look at their overall collection process to ensure that they are still on track with the overarching threat intelligence effort
+
+36.  Dissemination Slide
+
+
+Dissemination
+	• The dissemination phase refers to publishing information produced by analysis to consumers who need to act on the insights developed
+		○ May consist of an email, oral or written report, or even a PowerPoint presentation
+		○ Three of the most common ways to break down information into the level of intelligence is by grouping the information into the following categories consisting of: Strategic, Operational, or Tactical
+
+37. Threat Intelligence Information Classification Slide
+
+Threat Intelligence Information Classification
+	• Strategic intelligence addresses broad themes and objectives. These usually affect projects and business priorities and usually come in the form of a report to a senior executive or powerpoint presentation
+	• Operational intelligence addresses the day to day priorities of managers and specialists and is often put out as a checklist of things you should be worried about today
+	• Tactical intelligence informs real time decision-making for staff as they encounter alerts and system indications
+
+38. Feedback Phase Slide
+
+Feedback Phase Most important phase according to Instructor George
+	• The last phase of the intelligence cycle feedback aims to clarify the requirements and improve the collection, analysis, and dissemination of information by reviewing current inputs and outputs
+	• IT professionals always seek to improve their threat intelligence gathering processes to identify what went well, what went bad, and what can be improved
+*Last Phase of the Intelligence Cycle
+
+
+39. Threat Intelligence Source Validity Slide
+
+
+Threat Intelligence Source Validity
+	• Threat intelligence sources can be vast but not all sources are created equally, IT professionals must measure the validity of sources by measuring against:
+		○ Timeliness
+		○ Relevancy
+		○ Accuracy Ex Get attacked on port 443 is that accruate
+		○ Confidence Level
+		
+		○ Additionally, threat intelligence data can be proprietary, closed-source, or open-source
+
+40. Threat Intelligence Source Validity In-Depth Slide
+
+
+Threat Intelligence Source Validity In-Depth
+	• Proprietary threat intelligence is widely provided as a commercial service offering, where access to updates and research is subject to a subscription fee    Ex. Subscription to a source feed 
+	• Closed-source data is derived from the provider’s own research and analysis efforts, such as data mined from its customers’ systems, suitably anonymized  Ex. Our own data were pulling from. 
+	• Open-source data is data that’s available to use without subscription, may include threat feeds similar to the commercial providers, and may contain reputation lists and malware signature databases
+
+
+41. Information Sharing and Analysis Center (ISAC) Slide
+
+Information Sharing and Analysis Center (ISAC)
+	• A not-for-profit group set up to share sector-specific threat intelligence and security best practices amongst its members
+		○ For example, CISP is a Cyber Security Information Sharing Partnership, within the UK
+	• ISACs exist for many different industries such as critical infrastructure, government, healthcare, financial services, and aviation
+
+42. Critical Infrastructure Slide
+
+
+Critical Infrastructure   --  Gonna here it a lot in Cybersecurity Field Especially in Govt Jobs
+	• Any physical or virtual infrastructure that is considered so vital to the United States that their incapacitation or destruction would have a debilitating effect on security, national economic security, national public health or safety, or any combination of these
+	• These include the chemical sector, commercial facilities sector, communications sector, critical manufacturing sector, emergency services sector, energy sector, and many other sectors
+
+
+43. Risk Management Slide
+
+
+Risk Management --  Here It everyday as well 
+	• Risk Management is the process of identifying, evaluating, and prioritizing threats and vulnerabilities to reduce their negative impact
+	• Threat intelligence is important to risk management because it tells IT professionals how risky a certain thing is based on an outside threats
+
+44.   Incident Response Slide
+
+Incident Response
+	• Incident response is an organized approach to addressing and managing the aftermath of a security breach or cyberattack
+		○ If someone has been successful penetrating our network, we leverage threat intelligence to help keep them out
+		○ In incident response tactical intelligence is the most important aspect because we need know things like (What IP address are malicious entities using to infiltrate our network? & What are they doing once they get into our network?)
+		○ We can then leverage strategic insights to determine how to keep them from coming back after we resolve the current threat
+
+45. Vulnerability Management Slide
+
+
+
+Vulnerability Management
+	• Vulnerability Management is the practice of identifying, classifying, prioritizing, remediating, and mitigating software vulnerabilities
+	• Threat intelligence can be used to identify unrecognized sources of vulnerabilities that an organization may not of previously been aware of, such as a wifi-enabled thermostat device
+
+
+46. Detection & Monitoring Slide
+
+
+Detection & Monitoring
+	• Detection and monitoring is the practice of observing activity to identify anomalous patterns for further analysis
+	• Threat intelligence is used to allow an organization to tune their sensors better by adding more rules, practices, and procedures based on the type of threats that we know exist or observed instances of vulnerability
+
+
+47. Threat Classification (Known Threats)
+
+
+Threat Classification (Known Threats)
+	• Organizational threats can be classified as either a known threat or an unknown threat
+	• A known threat is a threat that can be identified using basic signature or pattern matching such as malware or documented exploits
+		○ Malware is any software intentionally designed to cause damage to a computer server, client, or computer network (viruses)
+		○ Documented exploits are a piece of software, data or sequence of commands that takes advantage of a vulnerability to cause unintended behavior or to gain unauthorized access to sensitive data (vulnerability scanner)
+
+
+48.  Threat Classification (Unknown Threats)
+
+Threat Classification (Unknown Threats)
+	• An unknown threat is a threat that cannot be identified using basic signature or pattern matching 
+	• Many exist such as Zero-day Exploits and Obfuscated Malware Code
+
+
+49. Common Unknow Threats Slide 
+
+
+Common Unknown Threats
+	• A zero-day exploit is an unknown exploit in the wild that exposes a vulnerability in software or hardware and can create complicated problems well before anyone realizes something is wrong (unpatched vulnerability)
+	• Obfuscated malware code is malicious code whose execution the malware author has attempted to hide through various techniques such as compression, encryption, or encoding to severely limit attempts to statically analyze the malware
+
+
+50. Threat Actors Slide 
+
+
+Threat Actors
+	• Threat actors are entities that wish to do our organization harm through penetration and exploitation
+	• Popular groups consist of:
+		○ Nation-State 
+		○ Organized Crime 
+		○ Hacktivist 
+		○ Insider Threat
+
+
+51. Threat Actors (Nation-State)
+
+
+Threat Actors (Nation-State)
+	• A nation-state actor is a type of threat actor that is supported by the resources of its host country’s military and security services
+	• Most nations have developed a cybersecurity expertise and use cyber as a weapon to achieve military, commercial, and political goals
+	• Advanced Persistent Threats (APTs) are usually nation-state threat actors
+
+
+52. Threat Actors (Organized Crime)
+
+
+
+Threat Actors (Organized Crime)
+	• An organized crime threat actor is a type of threat actor that uses hacking and computer fraud for commercial gain
+	• In many countries, cyber crime has taken over physical crime because it’s easy and very lucrative, organized crime organizations can make a lot of money from all over the world from the comfort of their own home or office as long as they have internet access
+	• These threat actors participate in financial fraud, blackmail, and even ransomware
+
+
+53. Threat Actors (Hacktivist)
+
+
+Threat Actors (Hacktivist)
+	• A hacktivist is a type of threat actor that is motivated by a social issue or political cause
+	• Hacktivist use their cyber weapons to promote their political agendas
+
+
+54. Threat Actors (Insider Threat)
+
+
+Threat Actors (Insider Threat)
+	• An insider threat is a type of threat actor that is assigned privileges on the system that cause an intentional or unintentional incident
+	• These are people such as employees, contractors, or third party services
+	• Ex-employees can be classified as internal threats or treated as external threats with insider knowledge 
+		○ These threats are motivated by sabotage, financial gain, and or business advantage
+
+
+55.  Week 1 Day 1 Recap
+
+Week 1 Day 1 Recap
+	• Security Control Types
+		○ IT Security Control Families and Functional Controls
+		○ Roles & Responsibilities of Cybersecurity Analysts & Professionals
+		○ Security Operation Centers
+	• Threat Intelligence
+		○ Role in IT security controls
+		○ Intelligence Cycle
+		○ Intelligence Sources
+	• Classifying Threats
+		○ Threat Classification
+		○ Threat Actors
+
+
+56.  Week 1 Day 1 Complete
+
+Week 1 Day 1 Complete!
+Read through “Roles & Responsibilities Security Control Types”
+Upcoming Assignments: IoC Investigation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+support@codingdojo.com     for absences unexcused
+
+Snip for windows for assignments 
+
+Getgreenshot.org/downloads/
+
+
+
+
+
+
+
+IOC INVESTIGATION
+
+4 WRITEN DESCRIPTIONS FOR THE HASHES 
+
+
+Controls 
+Threat Intelligence
+Open Vs Closed Source Data
+Security Intelligence Cycle
+Indicators of Compromise (IoCs)
+
+1
+Welcome to Intermediate
+Intermediate Course
+Week 1 Day 1
+
+2
+
+CONGRATULATIONS!
+	• Congrats to the new Core graduates! Welcome returning Intermediate students. 
+		○ Let’s crank up the difficulty!
+
+
+
+
+
+6
+Recap and Objectives
+	• Week 1 Assignments - Assignment FAQs
+		○ IoC Investigation
+		○ Network Group Assignment
+	• Last Class
+		○ Congratulations on passing Core!
+	• This Class
+		○ Intermediate and CySA
+		○ Security Analyst/SOC
+		○ Controls
+		○ Threat Intelligence
+		○ Open vs Closed Source Data
+		○ Security Intelligence Cycle
+		○ Indicators of Compromise (IoCs)
+
+7
+
+Lab Assignments Overview
+	• Week 1 Assignment FAQs
+	• IoC Investigation
+		○ Indicator of Compromise (IoC)
+			§ How does everyone know about it?
+		○ Select and write about 2 behaviors PER hash
+	• Network Group Assignment
+		○ Given a scenario identify threats
+			§ Encourage you to not just answer the questions, look more at the 
+		○ Does not have to be in groups (optional)
+ 
+
+8
+SOC, Controls & Threat Intelligence
+Intermediate Course
+Week 1 Day 1
+
+9
+
+Intermediate and CySA
+	• Core - CompTIA Security+
+		○ Global Certification
+		○ Baseline Skills 
+		○ Core Security Functions & Fundamentals
+	• Intermediate - CompTIA CySA+
+		○ Perspective of Core with more details
+		○ IT Workforce Certification
+		○ Cybersecurity/Information Security/Information Assurance Analyst
+ 
+10
+
+
+Cyber Security Analyst
+	• Examine and analyze results, logs, and data for
+		○ Potential Threats
+		○ Vulnerabilities
+		○ Attacks
+11
+
+Security Operations Center (SOC)
+SOC Definition
+Location where security professionals monitor and protect critical assets of an organization, monitor various networks, and initiate incident response procedures
+	• Monitor Security Events
+	• Investigate Security Incidents
+	• Respond to Security Incidents
+	• Security Policies and Procedures
+	• Vulnerability Assessments
+	• Threat Intelligence Analysis
+	• Security Training and Awareness
+12
+
+SOC Cont.
+	• Legal, compliance, and regulatory issues 
+		○ Privacy Laws:
+			§ Gramm-Leach-Bliley Act (GLBA)
+				□ Financial information
+			§ Health Insurance Portability and Accountability Act (HIPAA)
+				□ Healthcare information
+		○ Frameworks:
+			§ Payment Card Industry Data Security Standard (PCI DSS)
+				□ PCI = Credit Card transactions
+				□ DSS += Internet Transactions
+			§ Federal Information Security Modernization(2014)/Management (2002) Act (FISMA)
+				□ Best cybersecurity practices for U.S. government organizations
+				□ Protect government information and services (It’s also a law!)
+			§ General Data Protection Regulation (GDPR)
+				□ PII of European Union individuals/members
+13
+
+Security Control Categories
+	• Security Controls
+		○ Technical
+			§ Implemented as a system
+			§ Hardware, software, or firmware
+		○ Operational
+			§ Implemented by people instead of systems
+			§ Security guards and staff training
+		○ Managerial
+			§ Provide oversight of the information system
+			§ Vulnerability scans and Remediation
+14
+
+Security Control Types
+	• Functional control types
+		○ How the controls function
+	• Functional Types
+		○ Preventative
+			§ Stop/avoid
+		○ Detective
+			§ Detect Threats
+		○ Corrective
+			§ Correct/Mitigate
+		○ Deterrent
+			§ Prevent/Discourage
+		○ Physical
+			§ Physical measures
+		○ Compensating
+			§ Alternatives
+
+Bollards
+
+15
+
+
+5 Minute Break
+16
+
+Discussion Questions (Based on W1D1)
+	A SOC receives a call early Wednesday afternoon from the company’s physical security department that an executive’s laptop was stolen from their car Tuesday evening while they were dining in a restaurant. The department reports that the situation is low priority because the cost of the laptop was less than $1000 and it was insured. What are the risks? What process improvements do you recommend?
+	What controls would you need to prevent a successful ransomware attack? Is it possible to prevent with near certainty a ransomware attack? Why or why not?
+	When you walk by a wiring closet you notice that the door is ajar being propped open by an empty paint can. You can smell wet paint from inside the closet. What actions should you take as the cybersecurity officer? Who is ultimately responsible for the situation and what decision would you recommend that they make
+
+
+
+17
+
+Threat Intelligence
+Definition
+Process of collecting, analyzing, and disseminating information about potential threats to an organization's security
+	• 3 Levels
+		○ Strategic - broad
+		○ Tactical - detailed
+		○ Operational - highly detailed
+	• Information Sources
+		○ Security Logs
+		○ Threat Feeds
+		○ Social Media
+		○ Open-source Intelligence (OSINT)
+
+
+
+18
+
+Open Source (OSINT) vs. Closed Source (Proprietary)
+	• OSINT (Open Source Intelligence)
+		○ Acquired from publicly available sources.
+		○ General Sources
+			§ Senki.org
+			§ Open Threat Exchange (by AlienVault)
+		○ Government OSINT
+			§ U.S. Cybersecurity and Infrastructure Security Agency (CISA)
+		○ Vendor Sites
+			§ Microsoft’s threat intelligence blog
+		○ Public sources
+			§ SANS Internet Storm Center
+	• Proprietary (Closed Source Intelligence)
+		○ Reasons
+			§ Keep
+			§ Sell
+			§ Trade Secrets
+			§ Internal
+
+19
+
+Threat Intelligence Cycle
+
+	• Planning and Direction
+		○ Scope & Objectives
+		○ Sources of Info
+		○ Resources/Personnel
+	• Collection
+		○ Gather Information
+	• Processing and Exploitation
+		○ Analyze and Evaluate Data
+	• Analysis and Production
+		○ Synthesize Data > Actionable Intelligence
+	• Dissemination
+		○ Communicate the intelligence
+	• Feedback
+		○ Review & Adjust
+Kaseware Management | Something Every Security Professional Should Know: The Intelligence Cycle
+
+
+
+20
+
+Assessing Threat Intelligence
+	• Things to consider:
+		○ Timeliness
+		○ Accuracy
+		○ Validity
+		○ Reliability
+		○ Relevance
+	• Confidence Score
+		○ Filter and use sources based on trust
+		○ Confidence Score Site
+			§ Threat Connect
+		○ May differ between organizations
+21
+
+
+Indicators of Compromise (IoCs)
+Definition
+A piece of forensic evidence that indicates a computer system, network, or device may have been compromised or under attack. IOC typically includes one or more of the following
+	• Examples
+		○ IP Address
+		○ Domain Name
+		○ File Hash
+		○ Malware Signature
+		○ Anomalous Behavior
+		○ Registry Keys
+	• Detect and Respond to Cyber threats
+
+22
+
+Investigating IoCs
+
+	Gather information
+	Analyze the IOC
+	Correlate the IOC
+	Assess the threat
+	Respond appropriately
+	• Online tools that an analyst can use to investigate an IoC
+		○ VirusTotal
+		○ Hybrid Analysis
+
+23
+
+
+Day 1 Complete
+
+
+
+
+
+
+
+Log Analysis (Core)
+
+Learning Objectives:
+	• Use CLI tools to parse log data.
+
+	1. Download this log file.
+	2. Unzip the file using the command: 
+gzip -d 'Security Appliance Analyzing.log.gz'copy
+	3. Use 'awk' command to filter the results and show: The source IP, Destination IP, directory requested, and HTTP response. 
+	4. Save the output of the 'awk ' command in step 3 as valid_directories.txt
+	5. How many lines are in valid_directories.txt?
+	6. What was your awk command to generate the valid_directories.txt file?
+
+Assignment Submission
+Upload a single document that includes:
+	1. A screenshot of step #3.
+	2. Answers to #4, #5, and #6.
+	3. Be sure to provide a sentence or two describing what each screenshot represents. 
+• Upload a single document that includes a screenshot of step 3 and answers to steps 4, 5, and 6. Be sure to provide a sentence or two describing what each screenshot represents. ​
+
+From <https://login.codingdojo.com/m/570/10805/73673> 
+
+
+
+
+ASSIGNMENT SUBMISSION HERE:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Roles and Responsibilities
+
+Learning Objectives:
+	• List roles of a cyber security analyst.
+	• Define SOC team.
+
+
+
+Cybersecurity Roles
+The most common role in cyber security is the cyber security analyst, which makes up a large part of a SOC team (security operations center).
+Responsibilities of the cyber security analyst include but are not limited to the following:
+	• Implementing and configuring security controls, such as firewalls, Intrusion Detection Systems, and other threat management appliances and software.
+	• Working in a leading role in the computer security incident response team (CSIRT) or security operations center (SOC) to manage security incidents.
+	• Auditing security processes and procedures, performing due diligence on third parties, and delivering employee training.
+	• Performing risk assessments, vulnerability assessments, and penetration tests and recommending appropriate security controls or procedures.
+	• Maintaining up-to-date threat intelligence and awareness and advising on legal, compliance, and regulatory issues.
+
+
+What is a SOC Team?
+A SOC team (pronounced “sock”) is a location where security professionals monitor and protect critical assets of an organization, monitor various networks, and initiate incident response procedures when necessary. A SOC team must be given enough authority to perform the tasks they need and be able to balance its size in an organization.
+A SOC team should be staffed with skilled and well-qualified professionals. Staffed with motivated, skilled professionals and not overstaffed with under-qualified personnel. SOC teams should also share information with other teams, throughout this course you will find how important it is for SOC teams all over the world to share their findings with each other.
+
+From <https://login.codingdojo.com/m/570/10801/73655> 
+
+
+
+
+
+Security Control Types
+
+Learning Objectives:
+	• Categorize a security control by its high-level control category.
+	• Categorize a security control by its functional category.
+	• Categorize a security control by its function subcategory.
+
+
+Security Control Categories
+A security control is something designed to give a particular asset or information system the properties of confidentiality, integrity, availability, and nonrepudiation. It’s important to first know the top three high-level categories of controls.
+
+	• Technical—The control is implemented as a system (hardware, software, or firmware). For example, firewalls, anti-virus software, and OS access control models are technical controls. Technical controls may also be described as logical controls.
+	Examples of technical controls include:
+	 
+	• Encryption
+	• Antivirus And Anti-Malware Software
+	• Firewalls
+	• Security Information And Event Management (SIEM)
+	• Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS)
+	 
+	We can use our own systems to prevent some of these security events from occurring, these would be technical controls. So if you’ve implemented antivirus on your workstations or there’s a firewall connecting you to the internet, you would consider these technical controls.
+	
+	From <https://www.professormesser.com/security-plus/sy0-601/sy0-601-video/security-controls-3/> 
+	
+	
+	
+	• Operational—The control is implemented primarily by people rather than systems. For example, security guards and training programs are operational controls rather than technical controls.
+	These are controls that are managed by people. If we have security guards posted at the front doors or we have an awareness program to let people know that phishing is a significant concern, these would be operational controls.
+	
+	From <https://www.professormesser.com/security-plus/sy0-601/sy0-601-video/security-controls-3/> 
+	
+	
+	• Managerial—The control gives oversight of the information system. Examples could include risk identification or a tool allowing the evaluation and selection of other security controls.
+	This is a control that focuses on the design of the security or the policy implementation associated with the security. We might have a set of security policies for our organization or set of standard operating procedures that everyone is expected to follow.
+	
+	From <https://www.professormesser.com/security-plus/sy0-601/sy0-601-video/security-controls-3/> 
+	
+	
+	
+Functional Control Types
+	• Preventative—The control acts to eliminate or reduce the likelihood that an attack can succeed. A preventative control operates before an attack can take place. Ex. Access control lists (ACL) configured on firewalls and file system objects are preventative type controls.
+	The first control type will look at is a preventive control. This would be something that prevents access to a particular area. Something like locks on a door or a security guard would certainly prevent access as would a firewall, especially if we have a connection to the internet.
+	
+	From <https://www.professormesser.com/security-plus/sy0-601/sy0-601-video/security-controls-3/> 
+	
+	
+	• Detective—The control may not prevent or deter access, but it will identify and record any attempted or successful intrusion such as logs.
+	A detective control type commonly identifies and is able to record that a security event has occurred, but it may not be able to prevent access. If you have a motion detector like this one, it can certainly identify that motion is there, but it’s not able to stop someone from walking through the room.
+	
+	From <https://www.professormesser.com/security-plus/sy0-601/sy0-601-video/security-controls-3/> 
+	
+	
+	• Corrective—The control acts to eliminate or reduce the impact of an intrusion event. A corrective control is used after an attack such as a backup system or hot site.
+	Same thing might apply to an IDS, which is set to alarm or alert if it identifies malicious software on the network. But an IDS is designed to only detect that traffic flow and not prevent that traffic flow. A corrective control is designed to mitigate any damage that was occurred because of a security event. For example in IPS, intrusion prevention system can identify an attack on the network and block that traffic from entering the rest of the network. Or devices on your site are infected with ransomware one way to correct that problem, through this corrective control, is to simply restore from a known good backup.
+	And on a larger scale if a storms hit and power has gone out, you can move everything over to a backup site and maintain the uptime and availability through that corrective control.
+	
+	From <https://www.professormesser.com/security-plus/sy0-601/sy0-601-video/security-controls-3/> 
+	
+	• 
+
+
+Functional Subcategories
+	• Physical—Controls such as alarms, gateways, locks, lighting, security cameras, and guards that deter and detect access to premises and hardware are often classed separately.
+	 physical control type is something we would have in the real world that would prevent the security event, something like a fence or a door lock would certainly prevent someone from physically gaining access to our facility.
+	
+	From <https://www.professormesser.com/security-plus/sy0-601/sy0-601-video/security-controls-3/> 
+	
+	
+	• Deterrent—The control may not physically or logically prevent access, but psychologically discourages an attacker from attempting an intrusion. This could include signs and warnings of legal penalties against trespass or intrusion.
+	A deterrent may not stop an intrusion from occurring but it may deter someone from performing an intrusion. For example, if there’s a Warning sign that would let people know that you were watching for any type of problem. There could be a login banner and a sign in page that lets people know that you’re watching for the log ins. Or there might be lights around your building that might deter someone from breaking in.
+	
+	From <https://www.professormesser.com/security-plus/sy0-601/sy0-601-video/security-controls-3/> 
+	
+	
+	• Compensating—The control serves as a substitute for a principal control, as recommended by a security standard, and affords the same (or better) level of protection but uses a different methodology or technology.
+	A compensating control attempts to recover from an intrusion by compensating for the issues that were left behind. For example, if someone Stole a laptop with all of our data, we could compensate for that by purchasing a new laptop and restoring that data from backup. Or if someone cut the power to our data center, we could have backup power systems or generators that would compensate for that lack of power
+	
+	From <https://www.professormesser.com/security-plus/sy0-601/sy0-601-video/security-controls-3/> 
+	
+	
+	
+Keep in mind that every security control can be categorized by the high-level, functional, and functional subcategory. A dedicated firewall would be technical, preventative, and physical.
+
+Group Discussion 
+For each of the following security controls, list the high-level, functional, and functional subcategories. Answers are below DS, IPS, Alarm System, Fence, Warm Site.
+	IDS 
+	An intrusion detection system (IDS) is a system that monitors network traffic for suspicious activity and alerts when such activity is discovered.
+	While anomaly detection and reporting are the primary functions of an IDS, some intrusion detection systems are capable of taking actions when malicious activity or anomalous traffic is detected, including blocking traffic sent from suspicious Internet Protocol (IP) addresses.
+	An IDS can be contrasted with an intrusion prevention system (IPS), which monitors network packets for potentially damaging network traffic, like an IDS, but has the primary goal of preventing threats once detected, as opposed to primarily detecting and recording threats.
+	
+	
+	1. DS - High-level  - Technical
+	   Functional  - Detective
+	Functional Subcategories - Physical
+	2. IPS
+	High-level  - Technical
+	Functional - Corrective
+	Functional Subcategories - Deterrent
+	
+	3. Alarm System
+	High-level  - Operational
+	   Functional  - Preventative
+	Functional Subcategories - Physical
+	
+	4. Fence
+	High-level  - Operational
+	   Functional  - Preventative
+	Functional Subcategories - Physical
+	
+	5. Warm site
+	High-level  - Managerial
+	   Functional  - Corrective
+	Functional Subcategories - Compensating
+	
+
+From <https://login.codingdojo.com/m/570/10801/73656> 
+
+
+
+
+QUIZ:
+
+
+
+57. 1. A web-proxy used to filter web traffic belongs to which of the following security controls?
+
+Technical
+58. 2. Ensuring that a database is properly backed up in the case of a security or environmental event is known as which of the following type of functional control?
+
+Corrective
+59. 3. Putting a lock on the door to the server room is which type of control?
+
+Preventative and Physical
+
+From <https://login.codingdojo.com/m/570/10801/96594> 
+
+
+
+
+
+
+
+
+
+
+Threat Intelligence Cycle
+
+Learning Objectives:
+	• List all phases of the threat intelligence cycle.
+	• Define two CTI formats.
+	• Explain the three types of intelligence.
+
+Threat Intelligence Cycle
+
+Security Intelligence Cycle
+Security & Threat Intelligence
+Security intelligence is the process through which data generated in the ongoing use of information systems is collected, processed, integrated, evaluated, analyzed, and interpreted to provide insights into the security status of those systems. Security intelligence is not only about your network and systems security but is also about the outside world. CTI or Cyber Threat Intelligence is data about external threats.
+CTI has two different formats:
+	• Narrative reports—Analysis of certain adversary groups or a malware sample provided as a written document.
+	• Data feeds—Lists of known bad indicators, such as domain names or IP addresses associated with spam or distributed denial of service (DDoS) attacks, or hashes of exploit code.
+	
+Security Intelligence Cycle
+The security intelligence cycle involves various steps you perform to not only collect data but also to process and analyze it so you can obtain actionable insights, which are formatted and organized to provide decision-makers with relevant and useful information.
+
+
+Phase 1: Planning Direction (aka Requirements)
+The requirements phase is where goals for intelligence gathering are laid out. Think of this phase as stating why you are collecting intelligence data, and what data would meet the requirements for collection and analysis. This is done properly by creating use cases for each activity. These can be specific "what if" examples that when they occur you will collect and analyze the data as outlined in the next step. This phase should consider regulatory requirements or legal stipulations for the requirements themselves.
+
+
+
+Phase 2: Collection and Processing
+These phases are often done together but can be done separately depending on the situation. The collection phase is self-explanatory but processing is putting the data into a format that allows for analysis tools to operate effectively. The collection is often done and handled by SIEMs and is configured to collect information from devices that have installed agents on them such as firewalls, routers, IDS/IPS, and other servers.
+
+
+
+Phase 3: Analysis, Dissemination, and Feedback
+Analysis is identifying anomalies in these large data sets. This should be guided by the use cases that you outlined in the previous phases.
+Dissemination here means to publish the information produced by the analysis to other analysts and security firms, or to consumers who need to take action based on the findings. Three types of intelligence disseminated are:
+	• Strategic intelligence addresses broad themes and objectives, affecting projects and business priorities over weeks and months.
+	• Operational intelligence addresses the day-to-day priorities of managers and specialists.
+	• Tactical intelligence informs the real-time decisions made by staff as they encounter alerts and status indicators.
+The feedback phase in the cycle is for the improvement of the implementation of all of the previous steps in the cycle. This would include lessons learned "what threat intelligence failed to mitigate which security incidents?", the metrics that showed success or failure of the intelligence sources or measurable success and addressing evolving security threats.
+
+From <https://login.codingdojo.com/m/570/10801/73657> 
+
+
+
+
+
+Threat Intelligence Sources
+
+Learning Objectives:
+	• Determine the value of a threat intelligence source.
+	• Differentiate between open and closed-source threat intelligence sources.
+
+
+
+Threat Intelligence Value
+There are specific factors that identify the value of a threat intelligence source. This is important because some sources are from outside your organization and you need to ensure that these sources are to be trusted enough to use for analysis.
+
+	• Timeliness— You must assess whether an intelligence source can research and disseminate updates in a timely manner.
+	• Relevancy—You must assess whether the intelligence produced by a source is relevant to the use cases developed for your analysis effort.
+	• Accuracy—In one sense, accuracy means showing that the information produced is validated and true. Accuracy can also refer to whether the intelligence is of a general or specific nature. Is it specific and accurate in the sense that you can use it to create rulesets in an automated software suite, or is it more strategic in nature?
+	• Confidence levels—When a data point or analyst observation is published, the act of publishing lends the point a certain authority. It is usually appropriate to temper that authority by grading the data or analysis on some scale between reliable and unreliable. For example, the MISP Project (misp-project.org/best-practices-in-threat- intelligence.html) codifies the use of the admiralty scale for grading data and the use of estimative language for grading analysts opinion. The admiralty scale rates sources with letters from a (reliable) to g (purposefully deceptive) and information credibility from 1 (confirmed by multiple sources) to 6 (cannot be validated).
+	
+Closed-Source Intelligence Sources (Proprietary)
+There are some companies that make their living from pre-packaging intelligence information and disseminating that for a subscription fee. Some of these get the information from free public registries and package it in a useful format, while others provide closed source data that cannot be found publicly. Some of these include:
+• IBM X-Force Exchange
+• FireEye
+• Recorded Future
+Open-Source Intelligence Sources
+The following are open-source feeds that are available without subscription:
+• AT&T Security
+• Malware Information Sharing Project (MISP)
+• Spamhaus
+• SANS ISC Suspicious Domains
+• VirusTotal
+Information Sharing and Analysis Centers (ISACs)
+Information sharing analysis centers have been set up for specific industries. They include critical information about the critical infrastructure of each one of these sectors. The data comes from members in these industries and act as a point of sharing for threat intelligence for organizations within the same industry.
+
+
+Threat Intelligence Overview
+
+
+From <https://login.codingdojo.com/m/570/10801/95649> 
+
+
+
+QUIZ:
+
+
+
+
+
+Indicators of Compromise (IoCs)
+
+Learning Objectives:
+	• Identify an indicator of compromise.
+
+
+
+An IoC, or indicator of compromise is a sign that something has been successfully attacked or is continuing to be attacked. We fit into this because it is our job to determine if a URL, file hash, or list of activities is a threat or is a false positive. The primary way this is done is by taking the given URL, File hash, and IP address, and searching for it using previously discussed online tools (ipvoid, virustotal, etc).
+• Unauthorized software, files, URLs
+• Suspicious emails, and account usage
+• Suspicious Registry and file system changes
+• Unknown port and protocol usage
+• Excessive bandwidth usage or service disruption
+
+From <https://login.codingdojo.com/m/570/10801/95685> 
+
+
+
+
+IoC Investigation (Core) ASSIGNMENT
+
+Learning Objectives:
+	• Examine output using a tool to determine potential threats of a file represented by a hash.
+
+File Hashes
+	• File hashes are a safe representation of a file that contains malicious code.
+	• Using hashes we are able to use a tool like virustotal to get an analysis of malicious software without having to execute the malicious file locally on our computer!
+VirusTotal
+	• VirusTotal is an aggregate of antivirus products.
+	• The site can be used to check and see which antivirus programs deem certain programs as harmful.
+	• The site can also be used to check specifics of what a malicious file will do if it finds its way onto a computer.
+For this assignment, you will be required to:
+	1. Navigate to VirusTotal.com and click on the search tab.
+	2. Input a file hash and analyze the findings.
+	3. Submit a subjective report on your findings when entering in the 2 hashes.
+Input the following hashes into VirusTotal's search:
+	• AEA1FD2062CD6E1C0430CA36967D359F922A2EC3
+	• 0001d5e5f6c3a13bc76e376b49c9e36c0bc291c5a9a62fd0c36ecdee25d41c96
+When viewing the results, click the Behavior tab:
+
+
+On the behavior tab, analyze your findings. Select 2 behaviors and write a couple sentences of how that file could affect an individual who downloaded it. Your report should consist of your findings, and may be written somewhat like the following example.
+
+This is an example of the behavior tab on a file hash. This is on the behavior page for a malware sample; an example of your findings should read:
+
+This file uses the Masquerading technique for Defense Evasion. With a malicious file having the ability to create files inside of a user directory and files inside of a program directory, that opens the door for additional malicious files being loaded onto a target’s computer.
+
+Assignment Submission
+Upload a single document with both file hashes analyzed and your findings for each. Be sure to provide a sentence or two describing what each screenshot represents.
+• Upload a single document with both file hashes analyzed and your findings for each. Be sure to provide a sentence or two describing what each screenshot represents.
+
+From <https://login.codingdojo.com/m/570/10801/73658> 
+
+
+
+ASSIGNMENT SUBMISSION HERE:
+
+
+
+
+
+
+
+
+
+
+Attack Frameworks and Indicator Management
+
+Learning Objectives:
+	• Differentiate between reputational and behavioral threat research.
+	• Explain the Lockheed Martin attack framework.
+	• Explain the Mitre Attack framework.
+
+Reputational Threat Research
+You can think of reputational threat research as taking information from your logs such as IP addresses IP address ranges etc., and identifying if these are associated with malicious activity. This is what you did in the IoC hunt assignment.
+Behavioral Threat Research
+Most threat sources cannot be identified from a single indicator. Behavioral threat research correlates IoCs to attack patterns. Analysis of previous hacks and intrusions produces definitions of the tactics, techniques, and procedures (TTP) used to perform attacks. Examples include high traffic for a DDoS, high CPU usage for malware etc.
+Attack Frameworks
+
+Credit: CompTIA Instructor Guide
+The figure above is a representation of a kill chain and is a model for describing the process of an attack. Lockheed Martin identifies the steps above as the process of an attack on a system. In weaponization the payload and exploit code is coupled with the vulnerability. Delivery is the transmission of that code to the target such as email, USB etc. Exploitation refers to the weaponized code being executed by the target. The Installation phase is installation of malicious code such as a RAT. C2 is the step in which the code establishes the connection with a remote server used to control the target directly. Finally, the attacker uses the access to achieve the previously outlined goals and motives in the step known as actions on objectives.
+MITRE ATT&CK Framework
+Although you can get a good idea of how attacks are performed using the Lockheed example above this does not reflect modern attack campaigns. This does not take into account lateral movement, privilege escalation, data collection and attacks within the cloud or internal networks because the Lockheed kill chain focuses primarily on perimeter security. As an alternative to the life-cycle analysis implied by a kill chain, the MITRE Corporation's Adversarial Tactics, Techniques, and Common Knowledge (ATT&CK) matrices provide access to a database of known tactics, techniques, and procedures (TTPs). The image below is a screenshot of the mitre website.
+
+
+From <https://login.codingdojo.com/m/570/10803/73661> 
+
+
+
+
+
+
+
+
+ASSIGNMENT:
+
+
+Network Group Assignment
+
+
+Class Notes Thursday 4/27
+
+
+For the assignments there is the helper videos and F&Q where?
+
+
+
+-Threat Classification & Research
+
+	--Threat Classification
+			*Reputational
+				Identify known malicious entities before they cause harm
+			*Behavioral
+				Identify new and emerging threats
+	--Threat Research and Modeling
+			*Orgs seek to understand threats
+				-Assess Adversarial capabilities
+				-Total Attack Surface All threat methodologies
+				-Possible Attack Vectors - Systems network sights credentials legacy software
+				-Impact of Successful Attacks
+				-Likelihood of successful attack
+				
+	
+
+
+Kill Chain: The 7 Stages of a Cyber Attack
+Insert slides here:
+
+
+Look into Google Dorks for queries
+
+Look into Shodan 
+
+Network Group Assignment info
+
+@cohort-cyber-pt-02-27 For those of you who stayed after lecture, here is the explanation I was searching for with regards to the Network Group Assignment and email processing.
+ 
+1. Mail User Agent (MUA) [Sender] attaches some header information to the email and sends email to Mail Delivery Agent (MDA). 
+2. MDA asks: Are you authorized to send from this domain? If yes, attaches more header information and packet is then sent to the Mail Transfer Agent (MTA) 
+3. MTA uses DNS to locate the recipients MTA, could go to a couple other MTA’s before the recipients MTA. 
+	3a. Each time the packet passes through a MTA, the MTA attaches some more information to the header.
+4. Once packet arrives at the recipient, it has all the information from each of the MTA’s, MDA and MUA (sender)
+
+From <https://discord.com/channels/738494436467539968/1077322616412581968> 
+
+
+
+	2. Hows is it coming out from the initial user 
+	3. What attack vectors do we have on the receiving of that email
+				Newer user email protocol
+	
+
+
+
+
+
+
+
+Threat Classification
+
+Learning Objectives:
+	• List the characteristics for various types of threat actors.
+	• Describe ransomware as a service (RaaS).
+	• Explain how advanced persistent threats (APT) is different from all other threat actor types.
+
+Nation-State Actors
+Nation-state actors are a serious threat to infrastructures because of their significant funding. The goals can either be commercial or military and often attack energy, electoral systems, or other large organizations. These are kinds of attacks synonymous with advanced persistent threats (APT) because these groups are funded by a country which means that they have seemingly unlimited funds to cause irreparable damage during their attacks.
+Organized Crime
+You can think of an organized crime group as a digital gang that operates across the Internet and usually does their attacks merely for profit. These kinds of groups use things like blackmail, fraud, and ransomware to extort their victims for commercial gain.
+Hacktivists
+Hacktivist groups, such as anonymous, WikiLeaks, etc. use cyber weapons specifically for political gains. Some of their activities include obtaining and releasing confidential information to the public, performing denial of service attacks, or defacing websites. Targets of these groups include politicians, media, and large Financial groups whose aim is not to extort money, but rather to make a political statement or try to make some kind of policy change.
+
+
+Insider Threats
+Contrary to most of the previous attackers previously mentioned, an insider threat is one in which the actor has been identified by the organization and granted access whether it be permanent, a case of employees, or ones with temporary privileges such as contractors and guests.
+Any of these can be categorized as either intentional or unintentional threats. Unintentional threats usually arise out of awareness or carelessness of an employee such as poor management of passwords. Another one of these examples is shadow IT which is defined as users that purchase hardware or software in the workplace without going through the IT department.
+Commodity Malware
+Not all threat actors that implement malware in their attacks write them out where themselves. This is where commodity malware comes into play which refers to code that can be used in general circumstances and that is packaged for general sale typically through the dark web marketplaces. This is very common with ransomware, and it is referred to in the field as ransomware as a service or RaaS.
+
+
+Zero-Day Malware
+We have talked about zero-days before, which is a vulnerability that is discovered or exploited before the vendor can patch the issue. These are very serious and are the most serious when they are discovered and exploited by adversary groups instead of security researchers.
+Advanced Persistent Threat (APT)
+One of the main characteristics of APTs is the withdrawal or removal of evidence. To discover these unknowns you need to look for signs of any past attacks that have been undetected. APT's typically target larger organizations and government agencies to cause damage, steal data, and spy on other countries. We are going to break down a little deeper what "advanced", and "persistent" mean in regards to APTs.
+When we say "advanced", we are saying this because these groups contain specific staff for exploit development and can craft specific exploits as a result which means defense and detection are almost impossible. Another thing to keep in mind is that APTs use different attack elements in an overall threat architecture. When we say "persistence: we are referring to maintaining access. If you recall one of the phases of hacking was to maintain access. This is important here because APTs intend on having access for long periods without detection.
+
+
+Group Discussion
+For each type of threat actor, what kind of tactics, techniques, and procedures (TTP) would each be able to perform?
+
+From <https://login.codingdojo.com/m/570/10803/73662> 
+
+
+
+
+QUIZ:
+
+
+
+
+
+Threat Modeling and Hunting Methods
+
+Learning Objectives:
+	• List the possible threats of given adversary capabilities.
+	• Describe the threat hunting process.
+	• List benefits of threat hunting.
+
+
+  Threat Modeling
+Threat modeling is designed to identify the principal risks and TTPs that a system may be subject to by evaluating the system both from an attacker's point of view and from the defender's point of view. The question you must repeatedly ask is "are the defenses sufficient for an attack with x level of capability"? Outputs from threat modeling are used to build security monitoring and detection systems.
+Adversary Capabilities refer to the level of the ability of a given threat actor to craft new exploits. There are 4 levels of capacity identified by MITRE:
+• Acquired and augmented—Uses commodity malware and techniques only (acquired) or has some ability to customize existing tools (augmented).
+• Developed—Can identify and exploit zero-day vulnerabilities and can deploy significant human and financial resources to attack planning and execution.
+• Advanced—Can exploit supply chains to introduce vulnerabilities in proprietary and open-source products and plan campaigns that exploit suppliers and service providers.
+• Integrated—Can additionally use non-cyber tools, such as political or military assets.
+Another important aspect of threat modeling is the attack surface or points of interaction that could lead to a compromise. Do not confuse this with attack vector which is more high-level than the attack surface. Examples of attack surface would be a network accessed internally or externally via VPN. Examples of attack vectors include Cyber (through hardware or software), Human (via social engineering), or Physical.
+Impact and Likelihood
+There are two main factors will decision-making as to how to spend money on which security controls. This includes likelihood and the impact of an event. The likelihood and impact are expressed as an amount of money.
+You can determine the likelihood of a threat by using the following methods:
+1. Discovering the threat's motivation. What does an attacker stand to gain from conducting an attack?
+2. Conducting a trend analysis to identify emerging adversary capabilities and attack vectors. How effective are these attacks, and how have they been exploited before?
+3. Determining the threat's annual rate of occurrence (ARO). How often does the threat successfully affect other enterprises?
+Determining impact means calculating the dollar cost of the threat in terms of disrupted business workflows, data breach, fines and contract penalties, and loss of reputation and customer confidence.
+
+Threat Hunting
+ Threat Hunting
+4 main things that we do when threat hunting are:
+• Analyze network traffic to discover outgoing traffic to domains identified as the suspect from threat research reputational databases.
+• Analyze the executable process list on a suspect host, looking for the program or service that is opening that network connection.
+• Analyze other infected hosts to discover any similarities between the malicious process that can be used to automate detection and prevention.
+• Identify the method by which the malicious process was first executed, and block that attack vector against future compromises, such as blacklisting a vulnerable application until a patch is developed.
+Results
+Successful threat hunting will result in:
+• Improving detection capabilities
+• Integrated intelligence
+• Reducing the attack surface area and blocking attack vectors
+• Bundling critical assets
+
+
+
+From <https://login.codingdojo.com/m/570/10803/73663> 
+
+
+
+
+Attacker Tools
+
+Learning Objectives:
+	• Define Google Dorks.
+	• List various attack methods used.
+
+Attack Methods
+
+Google hacking is one way attackers can get information about you that you do not intend to be public. This is the syntax used to google things to view resources that are not accessible from normal searches. Google Dorks is a specific search string that gives access to things that are private but still publicly searchable such as password files and employee login portals.
+
+
+Shodan is a powerful search engine that makes IoT devices searchable. Specifically, IoT devices that are vulnerable and publicly accessible.
+Email harvesting is the practice of getting the valid email addresses of users at a given organization. The tool theHarvester is a good example of an automated program in Kali that can give you a list of valid email addresses used given a domain name and a couple of other arguments.
+
+
+
+If you are needing to get IP addresses for servers in a given target domain you would perform DNS harvesting. You can do this in a few ways. First, you can run a whois to get domain registration records. Second, use the nslookup to attempt a zone transfer.
+
+From <https://login.codingdojo.com/m/570/10803/73664> 
+
+
+
+
+
+
+QUIZ:
+
+
+
+
+
+
+
+
+
+
+Network Group Assignment Case Study (Core)
+ASSIGNMENT
+
+Learning Objectives:
+	• Given a scenario, develop a threat model and countermeasures.
+
+Scenario:
+You work for a PR and marketing company that handles highly sensitive information for its high-profile clients. Client records are stored in a database and file system hosted on your private corporate network. As well as client records, this includes media such as photos and videos. Most remote client communications and data transfers take place using a one-to-one encrypted messaging app, but you also accommodate some clients who prefer to use email. A high percentage of your staff work remotely, accessing data and services over a VPN. You are reviewing your security procedures in light of some high-profile hacks of celebrity data. At this point, you want to understand the attack surface and attack vectors by which your private network could be compromised.
+Questions:
+1. What remote access methods could an attacker exploit?
+2. Focusing on email, think of how email is processed as it is sent by a remote user and received by your company. Give 1 possible attack vector for each level of adversary capability.
+3. What comes next in the chain of processing incoming email, and what attack vectors can adversaries exploit?
+4. What countermeasures can be deployed for each email attack vector?
+
+Assignment Submission
+Given the scenario above, answer the 4 questions given. Work on this as a team but submit the document individually for grading/tracking purposes. The names of all participants should be on the document.
+• Given the scenario above, answer the 4 questions given. Work on this as a team but submit the document individually for grading/tracking purposes. The names of all participants should be on the document.
+
+From <https://login.codingdojo.com/m/570/10803/73665> 
